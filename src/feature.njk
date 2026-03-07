@@ -4,7 +4,6 @@ pagination:
     size: 1
     alias: image
 permalink: "/gallery/{{ image.title | safeSlug }}/"
-url: https://eleventy-gallery.netlify.app
 ---
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
@@ -12,8 +11,8 @@ url: https://eleventy-gallery.netlify.app
         {% metagen 
             title=image.title,
             desc=image.title + " " + site.pageMetadata.featured.content,
-            url=url + "/gallery/" + (image.title | safeSlug) + "/",
-            img=url + image.imgDir + image.src,
+            url=site.url + "/gallery/" + (image.title | safeSlug) + "/",
+            img=site.url + image.imgDir + image.src,
             img_alt=image.alt,
             twitter_card_type='summary_large_image',
             twitter_handle=site.author.twitterHandle,

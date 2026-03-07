@@ -2,12 +2,14 @@ const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 const metagen = require("eleventy-plugin-metagen");
 const eleventyNavigation = require("@11ty/eleventy-navigation");
+const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(eleventyNavigation);
+  eleventyConfig.addPlugin(rssPlugin);
 
   eleventyConfig.setTemplateFormats([
     "md",

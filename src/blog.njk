@@ -1,36 +1,29 @@
 ---
-title: Blog - Opening the Floodgates
-meta_desc: A blog exploring the intersection of AI, noetic mysticism, art, and creative technology.
+title: Scott Hunter's Blog
+meta_desc: Notes on AI, creativity, and digital art by Scott Hunter.
 url: https://scottjhunter.org/blog/
 img: /images/flower.png
 alt: A colorful flower
 eleventyNavigation:
   key: Blog
   order: 3
-heading: Opening the Floodgates
+heading: Blog
 permalink: "/blog/"
 layout: main.njk
 ---
 
 <div class="about-me-content">
   <h1>{{ heading }}</h1>
-  
-  <img src="/images/empty-road-320.jpeg" alt="A road to nowhere." style="width: 100%; height: auto; margin-bottom: 1em;">
-
-  <p>This blog began as a messy experiment and somehow turned into a working idea. It lives at the intersection of artificial intelligence, noetic mysticism, art, graphic design, and film editing—five fields that shouldn’t fit together but somehow do. I’m not trying to make it tidy; I’m trying to make it true. I’ve spent enough time watching the borders between technology and creativity dissolve to know that the best discoveries come when you stop pretending there’s a clean line between them.</p>
-
-  <p>I used AI to help build this site, and that process was its own education. It wasn’t smooth or seamless. The AI got things wrong, I misunderstood instructions, and we stumbled our way toward something functional. That trial-and-error rhythm feels like a mirror of where AI stands right now: brilliant, clumsy, full of potential, and still learning how to speak our language. I think that tension is worth exploring.</p>
-
-  <p>The plan (if you can call it that) is to post a mix of content: an image gallery blending AI art with real photography, experiments in design, thoughts on the creative process, and reflections that don’t fit anywhere else. Some entries will be technical, some philosophical, some probably just strange. This is where I’m learning out loud, testing the boundaries of what creativity looks like when humans and machines start to think side by side.</p>
-
-  <p class="post-meta">10/28/2025 21:05 PST - SJH</p>
-
-  <style>
-    .post-meta {
-      text-align: left;
-      font-style: normal;
-      color: #555;
-      font-size: 0.9em;
-    }
-  </style>
+  <figure class="blog-page-image">
+    <img src="/images/blog.png" alt="Blog section image">
+  </figure>
+  <ul class="blog-list">
+    {% for post in collections.posts | reverse %}
+    <li class="blog-list-item">
+      <p class="blog-preview-date">{{ post.data.displayDate }}</p>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <p>{{ post.data.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

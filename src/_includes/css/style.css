@@ -306,7 +306,7 @@ footer a {
   color: #212121;
 }
 footer a:hover {
-  color: #1836AF;
+  color: #111111;
 }
 
 .social-links {
@@ -431,13 +431,13 @@ p {
 }
 
 a {
-  color: #2540AD;
+  color: #3a3a3a;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a:hover, a:focus {
   text-decoration: underline;
-  color: #1836AF;
+  color: #111111;
 }
 
 main p {
@@ -534,6 +534,71 @@ h2, .h2 {
   margin-bottom: 0.75rem;
 }
 
+.home-intro {
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(225px, 280px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+.home-intro-heading {
+  grid-column: 1/-1;
+  text-align: left;
+  margin-bottom: 0.25rem;
+}
+.home-intro-media figure {
+  margin: 0;
+  width: 100%;
+}
+.home-intro-media img {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+.home-intro-copy {
+  max-width: 60ch;
+}
+
+@media screen and (max-width: 760px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+  }
+  .home-intro-media {
+    max-width: 240px;
+  }
+}
+.home-gallery {
+  max-width: 1100px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.home-gallery-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0;
+}
+.home-gallery-header p {
+  margin: 0;
+  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  color: #4F4F4F;
+}
+.home-gallery .gallery {
+  margin: 0;
+}
+.home-gallery-footer {
+  text-align: left;
+}
+.home-gallery-footer p {
+  margin: 0;
+}
+
 .about-me-content .about-socials {
   padding-left: 30px;
   margin-bottom: 24px;
@@ -549,6 +614,15 @@ h2, .h2 {
   margin: 3rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.blog-page-image {
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+}
+.blog-page-image img {
+  height: auto;
+  object-fit: contain;
 }
 
 .gt {
@@ -675,6 +749,39 @@ h2, .h2 {
   header .nav-main .nav-list .link {
     padding: 0.6rem 2px;
   }
+}
+.home-blog-preview {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.home-blog-preview-inner {
+  padding: 1.5rem 0;
+}
+
+.blog-preview-list,
+.blog-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.blog-preview-item,
+.blog-list-item {
+  margin: 0 0 1.5rem 0;
+}
+
+.blog-preview-item:last-child,
+.blog-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.blog-preview-date,
+.post-meta {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

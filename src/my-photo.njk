@@ -1,0 +1,34 @@
+{# This is a Nunjucks file, but this example just uses plain HTML. #}
+{# Eleventy will process this and create my-photo/index.html in the output. #}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Picture of a Cat</title>
+  <style>
+    /* Basic styles to center the image */
+    body {
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Favorite Photo</h1>
+
+  <img src="/images/dirigible.jpeg" alt="A fluffy orange cat sleeping in a sunbeam">
+
+</body>
+</html>

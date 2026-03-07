@@ -1,0 +1,23 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Scott Hunter Blog</title>
+    <link>{{ site.url }}/blog/</link>
+    <description>Reflections on AI, art, and creative practice.</description>
+    <language>en-us</language>
+    <lastBuildDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+    {% for post in collections.posts | reverse %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ post.url | absoluteUrl(site.url) }}</link>
+      <guid>{{ post.url | absoluteUrl(site.url) }}</guid>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description><![CDATA[{{ post.data.excerpt }}]]></description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

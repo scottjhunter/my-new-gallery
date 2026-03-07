@@ -2,20 +2,52 @@
 eleventyNavigation:
   key: Home
   order: 0
-heading: Art Gallery
-description: A collection of recent images. 
+heading: Gallery
+description: Fine art photography and AI-assisted digital artwork by Scott Hunter.
 layout: main.njk
-title: Eleventy Photo Gallery Template
-meta_desc: A photo gallery
-url: https://eleventy-gallery.netlify.app
-img: /images/dirigible.jpeg
-alt: A fantastical, busy marketplace built on multiple levels under a large dirigible airship
+title: Visual Essays in Light & Form
+meta_desc: Fine art photography and AI-assisted digital artwork by Scott Hunter.
+url: https://scottjhunter.org/
+img: /images/scott.png
+alt: Portrait of Scott Hunter
 cardType: summary_large_image
 ---
 
-<div class="page-banner">
-  <h1>{{ heading }}</h1>
-  <p>{{ description }}</p>
-</div>
+<section class="home-intro" aria-labelledby="home-intro-title">
+  <h2 id="home-intro-title" class="h1 home-intro-heading">A small laboratory for ideas</h2>
+  <div class="home-intro-media">
+    <figure>
+      {% img
+        src="scott.png",
+        alt="Portrait of Scott Hunter",
+        className="home-intro-image",
+        sizes="(max-width: 600px) 100vw, 320px"
+      %}
+    </figure>
+  </div>
+  <div class="home-intro-copy">
+    <p>This site functions as a small laboratory for ideas. It brings together projects, essays, experiments, and creative work that explore unexpected connections between fields that are usually kept separate - ancient philosophy, modern technology, artificial intelligence, digital art, and the study of consciousness.</p>
+    <p>Many of the things here grow out of conversations and questions that come up repeatedly: how ideas from very different domains relate to each other, and what becomes visible when they are placed side by side. Sometimes that means comparing mystic traditions with modern theories of mind, sometimes experimenting with AI as a creative tool, and sometimes simply following a question far enough to see where it leads.</p>
+    <p>The result is not a single argument or thesis, but an ongoing inquiry - a place to test ideas, display experiments, and explore connections that might otherwise remain hidden between disciplines.</p>
+  </div>
+</section>
+
+<section class="home-blog-preview" aria-labelledby="latest-blog">
+  <div class="home-blog-preview-inner">
+    <h2 id="latest-blog" class="h1">Latest from the Blog</h2>
+    <ul class="blog-preview-list">
+      {% for post in collections.posts | reverse %}
+      {% if loop.index <= 2 %}
+      <li class="blog-preview-item">
+        <p class="blog-preview-date">{{ post.data.displayDate }}</p>
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.excerpt }}</p>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <p><a href="/blog/">View all posts</a></p>
+  </div>
+</section>
 
 {% include "partials/home-gallery.njk" %}

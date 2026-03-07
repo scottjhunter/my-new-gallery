@@ -1,7 +1,71 @@
 [
   {
+    "title": "A Dangerous Journey",
+    "date": "March 7, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "riddle.jpg",
+    "alt": "A surreal portrait image titled Riddle.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Screen Glow at Dusk",
+    "date": "March 3, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "teenagers.png",
+    "alt": "Four teenagers sit outside a school building, each absorbed in a phone, in a painterly scene of shared silence.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Dinner in the Age of Notifications",
+    "date": "March 3, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "young-mother-in-a-kitchen.png",
+    "alt": "A mother and two children sit at a kitchen table with meals in front of them, each focused on a phone.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Song of Orpheus",
+    "date": "February 22, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "orpheus.png",
+    "alt": "A dramatic portrait of Orpheus rendered in textured, painterly light.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Wrestling Light and Shadow",
+    "date": "February 22, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "battle.png",
+    "alt": "A textured impasto-style clash of opposing figures, suggesting an inner struggle between light and shadow.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Burden of the Summit",
+    "date": "February 22, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "sisyphus.png",
+    "alt": "A lone figure strains to push a massive stone uphill on a stark mountainside, evoking the myth of Sisyphus.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Brothers in Passing Light",
+    "date": "February 22, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "brothers.jpg",
+    "alt": "A portrait of two brothers standing close together, lit by warm directional light that emphasizes their bond and contrast.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "The Last Lamp in the Stacks",
+    "date": "February 22, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "librarian.png",
+    "alt": "A solitary librarian framed by tall bookshelves under a single glowing lamp, creating a quiet, contemplative atmosphere.",
+    "imgDir": "/images/"
+  },
+  {
     "title": "Steampunk Dirigible Market",
-    "date": "October 26, 2023",
+    "date": "December 19, 2025",
     "credit": "Scott Hunter and Midjourney",
     "src": "dirigible.jpeg",
     "alt": "A fantastical, busy marketplace built on multiple levels under a large dirigible airship.",
@@ -9,7 +73,7 @@
   },
   {
     "title": "Elder with a Wisdom Beard",
-    "date": "October 25, 2023",
+    "date": "November 14, 2025",
     "credit": "Scott Hunter and Midjourney",
     "src": "filaments.jpeg",
     "alt": "Close-up portrait of an elderly man with a long, white, filament-like beard, looking thoughtfully to the side.",
@@ -17,7 +81,7 @@
   },
   {
     "title": "Gaze from the Depths",
-    "date": "October 24, 2023",
+    "date": "October 17, 2025",
     "credit": "Scott Hunter and Midjourney",
     "src": "submerged.jpeg",
     "alt": "Extreme close-up of a man's eye, with his face partially submerged in water.",
@@ -25,7 +89,7 @@
   },
   {
     "title": "Neon City Drive",
-    "date": "October 23, 2023",
+    "date": "September 12, 2025",
     "credit": "Scott Hunter and Midjourney",
     "src": "streaks.jpeg",
     "alt": "A long exposure shot of a city street at night with red and white light streaks from traffic.",
@@ -33,7 +97,7 @@
   },
   {
     "title": "Man in the Classic Car",
-    "date": "October 22, 2023",
+    "date": "July 18, 2025",
     "credit": "Scott Hunter and Gemini",
     "src": "east-end.jpg",
     "alt": "A well-dressed man sitting on the front of a classic vintage car on a cobblestone street.",
@@ -41,7 +105,7 @@
   },
   {
     "title": "Scholar in the Study",
-    "date": "October 21, 2023",
+    "date": "June 13, 2025",
     "credit": "Scott Hunter and Gemini",
     "src": "time-travel.jpg",
     "alt": "A black and white photo of a man in vintage clothing sitting at a desk in a library filled with books.",
@@ -49,7 +113,7 @@
   },
   {
     "title": "Woman with Red Hair",
-    "date": "October 20, 2023",
+    "date": "May 16, 2025",
     "credit": "Scott Hunter and Gemini",
     "src": "angry.png",
     "alt": "Portrait of a young woman with red hair and a leather jacket looking sternly at the camera.",
@@ -57,15 +121,15 @@
   },
   {
     "title": "Viking Ship on the Shore",
-    "date": "October 19, 2023",
+    "date": "April 11, 2025",
     "credit": "Scott Hunter and Gemini",
     "src": "ship.png",
     "alt": "A Viking longship beached on a misty, rocky shore under a cloudy sky.",
     "imgDir": "/images/"
   },
   {
-    "title": "Woman with a Tulip",
-    "date": "October 18, 2023",
+    "title": "Android with a Tulip",
+    "date": "February 14, 2025",
     "credit": "Scott Hunter and various",
     "src": "flower.png",
     "alt": "A dramatic portrait of a woman looking down at a single red tulip she is holding.",
@@ -73,7 +137,7 @@
   },
   {
     "title": "Gorgon's Gaze",
-    "date": "October 17, 2023",
+    "date": "January 17, 2025",
     "credit": "Scott Hunter and various",
     "src": "medusa.jpeg",
     "alt": "A dark, artistic portrait of Medusa with snakes for hair, looking directly at the viewer.",
@@ -81,7 +145,7 @@
   },
   {
     "title": "Volcano and the Rider",
-    "date": "October 16, 2023",
+    "date": "December 13, 2024",
     "credit": "Scott Hunter and Gemini",
     "src": "volcano.jpg",
     "alt": "A black and white image of a motorcycle parked on a road with a large, smoking volcano in the background.",
@@ -89,7 +153,7 @@
   },
   {
     "title": "Winter Chapel",
-    "date": "October 15, 2023",
+    "date": "October 18, 2024",
     "credit": "Scott Hunter and Gemini",
     "src": "church.jpg",
     "alt": "A stark, black and white photo of a small church in a snow-covered field under a bright sun.",

@@ -28,6 +28,17 @@ module.exports = (eleventyConfig) => {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // Create a stable URL slug by removing apostrophes before slugifying
+  eleventyConfig.addFilter("safeSlug", function (value = "") {
+    return value
+      .toString()
+      .replace(/['’]/g, "")
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  });
+
   // Create terser JS Minifier async filter (Nunjucks)
   eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
     code,

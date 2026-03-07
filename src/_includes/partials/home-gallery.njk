@@ -3,7 +3,7 @@
     {% for image in gallery %}
     <li class="image-container">
         <a
-          href="/gallery/{{ image.title | slug }}"
+          href="/gallery/{{ image.title | safeSlug }}"
           aria-label="Gallery image {{ image.title }}"
         >
           {% img

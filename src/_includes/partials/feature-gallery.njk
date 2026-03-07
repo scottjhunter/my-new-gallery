@@ -4,7 +4,7 @@
         <li class="gallery-item">
             <div class="image-block">
                 <a
-                    href="{{ image.title | slug }}"
+                    href="{{ image.title | safeSlug }}"
                     aria-label="Gallery image {{ image.title }}"
                 >
                 {% img
@@ -16,7 +16,7 @@
                 </a>
                 <div class="block-details">
                     <p>{{ image.date }}</p>
-                    <h2><a href="/gallery/{{ image.title | slug }}">{{ image.title }}</a></h2>
+                    <h2><a href="/gallery/{{ image.title | safeSlug }}">{{ image.title }}</a></h2>
                 </div>
             </div>
         </li>

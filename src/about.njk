@@ -1,9 +1,9 @@
 ---
-title: About - Eleventy Photo Gallery
-meta_desc: A page about John Smith, and photography. This template is currently the default version so add your own about me page info here.
-url: https://eleventy-gallery.netlify.app/about
-img: /images/terrace-window.jpg
-alt: Terrace outside shop window with green plants and pink tree on night street
+title: About - Scott Hunter
+meta_desc: Exploring the intersection of ancient wisdom, artificial intelligence, and digital art. Learn more about Scott Hunter's philosophy and creative process.
+url: https://scottjhunter.org/about/
+img: /images/flower.png
+alt: A colorful flower
 eleventyNavigation:
   key: About
   order: 2
@@ -14,18 +14,19 @@ layout: main.njk
 
 <div class="about-me-content">
   <h1>{{ heading }}</h1>
-  <p>Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I'm a novice photography and designer. This website acts as a compendium of images I've taken over the years.</p>
-  <p>This is mock text, write whatever you'd like for the about me page. Maybe add a picture or some of your recent work!</p>
-  <p>You can find me around the web at the following places:</p>
+  <p>My interests explore the intersections of seemingly disparate fields: ancient philosophy, modern technology, and the timeless nature of art. This space serves as an inquiry into the patterns that connect them.</p>
 
-  <ul class="about-socials">
-    {% for key, value in site.socials %}
-      <li><a href="{{ value }}">{{ key | title }}</a></li>
-    {% endfor %}
-  </ul>
+  <h2>Ancient Wisdom, Modern Questions</h2>
+  <p>From the dawn of recorded history, mystic traditions have sought to answer fundamental questions about consciousness and reality. This website delves into the universal patterns found in these ancient wisdoms, comparing their insights to the challenges and perspectives of our contemporary world. It is an exploration of how timeless truths can inform our modern lives.</p>
+  
+  <h2>AI: A Tool for Thought</h2>
+  <p>Artificial intelligence is more than just a technological marvel; it is a powerful tool for extending human creativity and analysis. Here, I examine the realistic benefits of AI as a partner in the creative process, while also acknowledging its critical limitations. True progress lies not in replacing human ingenuity, but in augmenting it, requiring careful consideration and ethical oversight.</p>
+
+  <h2>The Digital Canvas: AI and Art</h2>
+  <p>By combining a background in graphic arts and digital editing with the capabilities of AI, we can unlock new forms of expression. This website is dedicated to the practical synthesis of human artistry and machine intelligence. It is a showcase of new media created through this collaborative process, pushing the boundaries of the traditional digital canvas.</p>
 
   <h2 id="contact-me">Contact</h2>
-  <p>Feel free to reach out to me by email or on social media. I usually take 24-48hrs to respond. If you think my work aligns with your projects needs, I'd love to hear from you!</p>
+  <p>Feel free to reach out to me by email. I usually take 24-48hrs to respond. If you think my work aligns with your project needs, I'd love to hear from you!</p>
   
   <form class="contact-form" onsubmit="sendMail()">
       <label for="name">What's Your Name?</label>

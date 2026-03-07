@@ -1,110 +1,98 @@
 [
-    {
-        "title": "Terrace with green plants on night street",
-        "date": "October 20, 2020",
-        "credit": "Photo by Aldiyar Seitkassymov",
-        "linkToAuthor": "https://www.pexels.com/photo/terrace-with-green-plants-on-night-street-3100835/",
-        "src": "terrace-window.jpg",
-        "alt": "Terrace outside shop window with green plants and pink tree on night street",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Highway covered in water",
-        "date": "October 20, 2020",
-        "credit": "Photo by Josh Hild",
-        "linkToAuthor": "https://www.pexels.com/photo/highway-covered-in-water-2524368/",
-        "src": "highway-water.jpg",
-        "alt": "Skybridge over highway covered in water",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Brown painted wall on dim light",
-        "date": "October 18, 2020",
-        "credit": "Photo by Lukas Hartmann",
-        "linkToAuthor": "https://www.pexels.com/photo/brown-painted-wall-on-dim-light-1055613/",
-        "src": "benches.jpg",
-        "alt": "Brown painted wall with two benches and dim light above",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Red light streaks across a street intersection at night",
-        "date": "October 16, 2020",
-        "credit": "Photo by Jan Kopriva",
-        "linkToAuthor": "https://www.pexels.com/photo/light-streaks-3290601/",
-        "src": "light-streaks.jpg",
-        "alt": "Red light streaks across a street intersection at night",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Abstract architecture black and white boardwalk",
-        "date": "October 14, 2020",
-        "credit": "Photo by Pixabay",
-        "linkToAuthor": "https://www.pexels.com/photo/abstract-architecture-black-and-white-boardwalk-262367/",
-        "src": "boardwalk.jpg",
-        "alt": "Abstract architecture black and white boardwalk with glass like floor",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Person holding glass mason jar with night sky background",
-        "date": "October 12, 2020",
-        "credit": "Photo by Rakicevic Nenad",
-        "linkToAuthor": "https://www.pexels.com/photo/silhouette-of-person-holding-glass-mason-jar-1274260/",
-        "src": "glass-jar.jpg",
-        "alt": "Person holding glass mason jar with night sky background",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Radio City Music Hall During Night Time",
-        "date": "October 11, 2020",
-        "credit": "Photo by Bao Dang",
-        "linkToAuthor": "https://www.pexels.com/photo/radio-city-music-hall-during-night-time-3700369/",
-        "src": "music-hall.jpg",
-        "alt": "Music hall with bright lights during night time",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "City Building Office Architecture",
-        "date": "October 10, 2020",
-        "credit": "Photo by Jayson Marquez",
-        "linkToAuthor": "https://www.pexels.com/photo/city-building-office-architecture-4850412/",
-        "src": "business-center.jpg",
-        "alt": "Tall highrise office building with winding architecture",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Buildings during nighttime",
-        "date": "October 9, 2020",
-        "credit": "Photo by Aleksandar Pasaric",
-        "linkToAuthor": "https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/",
-        "src": "highrises-night.jpg",
-        "alt": "Buildings during nighttime with orange lighting and water below",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Water Droplet Digital Wallpaper",
-        "date": "October 11, 2020",
-        "credit": "Photo by Sourav Mishra",
-        "linkToAuthor": "https://www.pexels.com/photo/water-droplet-digital-wallpaper-1100946/",
-        "src": "water-drop.jpg",
-        "alt": "Rain drop bursting water particles upwards into the air",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Man walking on the empty street",
-        "date": "October 15, 2020",
-        "credit": "Photo by Marco Trinidad",
-        "linkToAuthor": "https://www.pexels.com/photo/photo-of-empty-road-during-daytime-3295140/",
-        "src": "empty-road.jpg",
-        "alt": "An empty road during daytime with fog in the background",
-        "imgDir": "/images/"
-    },
-    {
-        "title": "Gasoline station during nighttime",
-        "date": "October 23, 2020",
-        "credit": "Photo by Artem Saranin",
-        "linkToAuthor": "https://www.pexels.com/photo/gasoline-station-during-nighttime-1453781/",
-        "src": "gas-station.jpg",
-        "alt": "Gasoline station during nighttime with glowing red roof lights",
-        "imgDir": "/images/"
-    }
+  {
+    "title": "Steampunk Dirigible Market",
+    "date": "October 26, 2023",
+    "credit": "Scott Hunter and Midjourney",
+    "src": "dirigible.jpeg",
+    "alt": "A fantastical, busy marketplace built on multiple levels under a large dirigible airship.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Elder with a Wisdom Beard",
+    "date": "October 25, 2023",
+    "credit": "Scott Hunter and Midjourney",
+    "src": "filaments.jpeg",
+    "alt": "Close-up portrait of an elderly man with a long, white, filament-like beard, looking thoughtfully to the side.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Gaze from the Depths",
+    "date": "October 24, 2023",
+    "credit": "Scott Hunter and Midjourney",
+    "src": "submerged.jpeg",
+    "alt": "Extreme close-up of a man's eye, with his face partially submerged in water.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Neon City Drive",
+    "date": "October 23, 2023",
+    "credit": "Scott Hunter and Midjourney",
+    "src": "streaks.jpeg",
+    "alt": "A long exposure shot of a city street at night with red and white light streaks from traffic.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Man in the Classic Car",
+    "date": "October 22, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "east-end.jpg",
+    "alt": "A well-dressed man sitting on the front of a classic vintage car on a cobblestone street.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Scholar in the Study",
+    "date": "October 21, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "time-travel.jpg",
+    "alt": "A black and white photo of a man in vintage clothing sitting at a desk in a library filled with books.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Woman with Red Hair",
+    "date": "October 20, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "angry.png",
+    "alt": "Portrait of a young woman with red hair and a leather jacket looking sternly at the camera.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Viking Ship on the Shore",
+    "date": "October 19, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "ship.png",
+    "alt": "A Viking longship beached on a misty, rocky shore under a cloudy sky.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Woman with a Tulip",
+    "date": "October 18, 2023",
+    "credit": "Scott Hunter and various",
+    "src": "flower.png",
+    "alt": "A dramatic portrait of a woman looking down at a single red tulip she is holding.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Gorgon's Gaze",
+    "date": "October 17, 2023",
+    "credit": "Scott Hunter and various",
+    "src": "medusa.jpeg",
+    "alt": "A dark, artistic portrait of Medusa with snakes for hair, looking directly at the viewer.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Volcano and the Rider",
+    "date": "October 16, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "volcano.jpg",
+    "alt": "A black and white image of a motorcycle parked on a road with a large, smoking volcano in the background.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Winter Chapel",
+    "date": "October 15, 2023",
+    "credit": "Scott Hunter and Gemini",
+    "src": "church.jpg",
+    "alt": "A stark, black and white photo of a small church in a snow-covered field under a bright sun.",
+    "imgDir": "/images/"
+  }
 ]

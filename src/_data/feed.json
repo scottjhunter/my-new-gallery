@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-22T15:12:56.607Z",
-  "generatedDisplay": "March 22, 2026 at 3:12 PM UTC",
+  "generatedAt": "2026-03-22T15:44:07.105Z",
+  "generatedDisplay": "March 22, 2026 at 3:44 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -52,49 +52,8 @@
       "mysticism"
     ]
   ],
-  "totalItems": 39,
-  "failures": [
-    {
-      "query": "ai + ethics",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "art + mysticism",
-      "error": "fetch failed"
-    }
-  ],
+  "totalItems": 40,
+  "failures": [],
   "items": [
     {
       "title": "Towards responsible AI for mental health and well-being: experts chart a way forward",
@@ -165,6 +124,32 @@
       ],
       "score": 62,
       "publishedDisplay": "March 18, 2026"
+    },
+    {
+      "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY29DZjN5cEcwajdycDlTWHlOaktjUEZkZWhWMUU1dkNOOVRMblR6SHRHWE5DSFN6bXdyZEdZWE5UUG9aakhLbWM1WGhWMklTelh1aTQ3dlhmT1NtRVN5MFY4eHVGaFVidzVMb0ZjMEhFaVRHOE9zT3BzTmotXzNhbVl1MnpEa1A2eEtQdmZLeTdsNU1FUjZMc0xuS2dQQnQtMTFqRDNTVU9KcFpxWk8wbjIwRG9YTFFVYWdGdXRidUJSaFZIREpUdlB6YnBtQWE5SUpMcmh3?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "The Malaysian Reserve",
+      "publishedAt": "2026-03-20T04:23:35.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics",
+        "art"
+      ],
+      "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics",
+      "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land",
+      "topicKey": "chiayi international",
+      "bigrams": [
+        "chiayi international",
+        "international film",
+        "film festival",
+        "festival 2026",
+        "2026 global",
+        "global intersection",
+        "intersection land"
+      ],
+      "score": 58,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Adobe’s AI image generator can now be trained on your own art",
@@ -241,6 +226,24 @@
       "publishedDisplay": "March 19, 2026"
     },
     {
+      "title": "AI's Consciousness Debate",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ2N4WWRrWjUwWnNEWjhISlN0MmJlUmVobHpCQzhCcHZqVlRDZ0JBc1ktM1JKUmNxNEJOb0hPTzlxUU8tV2xiT01sRk5adDd6MkRVam1rd2dfcTRoVnFMYlhBZEpST2o1MGV0dXVMdV95cXQySHR5dEh1UlhkSEsyR0tWM1otcFdhOUpLVElNMFItQQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "StartupHub.ai",
+      "publishedAt": "2026-03-17T15:01:49.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness",
+        "art"
+      ],
+      "titleKey": "ai s consciousness debate",
+      "fingerprint": "consciousness|debate",
+      "topicKey": "debate",
+      "bigrams": [],
+      "score": 52,
+      "publishedDisplay": "March 17, 2026"
+    },
+    {
       "title": "Human Consciousness In The Age Of AI: The Last Frontier",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNak9LM3pWLVBGMnZ4VzBhb1dkOGhtZ25kZXRBRVJQNHVUbl9VNGs5R2l2OTFXNVlMSVp0WXRSLXFPRVpsbnZsMm84Zmp1VllXUi1EMkZ6cE4tYUM3ems5OEJjXzBpVXZya1dNMGRiaEJWM3lEOHBJOG9QcVJ2dTlPM3JocDNtVnBVRXFHZkNaNlNfVXFSSHhHNDd0M3VpZWY1MUVlVmNHLW4wZzhh?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -260,29 +263,57 @@
       "publishedDisplay": "March 17, 2026"
     },
     {
-      "title": "Pearl Abyss apologise after AI-generated art found in Crimson Desert, and promise to replace affected assets",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamMxX1dRczBLd1ZKZnB6QVJza0Q5bHppWmxvREJXWjFPR1Y3ZzREVnA0cll0ckxnbnFIRTlFRnNUY1hqQVB6bTFUTjhselVzSGxJY2tlOUJuLVhNVDFvZXg5SmN3VDBEaDBXOFNEZDFmR2VOSVc0QUdNSmZYaUNTVGk1b1Y1d2RMX3pjTmJJOHhydkd6bWg1U2J6cVU5MjU3Nm1MNUtwWjdXcl9CSmpzRjJBUlZSdi1NNzRVakJLWHJ3Q2tHeVA0QVRRbU81UC0temJDMXUtZlVCWGRlSHRlRUdmQlk2d29GVkE?oc=5",
+      "title": "Crimson Desert Dev Breaks Silence Admitting AI Art Was Used",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aT01zUkdPdEpQeGxISEJXNG5HazJINk1IVGxaZTkxaF9leVduNmdwX2tnc2pHUURwckZCODNFdHBjZVFIZG40UnNyaElHVG1SQzdOMndvY0ZLUi0tZ1BYYzBsaEMtZ3VKZ3lEWjgxYw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "AltChar",
-      "publishedAt": "2026-03-22T14:31:00.000Z",
+      "source": "Kotaku",
+      "publishedAt": "2026-03-22T15:19:26.000Z",
       "matchedTerms": [
         "ai",
         "art"
       ],
-      "titleKey": "pearl abyss apologise after ai generated art found in crimson desert and promise to replace affected assets",
-      "fingerprint": "abyss|affected|apologise|assets|crimson|desert|found|generated|pearl|promise",
-      "topicKey": "pearl abyss",
+      "titleKey": "crimson desert dev breaks silence admitting ai art was used",
+      "fingerprint": "admitting|breaks|crimson|desert|silence|used",
+      "topicKey": "crimson desert",
       "bigrams": [
-        "pearl abyss",
-        "abyss apologise",
-        "apologise generated",
-        "generated found",
-        "found crimson",
         "crimson desert",
-        "desert promise",
-        "promise replace",
-        "replace affected",
-        "affected assets"
+        "desert breaks",
+        "breaks silence",
+        "silence admitting",
+        "admitting used"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
+    },
+    {
+      "title": "'We Should Have Clearly Disclosed Our Use of AI' — Crimson Desert Dev Launches 'Comprehensive Audit' of All In-Game Assets After AI-Generated Art Was 'Unintentionally' Included in Final Release",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOdkJ5LVZwMFppUUliWDRBTWhFOEw4SjF5OW9iamJfUzZDcHFrczZEXzlKZXRNbFplNm93WE5paGhDcXFXclZYVFBTeVRqVDhSRUdsQWpBS0VRSHlGYmZOeFNUM21xUms2Wl8zck0zMnlPRGM0NnRzMXFrc09aRG9tMWM5NVZIRThGOEV1NnUzMWlxbm1hMWlXVjg0ZEI0TklyM0N2Skdzd01OSW9rYjVKMHBKejlndHlRaDktdUoyeWFqaWxKZ0c2dVFyZS1jQnhfTEhYeGNsY2N5QTVRcFRSaVhqdHNjMUNPMURVOV9ubnJnQXpXck03dllHRVlCRldSa0RxaC03U04ybUFVdWN1N0xiUlRiSERaYjd3R3pDTGRaUkFCNkVlS1lrVWNpLUpwNG80V2xlSkVGUQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "IGN",
+      "publishedAt": "2026-03-22T15:16:55.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "we should have clearly disclosed our use of ai crimson desert dev launches comprehensive audit of all in game assets after ai generated art was unintentionally included in final release",
+      "fingerprint": "assets|audit|clearly|comprehensive|crimson|desert|disclosed|final|game|generated",
+      "topicKey": "should have",
+      "bigrams": [
+        "should have",
+        "have clearly",
+        "clearly disclosed",
+        "disclosed crimson",
+        "crimson desert",
+        "desert launches",
+        "launches comprehensive",
+        "comprehensive audit",
+        "audit game",
+        "game assets",
+        "assets generated",
+        "generated unintentionally",
+        "unintentionally included",
+        "included final",
+        "final release"
       ],
       "score": 50,
       "publishedDisplay": "March 22, 2026"
@@ -333,51 +364,6 @@
       "publishedDisplay": "March 22, 2026"
     },
     {
-      "title": "'AI ethics officer' to 'AI solutions architect'... inside the new AI roles shaping comms",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUlZ1OGF0SkpZUF8weTRoS2I5dEdMcFNNeUtUVW0wRWxsU1Fyc0lZTGpXd3JJeWtGemNPWkVPdTJBOS1QUGlSTUkwTnNSMGFPdGxnd0xjMG54T3RNSXZVelBMWktzT1NxSzh0Q1lsaURWckdHTDFSbllEV0FIZE1TOGh5dGNZQlpKU09QVVZWUFp6VUR2a1J4bnRJOGtMQ3pQRmVHd2M4VEdlRl9m?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "PRWeek",
-      "publishedAt": "2026-03-22T09:28:32.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "ai ethics officer to ai solutions architect inside the new ai roles shaping comms",
-      "fingerprint": "architect|comms|ethics|officer|roles|shaping|solutions",
-      "topicKey": "officer solutions",
-      "bigrams": [
-        "officer solutions",
-        "solutions architect",
-        "architect roles",
-        "roles shaping",
-        "shaping comms"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 22, 2026"
-    },
-    {
-      "title": "Does the Crimson Desert AI art controversy matter?",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMmpQNjd5aVNqV3c2Vmd4dFVCeUEybFB1bWc4a3l2alQwOWd5dk0wbnliWE9xUm5XT3M0SnJjQkVrTDM3MFNjV1dtSlFEaFlVWUh2eVoyNlJkNlVrdVJ1NFlyYmdKWVVIbHRCRUdyZDFjbUVyNlh0Q3hrdFpWZU5mSElabEJWVHpIY3Y1VXgybGRKV2otajNrb2plQ0U3X0VW?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Creative Bloq",
-      "publishedAt": "2026-03-22T09:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "does the crimson desert ai art controversy matter",
-      "fingerprint": "controversy|crimson|desert|does|matter",
-      "topicKey": "does crimson",
-      "bigrams": [
-        "does crimson",
-        "crimson desert",
-        "desert controversy",
-        "controversy matter"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 22, 2026"
-    },
-    {
       "title": "AI Innovation vs. Ethics and Environmental Impact",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcV84TUJEUlVLSHJuY2NhbG5lT2NSbXo3RUJ6MkZYdnZyVzlDaGs4bExPcHRtRDFiWE5qaGpYQktWYmx4dlYyUFJLM254ZWw3dGhqQTNOSjlodHBuQVhJUzZLZjJHNDhQZnZrZW56S2tfRW00MUNyNlpiTTd1Wjh5Zw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -418,6 +404,30 @@
         "launches york",
         "york highlighting",
         "inclusion development"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
+    },
+    {
+      "title": "Will Arnett defends animators at Oscars, calls out AI at ceremony",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUNsLXYzV3g3SGVHaTdXSlV2RDR4VGtGaUhxRDBGaHZyNkFFWDhPSmZXeGUySHZjOEdvcWZwTUNFdFJpbXp1SENwVWVVVDBfVHpETUJUQ19YTjBJU3JwQjZYSVFZMVRVdWVJSWtoYVBPcDR2ZmFDSWRiRlBuVE0yQkFiODd3QlNUMVAyemtsWUJuQTljVWw1QTdLUlF6VmRi?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "artthreat.net",
+      "publishedAt": "2026-03-22T01:24:53.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "will arnett defends animators at oscars calls out ai at ceremony",
+      "fingerprint": "animators|arnett|calls|ceremony|defends|oscars|will",
+      "topicKey": "will arnett",
+      "bigrams": [
+        "will arnett",
+        "arnett defends",
+        "defends animators",
+        "animators oscars",
+        "oscars calls",
+        "calls ceremony"
       ],
       "score": 50,
       "publishedDisplay": "March 22, 2026"
@@ -468,30 +478,27 @@
       "publishedDisplay": "March 21, 2026"
     },
     {
-      "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMXA1RXA5blJFbHJQMlRqZFRmdnB3NG9JMXo4RVctb0FTZnVQYXJkWHY5S21KQ0pWR0lmQi01cnl4LWc5TFIybDY0bS1OYnE5ZVhZem5MRzVxUjgwQWRYcGFfNE5VcWdFcFVRb3RnV1kya28tbi1IV29jRUNWYXpDcjRRM2lPSHRjZC10d1FxeThXM05oVU5yNFBRRU9vZzVBV210M2dPUlJ5Wmk0MWdUOG5uM0tYZTFFc19yU2pMYTdjYzE0MjRRZ3I0eUxaLVhYamFhV0xFN05jVjNQVWdscXhvZ09TZw?oc=5",
+      "title": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUzRtU1dLNElZOEh3S1dFMVlGWDYtUEY5N2UwNmJUeG1oTlVHRHpEMkdXUGdQNDVUclZiV1hiN0RSVExMLTEzV2Nxc2xjNGRUY1AwdzRBSkgtVE0tZS0xbU9nelBnMS1uZjFBY1dqdW9NOTZ4LURoNGdNVmZkNGpUT28wNktuMFAxN2NwblV3QlktVDRYNVlqRDVNcWhFMEFpcDNabXJNTEI5azZaUnNKZ25mSUVjdGdoOEh3?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "PR Newswire",
-      "publishedAt": "2026-03-20T02:36:00.000Z",
+      "source": "dailyuw.com",
+      "publishedAt": "2026-03-12T17:48:58.000Z",
       "matchedTerms": [
         "ai",
-        "ethics",
-        "art"
+        "art",
+        "mysticism"
       ],
-      "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics",
-      "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land",
-      "topicKey": "chiayi international",
+      "titleKey": "beyond mysticism at the seattle art museum how seattle found its own modernism",
+      "fingerprint": "beyond|found|modernism|museum|mysticism|seattle",
+      "topicKey": "beyond seattle",
       "bigrams": [
-        "chiayi international",
-        "international film",
-        "film festival",
-        "festival 2026",
-        "2026 global",
-        "global intersection",
-        "intersection land"
+        "seattle museum",
+        "museum seattle",
+        "seattle found",
+        "found modernism"
       ],
       "score": 46,
-      "publishedDisplay": "March 20, 2026"
+      "publishedDisplay": "March 12, 2026"
     },
     {
       "title": "Google Reaffirms AI Ethics Stance Amid Growing Defence Contracts",
@@ -580,7 +587,7 @@
     {
       "title": "Creating in the age of AI: Ethics, Authorship, and critical training",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaS16eklPaXdmRGZsLUFMVUVVUnB4a05Sc1lUYkRqcTJNTEU3VUJGaEhtVmg2MklmMXlEWFVndXRGZ1hYMmFXcmlGRFZYM1V1VWVKaGRmZ2tWa0h6X0ViYzZzQ1Q4MEx6YUVUMW5PODNMbWdIQXJqTFZ3cVNmbHFWazg4Q2VaSHJURkl3LWVReWxETjJxYUdlYXd3X3Q2TmNDVHJTNk9kQjlLTnZ2c1pselNn?oc=5",
-      "summary": "Creating in the age of AI: Ethics, Authorship, and critical training.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "CLUB OF MOZAMBIQUE",
       "publishedAt": "2026-03-20T10:27:04.000Z",
       "matchedTerms": [
@@ -686,29 +693,6 @@
         "shaping communications"
       ],
       "score": 44,
-      "publishedDisplay": "March 19, 2026"
-    },
-    {
-      "title": "7 Best AI Art Generators (2026): Top Tools for Stunning Digital Art",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53UnNDXy1ZNW1wTjFMbnZTSkxmOXFzN0tadk1IRUhlUGhNUWpYazlELVVUeVktSGxGbmkxWVU0RENFR1NHTHJJR3B6LWxpYm9Uc0FXTHRYdzJhdGZjOGVpd2JaSG81VUVRUUsyaA?oc=5",
-      "summary": "7 Best AI Art Generators (2026): Top Tools for Stunning Digital Art.",
-      "source": "TechRepublic",
-      "publishedAt": "2026-03-19T07:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "7 best ai art generators 2026 top tools for stunning digital art",
-      "fingerprint": "2026|best|digital|generators|stunning|tools",
-      "topicKey": "best generators",
-      "bigrams": [
-        "best generators",
-        "generators 2026",
-        "2026 tools",
-        "tools stunning",
-        "stunning digital"
-      ],
-      "score": 38,
       "publishedDisplay": "March 19, 2026"
     },
     {
@@ -832,23 +816,6 @@
       "publishedDisplay": "March 17, 2026"
     },
     {
-      "title": "AI's Consciousness Debate",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ2N4WWRrWjUwWnNEWjhISlN0MmJlUmVobHpCQzhCcHZqVlRDZ0JBc1ktM1JKUmNxNEJOb0hPTzlxUU8tV2xiT01sRk5adDd6MkRVam1rd2dfcTRoVnFMYlhBZEpST2o1MGV0dXVMdV95cXQySHR5dEh1UlhkSEsyR0tWM1otcFdhOUpLVElNMFItQQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "StartupHub.ai",
-      "publishedAt": "2026-03-17T15:01:49.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness"
-      ],
-      "titleKey": "ai s consciousness debate",
-      "fingerprint": "consciousness|debate",
-      "topicKey": "debate",
-      "bigrams": [],
-      "score": 38,
-      "publishedDisplay": "March 17, 2026"
-    },
-    {
       "title": "From MoMA to Sotheby’s: How Refik Anadol Scaled the AI Art Market",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1pxSHR0OGpPSzF0ZEo5cVMxTWJwcThQZVhuWmVZQlN5alcyMFNQVjFVTldxLU9wdjZjNkhtNHVIaGF3VTJJcHN6amphN09ybERYdmM0c21XS2RUUXZvbV9WRkR0eGxUNi1iSnZHNDUwaFBwanNuYmlUbVl0aUctSzBjdVFIRW5GNFFfQlJCOGZ5bjhnS2c?oc=5",
       "summary": "From MoMA to Sotheby’s: How Refik Anadol Scaled the AI Art Market.",
@@ -867,6 +834,25 @@
         "refik anadol",
         "anadol scaled",
         "scaled market"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 17, 2026"
+    },
+    {
+      "title": "Ethics in Practice: Exploring AI Ethics",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZHdGVEVSLWdzRmdsbWd0UEZJLU9NOWJpNjRNSkNubHdqZ0ZEdWI4NnBwNG1UNHA3X2t3MkxkUG83VU5IRWwzbFJSLTJNbEY2SkhSY0lMWHBwS04zdDJNRUFvMDk1bkhXVE5LZ3VhN1NGTWEtbm5sdlN6eXh6TnJ3Z1NrRFk2U2NPSDVUU0VzNno5aWJFZlNZ?oc=5",
+      "summary": "Ethics in Practice: Exploring AI Ethics.",
+      "source": "American Physical Therapy Association | APTA",
+      "publishedAt": "2026-03-17T11:51:22.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "ethics in practice exploring ai ethics",
+      "fingerprint": "ethics|exploring|practice",
+      "topicKey": "practice exploring",
+      "bigrams": [
+        "practice exploring"
       ],
       "score": 38,
       "publishedDisplay": "March 17, 2026"
@@ -917,34 +903,11 @@
       "publishedDisplay": "March 16, 2026"
     },
     {
-      "title": "SAWM-SL presents draft AI ethics guidelines for media to Deputy Minister",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNG0tWjZjd0N2cW9BQm05aWY5aXhvSUVIR2pTZnFILVdvaDJsaWNSYmY3ZnJuamZOLWw3bzdQV1dpY1Y5dWx0V2dUcWRQMlN2eVp0ckx0cU9rMERmTTRPV3VsOGRqcUZ1YVE4bkJCcG1WRjFYRmFkeDN0OVBHVE1ac2dfa2wxYm1XWWpjblZjYVZvYjlTZzQ0WEZQSXVTYjk4U1hCRy1OVHRXR0ZU?oc=5",
-      "summary": "SAWM-SL presents draft AI ethics guidelines for media to Deputy Minister.",
-      "source": "Newswire",
-      "publishedAt": "2026-03-21T06:41:55.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "sawm sl presents draft ai ethics guidelines for media to deputy minister",
-      "fingerprint": "deputy|draft|ethics|guidelines|media|minister|presents|sawm",
-      "topicKey": "sawm presents",
-      "bigrams": [
-        "sawm presents",
-        "presents draft",
-        "guidelines media",
-        "media deputy",
-        "deputy minister"
-      ],
-      "score": 32,
-      "publishedDisplay": "March 21, 2026"
-    },
-    {
       "title": "Seoul: Religious women reflect on AI ethics and faith",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNWVsRlZnMHJNTl9RNzhKM181VlhIOFNxejdodUFoWWFJTzh4ZWpiclNhTW1fd0NsV190SkhSWXMxeUhaQWE0MUlMN1FsYlFUQS1lSUlkdTBzc2R2X051SThsZzR1UUk3d0ZaYWI0RTg3U1Fhb0c3bGdVUHBJQ3EzT21QX2JLSFRUVUgwOGU0M2dwMUJqN2xlQjN5YzZiQm1pWFUxMjd3OXkyRzBza2dXUXhMNWlkdw?oc=5",
       "summary": "Seoul: Religious women reflect on AI ethics and faith.",
       "source": "Vatican News",
-      "publishedAt": "2026-03-14T15:59:54.000Z",
+      "publishedAt": "2026-03-14T07:00:00.000Z",
       "matchedTerms": [
         "ai",
         "ethics"
@@ -961,27 +924,48 @@
       "publishedDisplay": "March 14, 2026"
     },
     {
-      "title": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUzRtU1dLNElZOEh3S1dFMVlGWDYtUEY5N2UwNmJUeG1oTlVHRHpEMkdXUGdQNDVUclZiV1hiN0RSVExMLTEzV2Nxc2xjNGRUY1AwdzRBSkgtVE0tZS0xbU9nelBnMS1uZjFBY1dqdW9NOTZ4LURoNGdNVmZkNGpUT28wNktuMFAxN2NwblV3QlktVDRYNVlqRDVNcWhFMEFpcDNabXJNTEI5azZaUnNKZ25mSUVjdGdoOEh3?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "dailyuw.com",
-      "publishedAt": "2026-03-12T17:48:58.000Z",
+      "title": "AI ethics debate remains US-centered as global concerns take back seat",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc2MtZVpNcE9JUW16S1J6OUxGTU9FRGxtMm1ReHE0VWEyakZhSkpweDJmQXQ1enR1LUp3VDZwSlBCVGFIWEk2YnNCZW0ySTRUSnlyWmdpLUlWNFFyRXNJdlZnNm91Rm42MnFJYkVOWEVHQlJzZGttWnF3dHdKSjJOa3lRNExTU0h3YWhOQkNOdkNFaElVQTByWVE5UFV5NkFva0Y0MWdCZGxGeV9HYzdid9IBtgFBVV95cUxOME9rTWNtWTRIakxFV1R4dEV4eWVTSElMWlZDX21qYmRubE1nVzJPOVNodXZFSzlyeXpUZFY2dW8xdzNWNks2bk5JcVhBajBNLVFzcE1jMlNBMk84ZjFPYnZKb1VlaXBuQnoyUFhGLVFmUFVhcXFpVG5JcU50U0Zmd1pfMXU3Zk1kb3hFOEI5Zk5NLS1oM1UyVFhYTGtxWk43NElzRTRZVjRoYU5BYnlqQk9SYWNydw?oc=5",
+      "summary": "AI ethics debate remains US-centered as global concerns take back seat.",
+      "source": "Daily Sabah",
+      "publishedAt": "2026-03-13T07:00:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "ai ethics debate remains us centered as global concerns take back seat",
+      "fingerprint": "back|centered|concerns|debate|ethics|global|remains|seat|take",
+      "topicKey": "debate remains",
+      "bigrams": [
+        "debate remains",
+        "remains centered",
+        "centered global",
+        "global concerns",
+        "concerns take",
+        "take back",
+        "back seat"
+      ],
+      "score": 32,
+      "publishedDisplay": "March 13, 2026"
+    },
+    {
+      "title": "Beyond Mysticism at Seattle Art Museum",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ3pzOXdNYVVFQ09rQzg2MDdjeHZlRWR5RGtleEh0ZnlkNGFvbDB6OXRZVzY5NXp2Q21RQVZITTB5Ry0wTWY5VUF5WXVvWXRwenIzNmNWUVptei1UTkFkbW4yVGpCdktZTF9vdVZIV0xSNzFIQUhUMFcxcVlwX2ZSdVhpcw?oc=5",
+      "summary": "Beyond Mysticism at Seattle Art Museum.",
+      "source": "thefactsnewspaper.com",
+      "publishedAt": "2026-03-13T01:28:03.000Z",
       "matchedTerms": [
         "art",
         "mysticism"
       ],
-      "titleKey": "beyond mysticism at the seattle art museum how seattle found its own modernism",
-      "fingerprint": "beyond|found|modernism|museum|mysticism|seattle",
+      "titleKey": "beyond mysticism at seattle art museum",
+      "fingerprint": "beyond|museum|mysticism|seattle",
       "topicKey": "beyond seattle",
       "bigrams": [
-        "seattle museum",
-        "museum seattle",
-        "seattle found",
-        "found modernism"
+        "seattle museum"
       ],
       "score": 32,
-      "publishedDisplay": "March 12, 2026"
+      "publishedDisplay": "March 13, 2026"
     }
-  ],
-  "preservedFromPreviousRun": true
+  ]
 }

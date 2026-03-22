@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const TERMS = ["ai", "ethics", "consciousness", "art", "mysticism"];
 const MAX_ITEMS = 40;
 const MAX_AGE_DAYS = 10;
-const MAX_PER_SOURCE = 3;
+const MAX_PER_SOURCE = 2;
 const REQUEST_DELAY_MS = 400;
 const DATE_FORMATTER = new Intl.DateTimeFormat("en-US", {
   month: "long",
@@ -26,6 +26,12 @@ const DATE_TIME_FORMATTER = new Intl.DateTimeFormat("en-US", {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const OUTPUT_FILE = path.resolve(__dirname, "../src/_data/feed.json");
+const TITLE_STOP_WORDS = new Set([
+  "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how", "in",
+  "into", "is", "it", "its", "of", "on", "or", "that", "the", "this", "to", "vs",
+  "what", "when", "where", "who", "why", "with", "you", "your", "now", "new",
+  "says", "say", "amid", "after", "over", "under", "about", "inside", "review"
+]);
 
 const SOURCE_SCORE_RULES = [
   {
@@ -152,6 +158,16 @@ function normalizeTitle(title = "") {
     .trim();
 }
 
+function titleFingerprint(title = "") {
+  const tokens = normalizeTitle(title)
+    .split(" ")
+    .filter((token) => token.length >= 4)
+    .filter((token) => !TITLE_STOP_WORDS.has(token));
+
+  const unique = Array.from(new Set(tokens)).sort();
+  return unique.slice(0, 10).join("|");
+}
+
 function ageDays(isoDate) {
   if (!isoDate) {
     return null;
@@ -213,6 +229,7 @@ async function fetchGoogleNewsRss(queryTerms) {
 function dedupeAndFilter(items) {
   const uniqueByUrl = new Map();
   const uniqueByTitle = new Map();
+  const uniqueByFingerprint = new Map();
   const overflow = [];
 
   items.forEach((item) => {
@@ -228,6 +245,7 @@ function dedupeAndFilter(items) {
       publishedDisplay: formatDate(item.publishedAt),
       matchedTerms: matches,
       titleKey: normalizeTitle(item.title),
+      fingerprint: titleFingerprint(item.title),
       score: relevanceScore(matches) + sourceScore(item.source) + freshnessScore(item.publishedAt)
     };
 
@@ -251,7 +269,19 @@ function dedupeAndFilter(items) {
     }
   });
 
-  const ranked = Array.from(uniqueByTitle.values())
+  Array.from(uniqueByTitle.values()).forEach((entry) => {
+    if (!entry.fingerprint) {
+      uniqueByFingerprint.set(`${entry.titleKey}|${entry.url}`, entry);
+      return;
+    }
+
+    const existing = uniqueByFingerprint.get(entry.fingerprint);
+    if (!existing || entry.score > existing.score) {
+      uniqueByFingerprint.set(entry.fingerprint, entry);
+    }
+  });
+
+  const ranked = Array.from(uniqueByFingerprint.values())
     .sort((a, b) => {
       if (b.score !== a.score) {
         return b.score - a.score;

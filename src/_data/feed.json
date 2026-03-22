@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-22T14:30:54.573Z",
-  "generatedDisplay": "March 22, 2026 at 2:30 PM UTC",
+  "generatedAt": "2026-03-22T14:40:36.851Z",
+  "generatedDisplay": "March 22, 2026 at 2:40 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -67,6 +67,7 @@
         "art"
       ],
       "titleKey": "towards responsible ai for mental health and well being experts chart a way forward world health organization who",
+      "fingerprint": "being|chart|experts|forward|health|mental|organization|responsible|towards|well",
       "score": 68
     },
     {
@@ -81,6 +82,7 @@
         "art"
       ],
       "titleKey": "an interdisciplinary project investigates art images and ai columbia university",
+      "fingerprint": "columbia|images|interdisciplinary|investigates|project|university",
       "score": 68
     },
     {
@@ -95,6 +97,7 @@
         "art"
       ],
       "titleKey": "government backtracks on ai and copyright after outcry from major artists bbc",
+      "fingerprint": "artists|backtracks|copyright|government|major|outcry",
       "score": 62
     },
     {
@@ -109,6 +112,7 @@
         "art"
       ],
       "titleKey": "adobe s ai image generator can now be trained on your own art the verge",
+      "fingerprint": "adobe|generator|image|trained|verge",
       "score": 52
     },
     {
@@ -124,6 +128,7 @@
         "art"
       ],
       "titleKey": "ai ethics and the future of filmmaking debated at filmart forum if we cannot stop technology then we should be asking what we can gain from it imdb",
+      "fingerprint": "asking|cannot|debated|ethics|filmart|filmmaking|forum|future|gain|imdb",
       "score": 52
     },
     {
@@ -139,6 +144,7 @@
         "art"
       ],
       "titleKey": "ai ethics and the future of filmmaking debated at filmart forum variety",
+      "fingerprint": "debated|ethics|filmart|filmmaking|forum|future|variety",
       "score": 52
     },
     {
@@ -154,6 +160,7 @@
         "art"
       ],
       "titleKey": "ai s consciousness debate startuphub ai",
+      "fingerprint": "consciousness|debate|startuphub",
       "score": 52
     },
     {
@@ -168,6 +175,7 @@
         "consciousness"
       ],
       "titleKey": "human consciousness in the age of ai the last frontier forbes",
+      "fingerprint": "consciousness|forbes|frontier|human|last",
       "score": 52
     },
     {
@@ -182,6 +190,7 @@
         "art"
       ],
       "titleKey": "adobe firefly now lets creators train ai on their own art winbuzzer",
+      "fingerprint": "adobe|creators|firefly|lets|their|train|winbuzzer",
       "score": 50
     },
     {
@@ -196,6 +205,7 @@
         "art"
       ],
       "titleKey": "shenzhen fuels global hopes for artificial consciousness scholars say guangdong news",
+      "fingerprint": "artificial|consciousness|fuels|global|guangdong|hopes|news|scholars|shenzhen",
       "score": 50
     },
     {
@@ -210,6 +220,7 @@
         "ethics"
       ],
       "titleKey": "ai ethics officer to ai solutions architect inside the new ai roles shaping comms prweek",
+      "fingerprint": "architect|comms|ethics|officer|prweek|roles|shaping|solutions",
       "score": 50
     },
     {
@@ -224,6 +235,7 @@
         "art"
       ],
       "titleKey": "does the crimson desert ai art controversy matter creative bloq",
+      "fingerprint": "bloq|controversy|creative|crimson|desert|does|matter",
       "score": 50
     },
     {
@@ -238,6 +250,7 @@
         "ethics"
       ],
       "titleKey": "ai innovation vs ethics and environmental impact blackpressusa",
+      "fingerprint": "blackpressusa|environmental|ethics|impact|innovation",
       "score": 50
     },
     {
@@ -252,6 +265,7 @@
         "ethics"
       ],
       "titleKey": "humans in the loop global impact tour launches in new york highlighting ethics and inclusion in ai development south asian herald",
+      "fingerprint": "asian|development|ethics|global|herald|highlighting|humans|impact|inclusion|launches",
       "score": 50
     },
     {
@@ -266,6 +280,7 @@
         "art"
       ],
       "titleKey": "will arnett defends animators at oscars calls out ai at ceremony artthreat net",
+      "fingerprint": "animators|arnett|artthreat|calls|ceremony|defends|oscars|will",
       "score": 50
     },
     {
@@ -280,6 +295,7 @@
         "art"
       ],
       "titleKey": "crimson desert is raising some ai brows with a bevy of suspiciously generated looking art rock paper shotgun",
+      "fingerprint": "bevy|brows|crimson|desert|generated|looking|paper|raising|rock|shotgun",
       "score": 50
     },
     {
@@ -294,6 +310,7 @@
         "art"
       ],
       "titleKey": "crimson desert apparently features ai generated art violates steam disclosure policy twistedvoxel",
+      "fingerprint": "apparently|crimson|desert|disclosure|features|generated|policy|steam|twistedvoxel|violates",
       "score": 50
     },
     {
@@ -308,6 +325,7 @@
         "art"
       ],
       "titleKey": "crimson desert faces backlash over alleged ai generated art playstation info",
+      "fingerprint": "alleged|backlash|crimson|desert|faces|generated|info|playstation",
       "score": 50
     },
     {
@@ -322,6 +340,7 @@
         "ethics"
       ],
       "titleKey": "sorry anthropic the drone wars don t wait for ethics afr",
+      "fingerprint": "anthropic|drone|ethics|sorry|wait|wars",
       "score": 50
     },
     {
@@ -336,6 +355,7 @@
         "art"
       ],
       "titleKey": "crimson desert s in game artwork shows telltale signs of ai courtesy of missing fingers and human bodies melting into horses eurogamer",
+      "fingerprint": "artwork|bodies|courtesy|crimson|desert|eurogamer|fingers|game|horses|human",
       "score": 50
     },
     {
@@ -350,6 +370,7 @@
         "ethics"
       ],
       "titleKey": "march 22 japan s ai ethics push signals governance compliance spend meyka",
+      "fingerprint": "compliance|ethics|governance|japan|march|meyka|push|signals|spend",
       "score": 50
     },
     {
@@ -365,6 +386,7 @@
         "art"
       ],
       "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics pr newswire",
+      "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land|newswire",
       "score": 46
     },
     {
@@ -380,6 +402,7 @@
         "art"
       ],
       "titleKey": "ai consciousness a biological imperative startuphub ai",
+      "fingerprint": "biological|consciousness|imperative|startuphub",
       "score": 46
     },
     {
@@ -395,6 +418,7 @@
         "mysticism"
       ],
       "titleKey": "beyond mysticism at the seattle art museum how seattle found its own modernism dailyuw com",
+      "fingerprint": "beyond|dailyuw|found|modernism|museum|mysticism|seattle",
       "score": 46
     },
     {
@@ -409,6 +433,7 @@
         "ethics"
       ],
       "titleKey": "google reaffirms ai ethics stance amid growing defence contracts bw people",
+      "fingerprint": "contracts|defence|ethics|google|growing|people|reaffirms|stance",
       "score": 44
     },
     {
@@ -423,6 +448,7 @@
         "art"
       ],
       "titleKey": "is the local art industry ready for ai s impact daily monitor",
+      "fingerprint": "daily|impact|industry|local|monitor|ready",
       "score": 44
     },
     {
@@ -437,6 +463,7 @@
         "art"
       ],
       "titleKey": "review switchbot ai art frame is genius but it comes at a price wales online",
+      "fingerprint": "comes|frame|genius|online|price|switchbot|wales",
       "score": 44
     },
     {
@@ -451,6 +478,7 @@
         "mysticism"
       ],
       "titleKey": "mysticism meets art in ekaa the one exhibition edexlive",
+      "fingerprint": "edexlive|ekaa|exhibition|meets|mysticism",
       "score": 44
     },
     {
@@ -465,6 +493,7 @@
         "art"
       ],
       "titleKey": "crimson desert under fire after fans spot ai generated art tech4gamers",
+      "fingerprint": "crimson|desert|fans|fire|generated|spot|tech4gamers",
       "score": 44
     },
     {
@@ -479,6 +508,7 @@
         "art"
       ],
       "titleKey": "that s ai or am i crazy crimson desert players think they ve found ai generated art in game ign",
+      "fingerprint": "crazy|crimson|desert|found|game|generated|players|they|think",
       "score": 44
     },
     {
@@ -493,6 +523,7 @@
         "art"
       ],
       "titleKey": "crimson desert players discover suspiciously odd ai generated art assets beebom",
+      "fingerprint": "assets|beebom|crimson|desert|discover|generated|players|suspiciously",
       "score": 44
     },
     {
@@ -507,6 +538,7 @@
         "art"
       ],
       "titleKey": "crimson desert players debate if the game secretly uses ai art kotaku",
+      "fingerprint": "crimson|debate|desert|game|kotaku|players|secretly|uses",
       "score": 44
     },
     {
@@ -521,6 +553,7 @@
         "art"
       ],
       "titleKey": "that is egregious players have already found what s believed to be ai generated art in crimson desert wccftech",
+      "fingerprint": "already|believed|crimson|desert|egregious|found|generated|have|players|wccftech",
       "score": 44
     },
     {
@@ -535,6 +568,7 @@
         "art"
       ],
       "titleKey": "painting with ai what art history teaches us about the future of work hr executive",
+      "fingerprint": "executive|future|history|painting|teaches|work",
       "score": 44
     },
     {
@@ -549,6 +583,7 @@
         "ethics"
       ],
       "titleKey": "creating in the age of ai ethics authorship and critical training workshop club of mozambique",
+      "fingerprint": "authorship|club|creating|critical|ethics|mozambique|training|workshop",
       "score": 44
     },
     {
@@ -563,6 +598,7 @@
         "ethics"
       ],
       "titleKey": "google doubles down on defence deals reassures staff on ai ethics hr katha",
+      "fingerprint": "deals|defence|doubles|down|ethics|google|katha|reassures|staff",
       "score": 44
     },
     {
@@ -577,6 +613,7 @@
         "ethics"
       ],
       "titleKey": "does your organization need an ai ethics committee techtarget",
+      "fingerprint": "committee|does|ethics|need|organization|techtarget",
       "score": 44
     },
     {
@@ -591,6 +628,7 @@
         "art"
       ],
       "titleKey": "adobe lets you train ai on your own art images newsbytes",
+      "fingerprint": "adobe|images|lets|newsbytes|train",
       "score": 44
     },
     {
@@ -605,6 +643,7 @@
         "art"
       ],
       "titleKey": "calgary public library moves forward with ai artist residency despite criticism calgary herald",
+      "fingerprint": "artist|calgary|criticism|despite|forward|herald|library|moves|public|residency",
       "score": 44
     },
     {
@@ -619,6 +658,7 @@
         "art"
       ],
       "titleKey": "adobe firefly receives major upgrade supports user model customization putting an end to the ai art generation black box era aibase",
+      "fingerprint": "adobe|aibase|black|customization|firefly|generation|major|model|putting|receives",
       "score": 44
     }
   ]

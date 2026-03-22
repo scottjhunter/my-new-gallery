@@ -92,6 +92,13 @@ function stripTags(input = "") {
   return input.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
+function cleanPunctuationSpacing(text = "") {
+  return text
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function readTag(block, tagName) {
   const match = block.match(new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)</${tagName}>`, "i"));
   if (!match) {
@@ -158,6 +165,28 @@ function normalizeTitle(title = "") {
     .trim();
 }
 
+function tokenSet(text = "") {
+  return new Set(
+    normalizeTitle(text)
+      .split(" ")
+      .filter((token) => token.length >= 4)
+      .filter((token) => !TITLE_STOP_WORDS.has(token))
+  );
+}
+
+function overlapRatio(aSet, bSet) {
+  if (!aSet.size || !bSet.size) {
+    return 0;
+  }
+  let overlap = 0;
+  for (const token of aSet) {
+    if (bSet.has(token)) {
+      overlap += 1;
+    }
+  }
+  return overlap / Math.max(1, Math.min(aSet.size, bSet.size));
+}
+
 function titleFingerprint(title = "") {
   const tokens = normalizeTitle(title)
     .split(" ")
@@ -186,6 +215,63 @@ function sourceScore(source = "") {
     }
     return score;
   }, 0);
+}
+
+function toSentenceCase(text = "") {
+  if (!text) {
+    return "";
+  }
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function conciseText(text = "", maxLength = 170) {
+  if (!text) {
+    return "";
+  }
+  if (text.length <= maxLength) {
+    return text;
+  }
+  const clipped = text.slice(0, maxLength);
+  const lastSpace = clipped.lastIndexOf(" ");
+  if (lastSpace < 60) {
+    return `${clipped.trimEnd()}...`;
+  }
+  return `${clipped.slice(0, lastSpace).trimEnd()}...`;
+}
+
+function deriveSummary(item, matchedTerms) {
+  const normalizedTitle = normalizeTitle(item.title);
+  const titleWithoutSource = normalizeTitle(item.title.replace(/\s[-|:]\s[^-|:]{2,80}$/, ""));
+  const sourceNormalized = normalizeTitle(item.source || "");
+  const raw = cleanPunctuationSpacing(item.summary || "");
+
+  let summary = raw;
+  if (summary) {
+    summary = summary
+      .replace(new RegExp(`^${item.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*[-|:]\\s*`, "i"), "")
+      .trim();
+  }
+
+  const normalizedSummary = normalizeTitle(summary);
+  const titleIncluded =
+    normalizedSummary.includes(normalizedTitle) ||
+    normalizedSummary.includes(titleWithoutSource);
+  const titleTokens = tokenSet(item.title);
+  const summaryTokens = tokenSet(summary);
+  const highTokenOverlap = overlapRatio(titleTokens, summaryTokens) >= 0.8;
+  const sourceOnly =
+    normalizedSummary === sourceNormalized ||
+    normalizedSummary === `${normalizedTitle} ${sourceNormalized}` ||
+    normalizedSummary === `${sourceNormalized} ${normalizedTitle}`;
+
+  if (!summary || titleIncluded || highTokenOverlap || sourceOnly || normalizedSummary.length < 25) {
+    const topicBits = titleFingerprint(item.title).split("|").filter(Boolean).slice(0, 3);
+    const topicText = topicBits.length ? topicBits.join(", ") : "related developments";
+    const termText = matchedTerms.slice(0, 3).join(", ");
+    summary = `Covers ${topicText}, with a focus on ${termText}.`;
+  }
+
+  return conciseText(toSentenceCase(summary), 170);
 }
 
 function freshnessScore(isoDate) {
@@ -242,12 +328,13 @@ function dedupeAndFilter(items) {
 
     const entry = {
       ...item,
-      publishedDisplay: formatDate(item.publishedAt),
       matchedTerms: matches,
       titleKey: normalizeTitle(item.title),
       fingerprint: titleFingerprint(item.title),
       score: relevanceScore(matches) + sourceScore(item.source) + freshnessScore(item.publishedAt)
     };
+    entry.summary = deriveSummary(entry, matches);
+    entry.publishedDisplay = formatDate(entry.publishedAt);
 
     const age = ageDays(entry.publishedAt);
     if (age !== null && age > MAX_AGE_DAYS) {
@@ -354,8 +441,21 @@ async function buildFeedData() {
       const previousRaw = await readFile(OUTPUT_FILE, "utf8");
       const previous = JSON.parse(previousRaw);
       if (Array.isArray(previous.items) && previous.items.length > 0) {
-        payload.items = previous.items;
-        payload.totalItems = previous.items.length;
+        payload.items = previous.items.map((item) => {
+          const matches =
+            Array.isArray(item.matchedTerms) && item.matchedTerms.length
+              ? item.matchedTerms
+              : matchedTermsForText(`${item.title || ""} ${item.summary || ""}`);
+          const legacySummary = typeof item.summary === "string" && item.summary.trim().toLowerCase().startsWith("brief on ");
+          const summarySeed = legacySummary ? "" : item.summary;
+          return {
+            ...item,
+            matchedTerms: matches,
+            summary: deriveSummary({ ...item, summary: summarySeed }, matches),
+            publishedDisplay: formatDate(item.publishedAt)
+          };
+        });
+        payload.totalItems = payload.items.length;
         payload.generatedAt = previous.generatedAt || payload.generatedAt;
         payload.generatedDisplay = previous.generatedDisplay || payload.generatedDisplay;
         payload.preservedFromPreviousRun = true;

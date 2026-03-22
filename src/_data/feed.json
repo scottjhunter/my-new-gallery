@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-22T15:06:03.170Z",
-  "generatedDisplay": "March 22, 2026 at 3:06 PM UTC",
+  "generatedAt": "2026-03-22T15:12:56.607Z",
+  "generatedDisplay": "March 22, 2026 at 3:12 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -53,53 +53,12 @@
     ]
   ],
   "totalItems": 40,
-  "failures": [
-    {
-      "query": "ai + ethics",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "art + mysticism",
-      "error": "fetch failed"
-    }
-  ],
+  "failures": [],
   "items": [
     {
       "title": "Towards responsible AI for mental health and well-being: experts chart a way forward - World Health Organization (WHO)",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcmtTT2E1WDF3NzV4NmQ5TVJPSzlYYUoxWTRHNURCVUtlS0hfaUtsSkJzRncyY3pTRjhISnRHb2w5QTFFbnQ3a1FKMVY0RllyQm5EWVdyLW1SMFJLb3BCNVRZQ2FvRndIaXVsem1KVG9SNFZ6d0R6Y0RoOG5Ed2M5Yy1teG1JazFaT3pjUHpSRkotd2k1S19lcW1CUkZrSEdrbFhiRFBFUmNWRF9TNmszT0FyTG15S0MxbmlCRG5zejR6N1U?oc=5",
-      "summary": "Towards responsible AI for mental health and well-being: experts chart a way forward.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "World Health Organization (WHO)",
       "publishedAt": "2026-03-20T15:11:10.000Z",
       "matchedTerms": [
@@ -125,7 +84,7 @@
     {
       "title": "An Interdisciplinary Project Investigates Art Images and AI - Columbia University",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd1IwNkE2Y2lmdHNYempvM09tdnZBODYxZllSb05rUGo3YnRwUkh2a18zZmM3cWpTbDJfdlBBcWtMbmFhVUJhVEZVY1FtY3lLSWdCSGlnd0ZiWmszZUwwOG5NQjRYUktoVko4R05LUzI3a0l0R1ozVlFsMUV2VTNjWlpKTVpxcXpRVGR5OWV5dzQ?oc=5",
-      "summary": "An Interdisciplinary Project Investigates Art Images and AI.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Columbia University",
       "publishedAt": "2026-03-19T20:10:29.000Z",
       "matchedTerms": [
@@ -146,7 +105,7 @@
     {
       "title": "Government backtracks on AI and copyright after outcry from major artists - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTMkExemVyS2Rja3ZBd21UVG1oa3EzWXFfUWlvcUVaQ0luTEFOaDVNX1lQSk9IQS1lU1QtN3FBaXZZTnZBOHE3VkwzdDRReGNXb0RERUgzSkpSZw?oc=5",
-      "summary": "Government backtracks on AI and copyright after outcry from major artists.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "BBC",
       "publishedAt": "2026-03-18T13:24:39.000Z",
       "matchedTerms": [
@@ -169,7 +128,7 @@
     {
       "title": "Adobe’s AI image generator can now be trained on your own art - The Verge",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZWJWamJZRlVMcVhmeFlZd3dNSXZoN2pWUUVka0pjV2NzWW1zNG05MUl4b3pucGxwcFNpNUxjV3dtVk9LMWJGbURIdm9QMGFlYkFTS1pkSjJza1BUZHkxSVREYlhHMWtuNGtndUNQVnN3SVhGcGF5TFhJSG1RQzVPa0hIaFBGNHJNendXNnVn?oc=5",
-      "summary": "Adobe’s AI image generator can now be trained on your own art.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "The Verge",
       "publishedAt": "2026-03-19T13:00:00.000Z",
       "matchedTerms": [
@@ -190,7 +149,7 @@
     {
       "title": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum: ‘If We Cannot Stop Technology, Then We Should Be Asking What We Can Gain From It. - IMDb",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiUU1XdWJTZVYzRUd1a1pPMnJxTlRSMjFhRVNIRmdLNzBkcWlrOU1LamlOX0haUHo0a1ZvQ2pfYlVTckdzSl9ta2Vnb0ZmZFh3bGNiV2R4LWtXQWFsZ0VqcUtFbWVGZw?oc=5",
-      "summary": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum: ‘If We Cannot Stop Technology, Then We Should Be Asking What We Can Gain From It.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "IMDb",
       "publishedAt": "2026-03-19T04:10:37.000Z",
       "matchedTerms": [
@@ -220,7 +179,7 @@
     {
       "title": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum - Variety",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QMXZJNXg0UUk0ek5YT2NKcmNvRVVCcmU5QnJNQ2ZENEhKYTFYZHR3UkFiN01ZZHllWHgwVHFCY0U1UDdLa0lfcWRvdDEwTFdzWmFUV3d3UF81MDlkSWpicm9MOWpndDV5MWd6VW92bzhQVG4wMGd0SUhfRQ?oc=5",
-      "summary": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Variety",
       "publishedAt": "2026-03-19T01:04:00.000Z",
       "matchedTerms": [
@@ -243,7 +202,7 @@
     {
       "title": "AI's Consciousness Debate - StartupHub.ai",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ2N4WWRrWjUwWnNEWjhISlN0MmJlUmVobHpCQzhCcHZqVlRDZ0JBc1ktM1JKUmNxNEJOb0hPTzlxUU8tV2xiT01sRk5adDd6MkRVam1rd2dfcTRoVnFMYlhBZEpST2o1MGV0dXVMdV95cXQySHR5dEh1UlhkSEsyR0tWM1otcFdhOUpLVElNMFItQQ?oc=5",
-      "summary": "AI's Consciousness Debate.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "StartupHub.ai",
       "publishedAt": "2026-03-17T15:01:49.000Z",
       "matchedTerms": [
@@ -261,7 +220,7 @@
     {
       "title": "Human Consciousness In The Age Of AI: The Last Frontier - Forbes",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNak9LM3pWLVBGMnZ4VzBhb1dkOGhtZ25kZXRBRVJQNHVUbl9VNGs5R2l2OTFXNVlMSVp0WXRSLXFPRVpsbnZsMm84Zmp1VllXUi1EMkZ6cE4tYUM3ems5OEJjXzBpVXZya1dNMGRiaEJWM3lEOHBJOG9QcVJ2dTlPM3JocDNtVnBVRXFHZkNaNlNfVXFSSHhHNDd0M3VpZWY1MUVlVmNHLW4wZzhh?oc=5",
-      "summary": "Human Consciousness In The Age Of AI: The Last Frontier.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Forbes",
       "publishedAt": "2026-03-17T11:00:00.000Z",
       "matchedTerms": [
@@ -280,7 +239,7 @@
     {
       "title": "Pearl Abyss apologise after AI-generated art found in Crimson Desert, and promise to replace affected assets - AltChar",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamMxX1dRczBLd1ZKZnB6QVJza0Q5bHppWmxvREJXWjFPR1Y3ZzREVnA0cll0ckxnbnFIRTlFRnNUY1hqQVB6bTFUTjhselVzSGxJY2tlOUJuLVhNVDFvZXg5SmN3VDBEaDBXOFNEZDFmR2VOSVc0QUdNSmZYaUNTVGk1b1Y1d2RMX3pjTmJJOHhydkd6bWg1U2J6cVU5MjU3Nm1MNUtwWjdXcl9CSmpzRjJBUlZSdi1NNzRVakJLWHJ3Q2tHeVA0QVRRbU81UC0temJDMXUtZlVCWGRlSHRlRUdmQlk2d29GVkE?oc=5",
-      "summary": "Pearl Abyss apologise after AI-generated art found in Crimson Desert, and promise to replace affected assets.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "AltChar",
       "publishedAt": "2026-03-22T14:31:00.000Z",
       "matchedTerms": [
@@ -308,7 +267,7 @@
     {
       "title": "Adobe Firefly Now Lets Creators Train AI on Their Own Art - WinBuzzer",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZDh2a3ZvWllGd1NpdUMybnVHOWRXcjhXenlOa2NXaHphRVBDcDhkRklxNW9WcFVtblZhc0piLXlkYnM0aXdyQVRtTUF0TFNnQ2RoLVpITEVKMkRncWl3akVRajMta05rRXNZLWxBWlQ3am5VNEV1LS1Fb19JbWFyWnpra3ZtaWdDSDBWWVZiemFOSkV5Y1YxY2RyWlRsRHkw?oc=5",
-      "summary": "Adobe Firefly Now Lets Creators Train AI on Their Own Art.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "WinBuzzer",
       "publishedAt": "2026-03-22T09:41:46.000Z",
       "matchedTerms": [
@@ -331,7 +290,7 @@
     {
       "title": "Shenzhen fuels global hopes for artificial consciousness, scholars say - Guangdong News",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OZ29LaFhhVDFqQ2NMa2lDc25yWHhKWDJuOENqVlA5LTJGNHNxR1FGVGNDeHQyd3RYdG9CamNZcFpxdXQ0b2g1T2I2T05jSjFsLWxraUJSdHh6RHJjNTRfeHNwY3N5dw?oc=5",
-      "summary": "Shenzhen fuels global hopes for artificial consciousness, scholars say.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Guangdong News",
       "publishedAt": "2026-03-22T09:33:27.000Z",
       "matchedTerms": [
@@ -353,7 +312,7 @@
     {
       "title": "'AI ethics officer' to 'AI solutions architect'... inside the new AI roles shaping comms - PRWeek",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUlZ1OGF0SkpZUF8weTRoS2I5dEdMcFNNeUtUVW0wRWxsU1Fyc0lZTGpXd3JJeWtGemNPWkVPdTJBOS1QUGlSTUkwTnNSMGFPdGxnd0xjMG54T3RNSXZVelBMWktzT1NxSzh0Q1lsaURWckdHTDFSbllEV0FIZE1TOGh5dGNZQlpKU09QVVZWUFp6VUR2a1J4bnRJOGtMQ3pQRmVHd2M4VEdlRl9m?oc=5",
-      "summary": "'AI ethics officer' to 'AI solutions architect'... inside the new AI roles shaping comms.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "PRWeek",
       "publishedAt": "2026-03-22T09:28:32.000Z",
       "matchedTerms": [
@@ -376,7 +335,7 @@
     {
       "title": "Does the Crimson Desert AI art controversy matter? - Creative Bloq",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMmpQNjd5aVNqV3c2Vmd4dFVCeUEybFB1bWc4a3l2alQwOWd5dk0wbnliWE9xUm5XT3M0SnJjQkVrTDM3MFNjV1dtSlFEaFlVWUh2eVoyNlJkNlVrdVJ1NFlyYmdKWVVIbHRCRUdyZDFjbUVyNlh0Q3hrdFpWZU5mSElabEJWVHpIY3Y1VXgybGRKV2otajNrb2plQ0U3X0VW?oc=5",
-      "summary": "Examines whether does the Crimson Desert AI art controversy matter?.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Creative Bloq",
       "publishedAt": "2026-03-22T09:00:00.000Z",
       "matchedTerms": [
@@ -398,7 +357,7 @@
     {
       "title": "AI Innovation vs. Ethics and Environmental Impact - BlackPressUSA",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcV84TUJEUlVLSHJuY2NhbG5lT2NSbXo3RUJ6MkZYdnZyVzlDaGs4bExPcHRtRDFiWE5qaGpYQktWYmx4dlYyUFJLM254ZWw3dGhqQTNOSjlodHBuQVhJUzZLZjJHNDhQZnZrZW56S2tfRW00MUNyNlpiTTd1Wjh5Zw?oc=5",
-      "summary": "AI Innovation vs. Ethics and Environmental Impact.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "BlackPressUSA",
       "publishedAt": "2026-03-22T06:52:43.000Z",
       "matchedTerms": [
@@ -417,7 +376,7 @@
     {
       "title": "“Humans in the Loop” Global Impact Tour Launches in New York, Highlighting Ethics and Inclusion in AI Development - South Asian Herald",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOEpHVTM5MWE2dzVxS1BVMWdCeDVJbHRIbDJROFRFckJzT2ZTcGFGRHB5VHQ1amVMWXBURy1QMFhPNF9ZWE5tX2tPUDIwcUtPZG9seHplTUg0aFJRRlBTYmxMVFdUSGJfb0Z3STFTSjQ4VDNyOXlLMUZmaVFWYWRMRi16Vjd4aHVEVGNBdm91d1p5SGdZUGVaSER6MU8xeURwTmdPYnh2ZF85U0FLT0JLZXZSUl95V01WZHhvUEplNDhYYy1MZjdWa1EtV3FaQmk4TDJMOWhjWQ?oc=5",
-      "summary": "“Humans in the Loop” Global Impact Tour Launches in New York, Highlighting Ethics and Inclusion in AI Development.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "South Asian Herald",
       "publishedAt": "2026-03-22T02:28:42.000Z",
       "matchedTerms": [
@@ -443,7 +402,7 @@
     {
       "title": "Will Arnett defends animators at Oscars, calls out AI at ceremony - artthreat.net",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUNsLXYzV3g3SGVHaTdXSlV2RDR4VGtGaUhxRDBGaHZyNkFFWDhPSmZXeGUySHZjOEdvcWZwTUNFdFJpbXp1SENwVWVVVDBfVHpETUJUQ19YTjBJU3JwQjZYSVFZMVRVdWVJSWtoYVBPcDR2ZmFDSWRiRlBuVE0yQkFiODd3QlNUMVAyemtsWUJuQTljVWw1QTdLUlF6VmRi?oc=5",
-      "summary": "Examines whether will Arnett defends animators at Oscars, calls out AI at ceremony.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "artthreat.net",
       "publishedAt": "2026-03-22T01:24:53.000Z",
       "matchedTerms": [
@@ -467,7 +426,7 @@
     {
       "title": "Sorry Anthropic, the drone wars don’t wait for ethics - AFR",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDRLYi1uM1VEMk52SGotUzBVMVpJSVZXQTlUUVZDbWUyeG9IWW16OXBwWmNZNFF6aGpqekRWS1BibDBGRlB1TWZ2c0dKS0JaS1B3czZxQldCVUpYVnJjalpwNkh1dEp0VjZMVlg2Z01RcURrRWpKYUZPNDdHTlhVT0VRM3RBajcxLTQ4bzNGTXRVUGxLTFF3OG9GdWdfTTVJRGQ2SmRtaUpOdw?oc=5",
-      "summary": "Sorry Anthropic, the drone wars don’t wait for ethics.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "AFR",
       "publishedAt": "2026-03-21T18:00:00.000Z",
       "matchedTerms": [
@@ -489,7 +448,7 @@
     {
       "title": "March 22: Japan’s AI Ethics Push Signals Governance, Compliance Spend - Meyka",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMy1BZU5aS2twUDNMa29LcUFmOEQwZ1N4cWFiNF91VS00UmMzOUJvV3hnMG53dG9zYjhZTzdkVUFwZnExVVY4ZU5oWEZSUHlOMjJ3QVZjOFJrbF9wbXFuZ0xHSm1FclNuMXBQNjVuLXh4eGhIeXhLelNPTlpwUmVLcnUyUEpsOC1RaDB6Wkdud2lMYmpCTlhzZGZHQQ?oc=5",
-      "summary": "March 22: Japan’s AI Ethics Push Signals Governance, Compliance Spend.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Meyka",
       "publishedAt": "2026-03-21T16:31:24.000Z",
       "matchedTerms": [
@@ -512,7 +471,7 @@
     {
       "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMXA1RXA5blJFbHJQMlRqZFRmdnB3NG9JMXo4RVctb0FTZnVQYXJkWHY5S21KQ0pWR0lmQi01cnl4LWc5TFIybDY0bS1OYnE5ZVhZem5MRzVxUjgwQWRYcGFfNE5VcWdFcFVRb3RnV1kya28tbi1IV29jRUNWYXpDcjRRM2lPSHRjZC10d1FxeThXM05oVU5yNFBRRU9vZzVBV210M2dPUlJ5Wmk0MWdUOG5uM0tYZTFFc19yU2pMYTdjYzE0MjRRZ3I0eUxaLVhYamFhV0xFN05jVjNQVWdscXhvZ09TZw?oc=5",
-      "summary": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "PR Newswire",
       "publishedAt": "2026-03-20T02:36:00.000Z",
       "matchedTerms": [
@@ -536,29 +495,9 @@
       "publishedDisplay": "March 20, 2026"
     },
     {
-      "title": "AI Consciousness: A Biological Imperative? - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclBYS1lESFd3aWNMdzVwV0VpU0cydzR0TjI5MXlBYUhwd1FSdFJOdG5tUEFJRllNZnAtNTFUaGt1VFRwUGpnNDB4MS1xQ0N5cjFhTHR2UkkySnFLR1N5YmxfZmpBVzUtQ3d3ME9scUd1VXRUZ0ItOXQ3U1dScjRScTJCdzRHOGVvYmpyNVhBdmVvTVFXYnlTUFpCTTZVWGd2NFFZV05n?oc=5",
-      "summary": "AI Consciousness: A Biological Imperative?.",
-      "source": "StartupHub.ai",
-      "publishedAt": "2026-03-13T07:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness",
-        "art"
-      ],
-      "titleKey": "ai consciousness a biological imperative startuphub ai",
-      "fingerprint": "biological|consciousness|imperative|startuphub",
-      "topicKey": "biological imperative",
-      "bigrams": [
-        "biological imperative"
-      ],
-      "score": 46,
-      "publishedDisplay": "March 13, 2026"
-    },
-    {
       "title": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism - dailyuw.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUzRtU1dLNElZOEh3S1dFMVlGWDYtUEY5N2UwNmJUeG1oTlVHRHpEMkdXUGdQNDVUclZiV1hiN0RSVExMLTEzV2Nxc2xjNGRUY1AwdzRBSkgtVE0tZS0xbU9nelBnMS1uZjFBY1dqdW9NOTZ4LURoNGdNVmZkNGpUT28wNktuMFAxN2NwblV3QlktVDRYNVlqRDVNcWhFMEFpcDNabXJNTEI5azZaUnNKZ25mSUVjdGdoOEh3?oc=5",
-      "summary": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "dailyuw.com",
       "publishedAt": "2026-03-12T17:48:58.000Z",
       "matchedTerms": [
@@ -581,7 +520,7 @@
     {
       "title": "Google Reaffirms AI Ethics Stance Amid Growing Defence Contracts - BW People",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3dpeWxfQzBFTU05MC1jcVVKY1NfbXJPdTlXMm1vZEJDQldPbHIzN0tCeGk3bHJUTUhlbVBQT0tiTm1wUndnc3o1WFo2Z0l6SGU0N0MwcHpyNTdVOGE0dDRUendEaVpoeWNfS2RHSl9FUF91b3VSRUt4Q0RndGUwZTJSNGRXQ2pVX3FyaHJkZ1VGek5hY0h6TjQ1dXdoOEhwSkdpZk5n?oc=5",
-      "summary": "Google Reaffirms AI Ethics Stance Amid Growing Defence Contracts.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "BW People",
       "publishedAt": "2026-03-21T11:58:54.000Z",
       "matchedTerms": [
@@ -603,7 +542,7 @@
     {
       "title": "Review: SwitchBot AI Art Frame is genius - but it comes at a price - Wales Online",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaEpQNDhzSThTWXFRUGloUHhmdW1zTE04MEpwTkVWcFNrb3h5SjVjT1M0a1JQNzV1WnN2NG5uV1V1a2dqSTlPbHRvaXBvLUd3dmhJbU9BWENvNzhwMGh6Unh6UTk4NmNfRjlBZ09OY0laQ1VjU21nUXdFUlR1LXVEUjExSzJIbXczVUtYVTdoQdIBlAFBVV95cUxPZEFnR3JsOWZQWnJDSld4TjdVWUVTVnlqaGthZ0hzWjQwRlg3cTRSYW5EOTFXc0JwQWNJREM3SnEwamowc3Awc2oxMXN2OEFBeGxzUEpwZ0k4N0pXMEpxOW5hT2Fod3Azb2xGN3pPTUFHRTRGNzRJYXVsRlhCcllQMUt5aUtYczVQZkh6bWhKSEE3MnhV?oc=5",
-      "summary": "Review: SwitchBot AI Art Frame is genius - but it comes at a price.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "Wales Online",
       "publishedAt": "2026-03-21T07:00:00.000Z",
       "matchedTerms": [
@@ -625,7 +564,7 @@
     {
       "title": "Mysticism meets art in ‘Ekaa-The One’ exhibition - EdexLive",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbm9BRlJLSkpRTC1Gb3Y2a2lVMjctM01Od2JmbWZvSTBlcmg5dHItN3VHVmxEOXQ5cHhHbFFocE9ENklmQzQzTFFNMG9GYWVCanc4OC16NDlDM1U5dWRZUzNzaU1mVW9vWG1RMzQ0UHdWZXdBQjdYS1lyR2Z5aEhLeGd30gGPAUFVX3lxTE5QRndCYW9TRll1SC02UGs2Um9SSE1hSGJqQnBoT1FlSHFaYWhwbVBHUkxjRk5vblAzTVV0bVJKaXA1ZFhNVDE5UktpSm5ONzNyM3ZjSVVBeEozSGRudmZmZzktNHJEWi1nSE9xdkN6WlR0TnpoYTgwNF9mZldFSkJyQVBDc19HSlBxYnNOemxr?oc=5",
-      "summary": "Mysticism meets art in ‘Ekaa-The One’ exhibition.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "EdexLive",
       "publishedAt": "2026-03-21T04:30:00.000Z",
       "matchedTerms": [
@@ -645,7 +584,7 @@
     {
       "title": "Painting with AI: What art history teaches us about the future of work - HR Executive",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa2cxaUtlbFZ2R0w3VlZtM0NUU0pLRmg0UXFoV1N6MkFXXzJqTEstVXpla3ducU1sc1Fvc3dwOUx5TlFPOEptS2FOWGdhS2RuVWJHQU5PaWo1d01fdTRDOU43NlRIZjBYM1kzdVVXM202WDFRRkdHenRqNkZRaWw0aVlWdjVpdGNRcW9TTHVjRVhlUm5YWXQ0TkN3?oc=5",
-      "summary": "Painting with AI: What art history teaches us about the future of work.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "HR Executive",
       "publishedAt": "2026-03-20T11:45:34.000Z",
       "matchedTerms": [
@@ -1009,7 +948,27 @@
       ],
       "score": 32,
       "publishedDisplay": "March 21, 2026"
+    },
+    {
+      "title": "Seoul: Religious women reflect on AI ethics and faith - Vatican News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNWVsRlZnMHJNTl9RNzhKM181VlhIOFNxejdodUFoWWFJTzh4ZWpiclNhTW1fd0NsV190SkhSWXMxeUhaQWE0MUlMN1FsYlFUQS1lSUlkdTBzc2R2X051SThsZzR1UUk3d0ZaYWI0RTg3U1Fhb0c3bGdVUHBJQ3EzT21QX2JLSFRUVUgwOGU0M2dwMUJqN2xlQjN5YzZiQm1pWFUxMjd3OXkyRzBza2dXUXhMNWlkdw?oc=5",
+      "summary": "Seoul: Religious women reflect on AI ethics and faith.",
+      "source": "Vatican News",
+      "publishedAt": "2026-03-14T15:59:54.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "seoul religious women reflect on ai ethics and faith vatican news",
+      "fingerprint": "ethics|faith|news|reflect|religious|seoul|vatican|women",
+      "topicKey": "seoul religious",
+      "bigrams": [
+        "seoul religious",
+        "religious women",
+        "women reflect"
+      ],
+      "score": 32,
+      "publishedDisplay": "March 14, 2026"
     }
-  ],
-  "preservedFromPreviousRun": true
+  ]
 }

@@ -52,8 +52,49 @@
       "mysticism"
     ]
   ],
-  "totalItems": 40,
-  "failures": [],
+  "totalItems": 38,
+  "failures": [
+    {
+      "query": "ai + ethics",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ai + consciousness",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ai + art",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ai + mysticism",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ethics + consciousness",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ethics + art",
+      "error": "fetch failed"
+    },
+    {
+      "query": "ethics + mysticism",
+      "error": "fetch failed"
+    },
+    {
+      "query": "consciousness + art",
+      "error": "fetch failed"
+    },
+    {
+      "query": "consciousness + mysticism",
+      "error": "fetch failed"
+    },
+    {
+      "query": "art + mysticism",
+      "error": "fetch failed"
+    }
+  ],
   "items": [
     {
       "title": "Towards responsible AI for mental health and well-being: experts chart a way forward",
@@ -99,7 +140,7 @@
         "project investigates",
         "investigates images"
       ],
-      "score": 68,
+      "score": 62,
       "publishedDisplay": "March 19, 2026"
     },
     {
@@ -224,24 +265,6 @@
       ],
       "score": 52,
       "publishedDisplay": "March 19, 2026"
-    },
-    {
-      "title": "AI's Consciousness Debate",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ2N4WWRrWjUwWnNEWjhISlN0MmJlUmVobHpCQzhCcHZqVlRDZ0JBc1ktM1JKUmNxNEJOb0hPTzlxUU8tV2xiT01sRk5adDd6MkRVam1rd2dfcTRoVnFMYlhBZEpST2o1MGV0dXVMdV95cXQySHR5dEh1UlhkSEsyR0tWM1otcFdhOUpLVElNMFItQQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "StartupHub.ai",
-      "publishedAt": "2026-03-17T15:01:49.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness",
-        "art"
-      ],
-      "titleKey": "ai s consciousness debate",
-      "fingerprint": "consciousness|debate",
-      "topicKey": "debate",
-      "bigrams": [],
-      "score": 52,
-      "publishedDisplay": "March 17, 2026"
     },
     {
       "title": "Human Consciousness In The Age Of AI: The Last Frontier",
@@ -409,30 +432,6 @@
       "publishedDisplay": "March 22, 2026"
     },
     {
-      "title": "Will Arnett defends animators at Oscars, calls out AI at ceremony",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUNsLXYzV3g3SGVHaTdXSlV2RDR4VGtGaUhxRDBGaHZyNkFFWDhPSmZXeGUySHZjOEdvcWZwTUNFdFJpbXp1SENwVWVVVDBfVHpETUJUQ19YTjBJU3JwQjZYSVFZMVRVdWVJSWtoYVBPcDR2ZmFDSWRiRlBuVE0yQkFiODd3QlNUMVAyemtsWUJuQTljVWw1QTdLUlF6VmRi?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "artthreat.net",
-      "publishedAt": "2026-03-22T01:24:53.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "will arnett defends animators at oscars calls out ai at ceremony",
-      "fingerprint": "animators|arnett|calls|ceremony|defends|oscars|will",
-      "topicKey": "will arnett",
-      "bigrams": [
-        "will arnett",
-        "arnett defends",
-        "defends animators",
-        "animators oscars",
-        "oscars calls",
-        "calls ceremony"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 22, 2026"
-    },
-    {
       "title": "Sorry Anthropic, the drone wars don’t wait for ethics",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDRLYi1uM1VEMk52SGotUzBVMVpJSVZXQTlUUVZDbWUyeG9IWW16OXBwWmNZNFF6aGpqekRWS1BibDBGRlB1TWZ2c0dKS0JaS1B3czZxQldCVUpYVnJjalpwNkh1dEp0VjZMVlg2Z01RcURrRWpKYUZPNDdHTlhVT0VRM3RBajcxLTQ4bzNGTXRVUGxLTFF3OG9GdWdfTTVJRGQ2SmRtaUpOdw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -451,7 +450,7 @@
         "drone wars",
         "wars wait"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 21, 2026"
     },
     {
@@ -474,31 +473,8 @@
         "governance compliance",
         "compliance spend"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 21, 2026"
-    },
-    {
-      "title": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUzRtU1dLNElZOEh3S1dFMVlGWDYtUEY5N2UwNmJUeG1oTlVHRHpEMkdXUGdQNDVUclZiV1hiN0RSVExMLTEzV2Nxc2xjNGRUY1AwdzRBSkgtVE0tZS0xbU9nelBnMS1uZjFBY1dqdW9NOTZ4LURoNGdNVmZkNGpUT28wNktuMFAxN2NwblV3QlktVDRYNVlqRDVNcWhFMEFpcDNabXJNTEI5azZaUnNKZ25mSUVjdGdoOEh3?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "dailyuw.com",
-      "publishedAt": "2026-03-12T17:48:58.000Z",
-      "matchedTerms": [
-        "ai",
-        "art",
-        "mysticism"
-      ],
-      "titleKey": "beyond mysticism at the seattle art museum how seattle found its own modernism",
-      "fingerprint": "beyond|found|modernism|museum|mysticism|seattle",
-      "topicKey": "beyond seattle",
-      "bigrams": [
-        "seattle museum",
-        "museum seattle",
-        "seattle found",
-        "found modernism"
-      ],
-      "score": 46,
-      "publishedDisplay": "March 12, 2026"
     },
     {
       "title": "Google Reaffirms AI Ethics Stance Amid Growing Defence Contracts",
@@ -669,7 +645,7 @@
         "grave means",
         "means indie"
       ],
-      "score": 44,
+      "score": 38,
       "publishedDisplay": "March 19, 2026"
     },
     {
@@ -692,7 +668,7 @@
         "roles shaping",
         "shaping communications"
       ],
-      "score": 44,
+      "score": 38,
       "publishedDisplay": "March 19, 2026"
     },
     {
@@ -812,6 +788,23 @@
         "story graphic",
         "graphic designers"
       ],
+      "score": 38,
+      "publishedDisplay": "March 17, 2026"
+    },
+    {
+      "title": "AI's Consciousness Debate",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ2N4WWRrWjUwWnNEWjhISlN0MmJlUmVobHpCQzhCcHZqVlRDZ0JBc1ktM1JKUmNxNEJOb0hPTzlxUU8tV2xiT01sRk5adDd6MkRVam1rd2dfcTRoVnFMYlhBZEpST2o1MGV0dXVMdV95cXQySHR5dEh1UlhkSEsyR0tWM1otcFdhOUpLVElNMFItQQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "StartupHub.ai",
+      "publishedAt": "2026-03-17T15:01:49.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "ai s consciousness debate",
+      "fingerprint": "consciousness|debate",
+      "topicKey": "debate",
+      "bigrams": [],
       "score": 38,
       "publishedDisplay": "March 17, 2026"
     },
@@ -967,5 +960,6 @@
       "score": 32,
       "publishedDisplay": "March 13, 2026"
     }
-  ]
+  ],
+  "preservedFromPreviousRun": true
 }

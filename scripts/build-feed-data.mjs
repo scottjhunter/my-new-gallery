@@ -8,6 +8,8 @@ const MAX_AGE_DAYS = 10;
 const MAX_PER_SOURCE = 2;
 const MAX_PER_TOPIC = 2;
 const MAX_PER_BIGRAM = 2;
+const MAX_ENRICH_ITEMS = 24;
+const ENRICH_TIMEOUT_MS = 9000;
 const REQUEST_DELAY_MS = 400;
 const DATE_FORMATTER = new Intl.DateTimeFormat("en-US", {
   month: "long",
@@ -331,6 +333,121 @@ function titleToReadableSummary(title = "") {
   return `${sentence}.`;
 }
 
+function stripHtmlForText(html = "") {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractMetaContent(html = "", selectors = []) {
+  for (const selector of selectors) {
+    const regex = new RegExp(`<meta[^>]+${selector}[^>]*content=["']([^"']+)["'][^>]*>`, "i");
+    const match = html.match(regex);
+    if (match && match[1]) {
+      return cleanPunctuationSpacing(decodeHtml(match[1]));
+    }
+  }
+  return "";
+}
+
+function firstSentence(text = "") {
+  if (!text) {
+    return "";
+  }
+  const trimmed = text.trim();
+  const match = trimmed.match(/^(.+?[.!?])(?:\s|$)/);
+  if (match && match[1]) {
+    return match[1].trim();
+  }
+  return conciseText(trimmed, 180).replace(/\.+$/g, "").trim() + ".";
+}
+
+function cleanSummaryText(text = "", source = "") {
+  let cleaned = cleanPunctuationSpacing(decodeHtml(text));
+  if (!cleaned) {
+    return "";
+  }
+
+  if (source) {
+    const escaped = source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    cleaned = cleaned
+      .replace(new RegExp(`\\s[-|]\\s${escaped}$`, "i"), "")
+      .replace(new RegExp(`\\s\\|\\s${escaped}$`, "i"), "");
+  }
+
+  cleaned = cleaned.replace(/\s[-|]\s(Updated|Live|Opinion)$/i, "");
+  return firstSentence(cleaned);
+}
+
+async function fetchWithTimeout(url, timeoutMs = ENRICH_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "user-agent": "scottjhunter-feed-bot/1.0 (+https://scottjhunter.org)"
+      }
+    });
+    return response;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function enrichSummaryFromArticle(item) {
+  try {
+    const response = await fetchWithTimeout(item.url);
+    if (!response.ok) {
+      return item;
+    }
+
+    const html = await response.text();
+    const metaDescription = extractMetaContent(html, [
+      'property=["\']og:description["\']',
+      'name=["\']description["\']',
+      'name=["\']twitter:description["\']'
+    ]);
+
+    let candidate = metaDescription;
+    if (!candidate || normalizeTitle(candidate).length < 25) {
+      const articleMatch = html.match(/<article[\s\S]*?<\/article>/i);
+      const articleText = stripHtmlForText(articleMatch ? articleMatch[0] : html);
+      candidate = firstSentence(articleText);
+    }
+
+    const cleaned = cleanSummaryText(candidate, item.source);
+    if (!cleaned || normalizeTitle(cleaned).length < 20) {
+      return item;
+    }
+
+    return {
+      ...item,
+      summary: conciseText(cleaned, 180)
+    };
+  } catch {
+    return item;
+  }
+}
+
+async function enrichTopItems(items = []) {
+  const result = [];
+  for (let i = 0; i < items.length; i += 1) {
+    const item = items[i];
+    if (i >= MAX_ENRICH_ITEMS) {
+      result.push(item);
+      continue;
+    }
+    const enriched = await enrichSummaryFromArticle(item);
+    result.push(enriched);
+  }
+  return result;
+}
+
 function conciseText(text = "", maxLength = 170) {
   if (!text) {
     return "";
@@ -576,7 +693,8 @@ async function buildFeedData() {
     await sleep(REQUEST_DELAY_MS);
   }
 
-  const feedItems = dedupeAndFilter(collected);
+  let feedItems = dedupeAndFilter(collected);
+  feedItems = await enrichTopItems(feedItems);
 
   const payload = {
     generatedAt: new Date().toISOString(),
@@ -620,7 +738,7 @@ async function buildFeedData() {
             publishedDisplay: formatDate(item.publishedAt)
           };
         });
-        payload.items = dedupeAndFilter(refreshed);
+        payload.items = await enrichTopItems(dedupeAndFilter(refreshed));
         payload.totalItems = payload.items.length;
         payload.generatedAt = previous.generatedAt || payload.generatedAt;
         payload.generatedDisplay = previous.generatedDisplay || payload.generatedDisplay;

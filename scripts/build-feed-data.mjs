@@ -6,6 +6,8 @@ const TERMS = ["ai", "ethics", "consciousness", "art", "mysticism"];
 const MAX_ITEMS = 40;
 const MAX_AGE_DAYS = 10;
 const MAX_PER_SOURCE = 2;
+const MAX_PER_TOPIC = 2;
+const MAX_PER_BIGRAM = 2;
 const REQUEST_DELAY_MS = 400;
 const DATE_FORMATTER = new Intl.DateTimeFormat("en-US", {
   month: "long",
@@ -197,6 +199,43 @@ function titleFingerprint(title = "") {
   return unique.slice(0, 10).join("|");
 }
 
+function topicKeyFromTitle(title = "") {
+  const withoutSource = title.replace(/\s[-|:]\s[^-|:]{2,80}$/, "");
+  const tokens = normalizeTitle(withoutSource)
+    .split(" ")
+    .filter((token) => token.length >= 4)
+    .filter((token) => !TITLE_STOP_WORDS.has(token))
+    .filter((token) => !TERMS.includes(token));
+
+  if (tokens.length >= 2) {
+    return `${tokens[0]} ${tokens[1]}`;
+  }
+  if (tokens.length === 1) {
+    return tokens[0];
+  }
+  return "";
+}
+
+function significantBigrams(title = "") {
+  const withoutSource = title.replace(/\s[-|:]\s[^-|:]{2,80}$/, "");
+  const tokens = normalizeTitle(withoutSource)
+    .split(" ")
+    .filter((token) => token.length >= 4)
+    .filter((token) => !TITLE_STOP_WORDS.has(token));
+
+  const bigrams = [];
+  for (let i = 0; i < tokens.length - 1; i += 1) {
+    const a = tokens[i];
+    const b = tokens[i + 1];
+    if (TERMS.includes(a) || TERMS.includes(b)) {
+      continue;
+    }
+    bigrams.push(`${a} ${b}`);
+  }
+
+  return Array.from(new Set(bigrams));
+}
+
 function ageDays(isoDate) {
   if (!isoDate) {
     return null;
@@ -331,6 +370,8 @@ function dedupeAndFilter(items) {
       matchedTerms: matches,
       titleKey: normalizeTitle(item.title),
       fingerprint: titleFingerprint(item.title),
+      topicKey: topicKeyFromTitle(item.title),
+      bigrams: significantBigrams(item.title),
       score: relevanceScore(matches) + sourceScore(item.source) + freshnessScore(item.publishedAt)
     };
     entry.summary = deriveSummary(entry, matches);
@@ -380,15 +421,34 @@ function dedupeAndFilter(items) {
 
   const selected = [];
   const sourceCounts = new Map();
+  const topicCounts = new Map();
+  const bigramCounts = new Map();
 
   for (const item of ranked) {
     const source = item.source || "Unknown source";
     const used = sourceCounts.get(source) || 0;
+    const topic = item.topicKey || "";
+    const topicUsed = topic ? (topicCounts.get(topic) || 0) : 0;
     if (used >= MAX_PER_SOURCE) {
       overflow.push(item);
       continue;
     }
+    if (topic && topicUsed >= MAX_PER_TOPIC) {
+      overflow.push(item);
+      continue;
+    }
+    const exceededBigramCap = (item.bigrams || []).some((bg) => (bigramCounts.get(bg) || 0) >= MAX_PER_BIGRAM);
+    if (exceededBigramCap) {
+      overflow.push(item);
+      continue;
+    }
     sourceCounts.set(source, used + 1);
+    if (topic) {
+      topicCounts.set(topic, topicUsed + 1);
+    }
+    (item.bigrams || []).forEach((bg) => {
+      bigramCounts.set(bg, (bigramCounts.get(bg) || 0) + 1);
+    });
     selected.push(item);
     if (selected.length >= MAX_ITEMS) {
       break;
@@ -397,7 +457,24 @@ function dedupeAndFilter(items) {
 
   if (selected.length < MAX_ITEMS && overflow.length) {
     for (const item of overflow) {
+      const source = item.source || "Unknown source";
+      const used = sourceCounts.get(source) || 0;
+      const topic = item.topicKey || "";
+      const topicUsed = topic ? (topicCounts.get(topic) || 0) : 0;
+      const exceededBigramCap = (item.bigrams || []).some((bg) => (bigramCounts.get(bg) || 0) >= MAX_PER_BIGRAM);
+
+      if (used >= MAX_PER_SOURCE || (topic && topicUsed >= MAX_PER_TOPIC) || exceededBigramCap) {
+        continue;
+      }
+
       selected.push(item);
+      sourceCounts.set(source, used + 1);
+      if (topic) {
+        topicCounts.set(topic, topicUsed + 1);
+      }
+      (item.bigrams || []).forEach((bg) => {
+        bigramCounts.set(bg, (bigramCounts.get(bg) || 0) + 1);
+      });
       if (selected.length >= MAX_ITEMS) {
         break;
       }
@@ -441,7 +518,7 @@ async function buildFeedData() {
       const previousRaw = await readFile(OUTPUT_FILE, "utf8");
       const previous = JSON.parse(previousRaw);
       if (Array.isArray(previous.items) && previous.items.length > 0) {
-        payload.items = previous.items.map((item) => {
+        const refreshed = previous.items.map((item) => {
           const matches =
             Array.isArray(item.matchedTerms) && item.matchedTerms.length
               ? item.matchedTerms
@@ -455,6 +532,7 @@ async function buildFeedData() {
             publishedDisplay: formatDate(item.publishedAt)
           };
         });
+        payload.items = dedupeAndFilter(refreshed);
         payload.totalItems = payload.items.length;
         payload.generatedAt = previous.generatedAt || payload.generatedAt;
         payload.generatedDisplay = previous.generatedDisplay || payload.generatedDisplay;

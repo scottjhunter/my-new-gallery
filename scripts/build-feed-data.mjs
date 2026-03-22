@@ -53,6 +53,13 @@ const SOURCE_SCORE_RULES = [
     score: -10
   }
 ];
+const TERM_LABELS = {
+  ai: "AI",
+  ethics: "ethics",
+  consciousness: "consciousness",
+  art: "art",
+  mysticism: "mysticism"
+};
 
 function combinationsOfTwo(items) {
   const combos = [];
@@ -263,6 +270,28 @@ function toSentenceCase(text = "") {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
+function formatNaturalList(parts = []) {
+  const clean = parts.filter(Boolean);
+  if (!clean.length) {
+    return "";
+  }
+  if (clean.length === 1) {
+    return clean[0];
+  }
+  if (clean.length === 2) {
+    return `${clean[0]} and ${clean[1]}`;
+  }
+  return `${clean.slice(0, -1).join(", ")}, and ${clean[clean.length - 1]}`;
+}
+
+function hashText(text = "") {
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = (hash * 31 + text.charCodeAt(i)) >>> 0;
+  }
+  return hash;
+}
+
 function conciseText(text = "", maxLength = 170) {
   if (!text) {
     return "";
@@ -304,10 +333,14 @@ function deriveSummary(item, matchedTerms) {
     normalizedSummary === `${sourceNormalized} ${normalizedTitle}`;
 
   if (!summary || titleIncluded || highTokenOverlap || sourceOnly || normalizedSummary.length < 25) {
-    const topicBits = titleFingerprint(item.title).split("|").filter(Boolean).slice(0, 3);
-    const topicText = topicBits.length ? topicBits.join(", ") : "related developments";
-    const termText = matchedTerms.slice(0, 3).join(", ");
-    summary = `Covers ${topicText}, with a focus on ${termText}.`;
+    const sourceText = (item.source || "a trusted source").trim();
+    const termText = formatNaturalList(matchedTerms.slice(0, 3).map((term) => TERM_LABELS[term] || term)) || "the core themes in this feed";
+    const templates = [
+      `A concise report from ${sourceText} on ${termText}.`,
+      `An overview from ${sourceText} touching on ${termText}.`,
+      `${sourceText} examines current developments in ${termText}.`
+    ];
+    summary = templates[hashText(item.title) % templates.length];
   }
 
   return conciseText(toSentenceCase(summary), 170);
@@ -523,7 +556,15 @@ async function buildFeedData() {
             Array.isArray(item.matchedTerms) && item.matchedTerms.length
               ? item.matchedTerms
               : matchedTermsForText(`${item.title || ""} ${item.summary || ""}`);
-          const legacySummary = typeof item.summary === "string" && item.summary.trim().toLowerCase().startsWith("brief on ");
+          const legacySummary =
+            typeof item.summary === "string" &&
+            (
+              item.summary.trim().toLowerCase().startsWith("brief on ") ||
+              item.summary.trim().toLowerCase().startsWith("covers ") ||
+              item.summary.trim().toLowerCase().startsWith("a concise update on ") ||
+              item.summary.trim().toLowerCase().startsWith("this piece tracks ") ||
+              item.summary.trim().toLowerCase().startsWith("a quick read on ")
+            );
           const summarySeed = legacySummary ? "" : item.summary;
           return {
             ...item,

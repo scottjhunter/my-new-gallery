@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-22T14:40:36.851Z",
-  "generatedDisplay": "March 22, 2026 at 2:40 PM UTC",
+  "generatedAt": "2026-03-22T14:51:51.317Z",
+  "generatedDisplay": "March 22, 2026 at 2:51 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -53,48 +53,7 @@
     ]
   ],
   "totalItems": 40,
-  "failures": [
-    {
-      "query": "ai + ethics",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ai + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + consciousness",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "ethics + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + art",
-      "error": "fetch failed"
-    },
-    {
-      "query": "consciousness + mysticism",
-      "error": "fetch failed"
-    },
-    {
-      "query": "art + mysticism",
-      "error": "fetch failed"
-    }
-  ],
+  "failures": [],
   "items": [
     {
       "title": "Towards responsible AI for mental health and well-being: experts chart a way forward - World Health Organization (WHO)",
@@ -102,14 +61,14 @@
       "summary": "Covers being, chart, experts, with a focus on ai, art.",
       "source": "World Health Organization (WHO)",
       "publishedAt": "2026-03-20T15:11:10.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "towards responsible ai for mental health and well being experts chart a way forward world health organization who",
       "fingerprint": "being|chart|experts|forward|health|mental|organization|responsible|towards|well",
-      "score": 68
+      "score": 68,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "An Interdisciplinary Project Investigates Art Images and AI - Columbia University",
@@ -117,14 +76,14 @@
       "summary": "Covers columbia, images, interdisciplinary, with a focus on ai, art.",
       "source": "Columbia University",
       "publishedAt": "2026-03-19T20:10:29.000Z",
-      "publishedDisplay": "March 19, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "an interdisciplinary project investigates art images and ai columbia university",
       "fingerprint": "columbia|images|interdisciplinary|investigates|project|university",
-      "score": 68
+      "score": 68,
+      "publishedDisplay": "March 19, 2026"
     },
     {
       "title": "Government backtracks on AI and copyright after outcry from major artists - BBC",
@@ -132,14 +91,14 @@
       "summary": "Covers artists, backtracks, copyright, with a focus on ai, art.",
       "source": "BBC",
       "publishedAt": "2026-03-18T13:24:39.000Z",
-      "publishedDisplay": "March 18, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "government backtracks on ai and copyright after outcry from major artists bbc",
       "fingerprint": "artists|backtracks|copyright|government|major|outcry",
-      "score": 62
+      "score": 62,
+      "publishedDisplay": "March 18, 2026"
     },
     {
       "title": "Adobe’s AI image generator can now be trained on your own art - The Verge",
@@ -147,14 +106,14 @@
       "summary": "Covers adobe, generator, image, with a focus on ai, art.",
       "source": "The Verge",
       "publishedAt": "2026-03-19T13:00:00.000Z",
-      "publishedDisplay": "March 19, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "adobe s ai image generator can now be trained on your own art the verge",
       "fingerprint": "adobe|generator|image|trained|verge",
-      "score": 52
+      "score": 52,
+      "publishedDisplay": "March 19, 2026"
     },
     {
       "title": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum: ‘If We Cannot Stop Technology, Then We Should Be Asking What We Can Gain From It. - IMDb",
@@ -162,7 +121,6 @@
       "summary": "Covers asking, cannot, debated, with a focus on ai, ethics, art.",
       "source": "IMDb",
       "publishedAt": "2026-03-19T04:10:37.000Z",
-      "publishedDisplay": "March 19, 2026",
       "matchedTerms": [
         "ai",
         "ethics",
@@ -170,7 +128,8 @@
       ],
       "titleKey": "ai ethics and the future of filmmaking debated at filmart forum if we cannot stop technology then we should be asking what we can gain from it imdb",
       "fingerprint": "asking|cannot|debated|ethics|filmart|filmmaking|forum|future|gain|imdb",
-      "score": 52
+      "score": 52,
+      "publishedDisplay": "March 19, 2026"
     },
     {
       "title": "AI Ethics and the Future of Filmmaking Debated at FilMart Forum - Variety",
@@ -178,7 +137,6 @@
       "summary": "Covers debated, ethics, filmart, with a focus on ai, ethics, art.",
       "source": "Variety",
       "publishedAt": "2026-03-19T01:04:00.000Z",
-      "publishedDisplay": "March 19, 2026",
       "matchedTerms": [
         "ai",
         "ethics",
@@ -186,7 +144,8 @@
       ],
       "titleKey": "ai ethics and the future of filmmaking debated at filmart forum variety",
       "fingerprint": "debated|ethics|filmart|filmmaking|forum|future|variety",
-      "score": 52
+      "score": 52,
+      "publishedDisplay": "March 19, 2026"
     },
     {
       "title": "AI's Consciousness Debate - StartupHub.ai",
@@ -194,7 +153,6 @@
       "summary": "Covers consciousness, debate, startuphub, with a focus on ai, consciousness, art.",
       "source": "StartupHub.ai",
       "publishedAt": "2026-03-17T15:01:49.000Z",
-      "publishedDisplay": "March 17, 2026",
       "matchedTerms": [
         "ai",
         "consciousness",
@@ -202,7 +160,8 @@
       ],
       "titleKey": "ai s consciousness debate startuphub ai",
       "fingerprint": "consciousness|debate|startuphub",
-      "score": 52
+      "score": 52,
+      "publishedDisplay": "March 17, 2026"
     },
     {
       "title": "Human Consciousness In The Age Of AI: The Last Frontier - Forbes",
@@ -210,14 +169,29 @@
       "summary": "Covers consciousness, forbes, frontier, with a focus on ai, consciousness.",
       "source": "Forbes",
       "publishedAt": "2026-03-17T11:00:00.000Z",
-      "publishedDisplay": "March 17, 2026",
       "matchedTerms": [
         "ai",
         "consciousness"
       ],
       "titleKey": "human consciousness in the age of ai the last frontier forbes",
       "fingerprint": "consciousness|forbes|frontier|human|last",
-      "score": 52
+      "score": 52,
+      "publishedDisplay": "March 17, 2026"
+    },
+    {
+      "title": "Pearl Abyss apologise after AI-generated art found in Crimson Desert, and promise to replace affected assets - AltChar",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPamMxX1dRczBLd1ZKZnB6QVJza0Q5bHppWmxvREJXWjFPR1Y3ZzREVnA0cll0ckxnbnFIRTlFRnNUY1hqQVB6bTFUTjhselVzSGxJY2tlOUJuLVhNVDFvZXg5SmN3VDBEaDBXOFNEZDFmR2VOSVc0QUdNSmZYaUNTVGk1b1Y1d2RMX3pjTmJJOHhydkd6bWg1U2J6cVU5MjU3Nm1MNUtwWjdXcl9CSmpzRjJBUlZSdi1NNzRVakJLWHJ3Q2tHeVA0QVRRbU81UC0temJDMXUtZlVCWGRlSHRlRUdmQlk2d29GVkE?oc=5",
+      "summary": "Covers abyss, affected, altchar, with a focus on ai, art.",
+      "source": "AltChar",
+      "publishedAt": "2026-03-22T14:31:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "pearl abyss apologise after ai generated art found in crimson desert and promise to replace affected assets altchar",
+      "fingerprint": "abyss|affected|altchar|apologise|assets|crimson|desert|found|generated|pearl",
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "Adobe Firefly Now Lets Creators Train AI on Their Own Art - WinBuzzer",
@@ -225,14 +199,14 @@
       "summary": "Covers adobe, creators, firefly, with a focus on ai, art.",
       "source": "WinBuzzer",
       "publishedAt": "2026-03-22T09:41:46.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "adobe firefly now lets creators train ai on their own art winbuzzer",
       "fingerprint": "adobe|creators|firefly|lets|their|train|winbuzzer",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "Shenzhen fuels global hopes for artificial consciousness, scholars say - Guangdong News",
@@ -240,14 +214,14 @@
       "summary": "Covers artificial, consciousness, fuels, with a focus on consciousness, art.",
       "source": "Guangdong News",
       "publishedAt": "2026-03-22T09:33:27.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "consciousness",
         "art"
       ],
       "titleKey": "shenzhen fuels global hopes for artificial consciousness scholars say guangdong news",
       "fingerprint": "artificial|consciousness|fuels|global|guangdong|hopes|news|scholars|shenzhen",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "'AI ethics officer' to 'AI solutions architect'... inside the new AI roles shaping comms - PRWeek",
@@ -255,14 +229,14 @@
       "summary": "Covers architect, comms, ethics, with a focus on ai, ethics.",
       "source": "PRWeek",
       "publishedAt": "2026-03-22T09:28:32.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "ai ethics officer to ai solutions architect inside the new ai roles shaping comms prweek",
       "fingerprint": "architect|comms|ethics|officer|prweek|roles|shaping|solutions",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "Does the Crimson Desert AI art controversy matter? - Creative Bloq",
@@ -270,14 +244,14 @@
       "summary": "Covers bloq, controversy, creative, with a focus on ai, art.",
       "source": "Creative Bloq",
       "publishedAt": "2026-03-22T09:00:00.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "does the crimson desert ai art controversy matter creative bloq",
       "fingerprint": "bloq|controversy|creative|crimson|desert|does|matter",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "AI Innovation vs. Ethics and Environmental Impact - BlackPressUSA",
@@ -285,14 +259,14 @@
       "summary": "Covers blackpressusa, environmental, ethics, with a focus on ai, ethics.",
       "source": "BlackPressUSA",
       "publishedAt": "2026-03-22T06:52:43.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "ai innovation vs ethics and environmental impact blackpressusa",
       "fingerprint": "blackpressusa|environmental|ethics|impact|innovation",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "“Humans in the Loop” Global Impact Tour Launches in New York, Highlighting Ethics and Inclusion in AI Development - South Asian Herald",
@@ -300,14 +274,14 @@
       "summary": "Covers asian, development, ethics, with a focus on ai, ethics.",
       "source": "South Asian Herald",
       "publishedAt": "2026-03-22T02:28:42.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "humans in the loop global impact tour launches in new york highlighting ethics and inclusion in ai development south asian herald",
       "fingerprint": "asian|development|ethics|global|herald|highlighting|humans|impact|inclusion|launches",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "Will Arnett defends animators at Oscars, calls out AI at ceremony - artthreat.net",
@@ -315,14 +289,14 @@
       "summary": "Covers animators, arnett, artthreat, with a focus on ai, art.",
       "source": "artthreat.net",
       "publishedAt": "2026-03-22T01:24:53.000Z",
-      "publishedDisplay": "March 22, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "will arnett defends animators at oscars calls out ai at ceremony artthreat net",
       "fingerprint": "animators|arnett|artthreat|calls|ceremony|defends|oscars|will",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 22, 2026"
     },
     {
       "title": "Crimson Desert is raising some AI-brows with a bevy of suspiciously generated-looking art - Rock Paper Shotgun",
@@ -330,14 +304,14 @@
       "summary": "Covers bevy, brows, crimson, with a focus on ai, art.",
       "source": "Rock Paper Shotgun",
       "publishedAt": "2026-03-21T22:55:33.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert is raising some ai brows with a bevy of suspiciously generated looking art rock paper shotgun",
       "fingerprint": "bevy|brows|crimson|desert|generated|looking|paper|raising|rock|shotgun",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Crimson Desert Apparently Features AI Generated Art, Violates Steam Disclosure Policy - TwistedVoxel",
@@ -345,14 +319,14 @@
       "summary": "Covers apparently, crimson, desert, with a focus on ai, art.",
       "source": "TwistedVoxel",
       "publishedAt": "2026-03-21T21:16:13.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert apparently features ai generated art violates steam disclosure policy twistedvoxel",
       "fingerprint": "apparently|crimson|desert|disclosure|features|generated|policy|steam|twistedvoxel|violates",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Crimson Desert Faces Backlash Over Alleged AI Generated Art - PlayStation Info",
@@ -360,14 +334,14 @@
       "summary": "Covers alleged, backlash, crimson, with a focus on ai, art.",
       "source": "PlayStation Info",
       "publishedAt": "2026-03-21T18:49:34.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert faces backlash over alleged ai generated art playstation info",
       "fingerprint": "alleged|backlash|crimson|desert|faces|generated|info|playstation",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Sorry Anthropic, the drone wars don’t wait for ethics - AFR",
@@ -375,14 +349,14 @@
       "summary": "Covers anthropic, drone, ethics, with a focus on ai, ethics.",
       "source": "AFR",
       "publishedAt": "2026-03-21T18:00:00.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "sorry anthropic the drone wars don t wait for ethics afr",
       "fingerprint": "anthropic|drone|ethics|sorry|wait|wars",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Crimson Desert's in-game artwork shows telltale signs of AI courtesy of missing fingers and human bodies melting into horses - Eurogamer",
@@ -390,14 +364,14 @@
       "summary": "Covers artwork, bodies, courtesy, with a focus on ai, art.",
       "source": "Eurogamer",
       "publishedAt": "2026-03-21T17:48:23.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert s in game artwork shows telltale signs of ai courtesy of missing fingers and human bodies melting into horses eurogamer",
       "fingerprint": "artwork|bodies|courtesy|crimson|desert|eurogamer|fingers|game|horses|human",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "March 22: Japan’s AI Ethics Push Signals Governance, Compliance Spend - Meyka",
@@ -405,14 +379,14 @@
       "summary": "Covers compliance, ethics, governance, with a focus on ai, ethics.",
       "source": "Meyka",
       "publishedAt": "2026-03-21T16:31:24.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "march 22 japan s ai ethics push signals governance compliance spend meyka",
       "fingerprint": "compliance|ethics|governance|japan|march|meyka|push|signals|spend",
-      "score": 50
+      "score": 50,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics - PR Newswire",
@@ -420,7 +394,6 @@
       "summary": "Covers 2026, chiayi, ethics, with a focus on ai, ethics, art.",
       "source": "PR Newswire",
       "publishedAt": "2026-03-20T02:36:00.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "ethics",
@@ -428,7 +401,8 @@
       ],
       "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics pr newswire",
       "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land|newswire",
-      "score": 46
+      "score": 46,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "AI Consciousness: A Biological Imperative? - StartupHub.ai",
@@ -436,7 +410,6 @@
       "summary": "Covers biological, consciousness, imperative, with a focus on ai, consciousness, art.",
       "source": "StartupHub.ai",
       "publishedAt": "2026-03-13T07:00:00.000Z",
-      "publishedDisplay": "March 13, 2026",
       "matchedTerms": [
         "ai",
         "consciousness",
@@ -444,7 +417,8 @@
       ],
       "titleKey": "ai consciousness a biological imperative startuphub ai",
       "fingerprint": "biological|consciousness|imperative|startuphub",
-      "score": 46
+      "score": 46,
+      "publishedDisplay": "March 13, 2026"
     },
     {
       "title": "‘Beyond Mysticism’ at the Seattle Art Museum: How Seattle found its own modernism - dailyuw.com",
@@ -452,7 +426,6 @@
       "summary": "Covers beyond, dailyuw, found, with a focus on ai, art, mysticism.",
       "source": "dailyuw.com",
       "publishedAt": "2026-03-12T17:48:58.000Z",
-      "publishedDisplay": "March 12, 2026",
       "matchedTerms": [
         "ai",
         "art",
@@ -460,7 +433,8 @@
       ],
       "titleKey": "beyond mysticism at the seattle art museum how seattle found its own modernism dailyuw com",
       "fingerprint": "beyond|dailyuw|found|modernism|museum|mysticism|seattle",
-      "score": 46
+      "score": 46,
+      "publishedDisplay": "March 12, 2026"
     },
     {
       "title": "Google Reaffirms AI Ethics Stance Amid Growing Defence Contracts - BW People",
@@ -468,14 +442,14 @@
       "summary": "Covers contracts, defence, ethics, with a focus on ai, ethics.",
       "source": "BW People",
       "publishedAt": "2026-03-21T11:58:54.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "google reaffirms ai ethics stance amid growing defence contracts bw people",
       "fingerprint": "contracts|defence|ethics|google|growing|people|reaffirms|stance",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Is the local art industry ready for AI’s impact? - Daily Monitor",
@@ -483,14 +457,14 @@
       "summary": "Covers daily, impact, industry, with a focus on ai, art.",
       "source": "Daily Monitor",
       "publishedAt": "2026-03-21T09:02:05.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "is the local art industry ready for ai s impact daily monitor",
       "fingerprint": "daily|impact|industry|local|monitor|ready",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Review: SwitchBot AI Art Frame is genius - but it comes at a price - Wales Online",
@@ -498,14 +472,14 @@
       "summary": "Covers comes, frame, genius, with a focus on ai, art.",
       "source": "Wales Online",
       "publishedAt": "2026-03-21T07:00:00.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "review switchbot ai art frame is genius but it comes at a price wales online",
       "fingerprint": "comes|frame|genius|online|price|switchbot|wales",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Mysticism meets art in ‘Ekaa-The One’ exhibition - EdexLive",
@@ -513,14 +487,14 @@
       "summary": "Covers edexlive, ekaa, exhibition, with a focus on art, mysticism.",
       "source": "EdexLive",
       "publishedAt": "2026-03-21T04:30:00.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "art",
         "mysticism"
       ],
       "titleKey": "mysticism meets art in ekaa the one exhibition edexlive",
       "fingerprint": "edexlive|ekaa|exhibition|meets|mysticism",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "Crimson Desert Under Fire After Fans Spot AI-Generated Art - Tech4Gamers",
@@ -528,14 +502,14 @@
       "summary": "Covers crimson, desert, fans, with a focus on ai, art.",
       "source": "Tech4Gamers",
       "publishedAt": "2026-03-21T01:09:07.000Z",
-      "publishedDisplay": "March 21, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert under fire after fans spot ai generated art tech4gamers",
       "fingerprint": "crimson|desert|fans|fire|generated|spot|tech4gamers",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 21, 2026"
     },
     {
       "title": "'That's AI or Am I Crazy?' — Crimson Desert Players Think They've Found AI-Generated Art In-Game - IGN",
@@ -543,14 +517,14 @@
       "summary": "Covers crazy, crimson, desert, with a focus on ai, art.",
       "source": "IGN",
       "publishedAt": "2026-03-20T21:13:52.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "that s ai or am i crazy crimson desert players think they ve found ai generated art in game ign",
       "fingerprint": "crazy|crimson|desert|found|game|generated|players|they|think",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Crimson Desert Players Discover Suspiciously Odd “AI-Generated” Art Assets - Beebom",
@@ -558,14 +532,14 @@
       "summary": "Covers assets, beebom, crimson, with a focus on ai, art.",
       "source": "Beebom",
       "publishedAt": "2026-03-20T20:20:18.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert players discover suspiciously odd ai generated art assets beebom",
       "fingerprint": "assets|beebom|crimson|desert|discover|generated|players|suspiciously",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Crimson Desert Players Debate If The Game Secretly Uses AI Art - Kotaku",
@@ -573,14 +547,14 @@
       "summary": "Covers crimson, debate, desert, with a focus on ai, art.",
       "source": "Kotaku",
       "publishedAt": "2026-03-20T19:17:36.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "crimson desert players debate if the game secretly uses ai art kotaku",
       "fingerprint": "crimson|debate|desert|game|kotaku|players|secretly|uses",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "“That is Egregious”: Players Have Already Found What’s Believed to be AI-Generated Art in Crimson Desert - Wccftech",
@@ -588,14 +562,14 @@
       "summary": "Covers already, believed, crimson, with a focus on ai, art.",
       "source": "Wccftech",
       "publishedAt": "2026-03-20T18:52:00.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "that is egregious players have already found what s believed to be ai generated art in crimson desert wccftech",
       "fingerprint": "already|believed|crimson|desert|egregious|found|generated|have|players|wccftech",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Painting with AI: What art history teaches us about the future of work - HR Executive",
@@ -603,14 +577,14 @@
       "summary": "Covers executive, future, history, with a focus on ai, art.",
       "source": "HR Executive",
       "publishedAt": "2026-03-20T11:45:34.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "painting with ai what art history teaches us about the future of work hr executive",
       "fingerprint": "executive|future|history|painting|teaches|work",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Creating in the age of AI: Ethics, Authorship, and critical training | Workshop - CLUB OF MOZAMBIQUE",
@@ -618,14 +592,14 @@
       "summary": "Covers authorship, club, creating, with a focus on ai, ethics.",
       "source": "CLUB OF MOZAMBIQUE",
       "publishedAt": "2026-03-20T10:27:04.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "creating in the age of ai ethics authorship and critical training workshop club of mozambique",
       "fingerprint": "authorship|club|creating|critical|ethics|mozambique|training|workshop",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Google doubles down on defence deals; reassures staff on AI ethics - HR Katha",
@@ -633,14 +607,14 @@
       "summary": "Covers deals, defence, doubles, with a focus on ai, ethics.",
       "source": "HR Katha",
       "publishedAt": "2026-03-20T10:00:57.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "google doubles down on defence deals reassures staff on ai ethics hr katha",
       "fingerprint": "deals|defence|doubles|down|ethics|google|katha|reassures|staff",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Does Your Organization Need an AI Ethics Committee? - TechTarget",
@@ -648,14 +622,14 @@
       "summary": "Covers committee, does, ethics, with a focus on ai, ethics.",
       "source": "TechTarget",
       "publishedAt": "2026-03-20T09:56:15.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "ethics"
       ],
       "titleKey": "does your organization need an ai ethics committee techtarget",
       "fingerprint": "committee|does|ethics|need|organization|techtarget",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Adobe lets you train AI on your own art, images - NewsBytes",
@@ -663,14 +637,14 @@
       "summary": "Covers adobe, images, lets, with a focus on ai, art.",
       "source": "NewsBytes",
       "publishedAt": "2026-03-20T07:59:59.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "adobe lets you train ai on your own art images newsbytes",
       "fingerprint": "adobe|images|lets|newsbytes|train",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     },
     {
       "title": "Calgary Public Library moves forward with AI artist residency despite criticism - Calgary Herald",
@@ -678,30 +652,14 @@
       "summary": "Covers artist, calgary, criticism, with a focus on ai, art.",
       "source": "Calgary Herald",
       "publishedAt": "2026-03-20T02:27:12.000Z",
-      "publishedDisplay": "March 20, 2026",
       "matchedTerms": [
         "ai",
         "art"
       ],
       "titleKey": "calgary public library moves forward with ai artist residency despite criticism calgary herald",
       "fingerprint": "artist|calgary|criticism|despite|forward|herald|library|moves|public|residency",
-      "score": 44
-    },
-    {
-      "title": "Adobe Firefly Receives Major Upgrade: Supports User Model Customization, Putting an End to the AI Art Generation 'Black Box' Era - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5fVlk3VXFKMWIxVW9vS21JaFluWTRQYmpkYUxuSmF4YjlGcXo3clNoX2hEM2VuUUZsMTc1MDhRcDRvNndITHNQY3Nn?oc=5",
-      "summary": "Covers adobe, aibase, black, with a focus on ai, art.",
-      "source": "AIBase",
-      "publishedAt": "2026-03-20T02:13:43.000Z",
-      "publishedDisplay": "March 20, 2026",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "adobe firefly receives major upgrade supports user model customization putting an end to the ai art generation black box era aibase",
-      "fingerprint": "adobe|aibase|black|customization|firefly|generation|major|model|putting|receives",
-      "score": 44
+      "score": 44,
+      "publishedDisplay": "March 20, 2026"
     }
-  ],
-  "preservedFromPreviousRun": true
+  ]
 }

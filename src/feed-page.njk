@@ -31,9 +31,6 @@ layout: main.njk
       <article class="feed-item">
         <h2 class="feed-item-title"><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
         <p class="feed-item-meta">{{ item.source }} {% if item.publishedDisplay %}| {{ item.publishedDisplay }}{% endif %}</p>
-        {% if item.summary %}
-        <p class="feed-item-summary">{{ item.summary }}</p>
-        {% endif %}
       </article>
       {% endfor %}
     </div>
@@ -43,9 +40,6 @@ layout: main.njk
       <article class="feed-item">
         <h2 class="feed-item-title"><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
         <p class="feed-item-meta">{{ item.source }} {% if item.publishedDisplay %}| {{ item.publishedDisplay }}{% endif %}</p>
-        {% if item.summary %}
-        <p class="feed-item-summary">{{ item.summary }}</p>
-        {% endif %}
       </article>
       {% endfor %}
     </div>

@@ -144,12 +144,13 @@ function parseItemsFromRss(xml = "") {
   const itemBlocks = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
   return itemBlocks
     .map((block) => {
-      const title = readTag(block, "title");
+      const rawTitle = readTag(block, "title");
       const link = readTag(block, "link");
       const description = readTag(block, "description");
       const pubDate = readTag(block, "pubDate");
       const sourceMatch = block.match(/<source[^>]*>([\s\S]*?)<\/source>/i);
       const source = sourceMatch ? stripTags(decodeHtml(sourceMatch[1])).trim() : "Unknown source";
+      const title = normalizeHeadline(rawTitle, source);
 
       return {
         title,
@@ -303,6 +304,23 @@ function lowerFirst(text = "") {
 
 function stripSourceSuffix(title = "") {
   return title.replace(/\s[-|:]\s[^-|:]{2,80}$/, "").trim();
+}
+
+function normalizeHeadline(title = "", source = "") {
+  let cleaned = cleanPunctuationSpacing(decodeHtml(title || ""));
+  if (!cleaned) {
+    return "";
+  }
+
+  if (source) {
+    const escaped = source.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    cleaned = cleaned
+      .replace(new RegExp(`\\s[-|:]\\s${escaped}$`, "i"), "")
+      .replace(new RegExp(`\\s\\|\\s${escaped}$`, "i"), "")
+      .trim();
+  }
+
+  return stripSourceSuffix(cleaned).trim();
 }
 
 function titleToReadableSummary(title = "") {
@@ -733,6 +751,7 @@ async function buildFeedData() {
           const summarySeed = legacySummary ? "" : item.summary;
           return {
             ...item,
+            title: normalizeHeadline(item.title, item.source),
             matchedTerms: matches,
             summary: deriveSummary({ ...item, summary: summarySeed }, matches),
             publishedDisplay: formatDate(item.publishedAt)

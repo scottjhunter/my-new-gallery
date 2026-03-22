@@ -292,6 +292,45 @@ function hashText(text = "") {
   return hash;
 }
 
+function lowerFirst(text = "") {
+  if (!text) {
+    return "";
+  }
+  return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
+function stripSourceSuffix(title = "") {
+  return title.replace(/\s[-|:]\s[^-|:]{2,80}$/, "").trim();
+}
+
+function titleToReadableSummary(title = "") {
+  const clean = cleanPunctuationSpacing(decodeHtml(stripSourceSuffix(title)));
+  if (!clean) {
+    return "";
+  }
+  const sentence = clean.replace(/\.+$/g, "").trim();
+  if (!sentence) {
+    return "";
+  }
+
+  if (/^(how)\b/i.test(sentence)) {
+    return `Explains ${lowerFirst(sentence)}.`;
+  }
+  if (/^(why)\b/i.test(sentence)) {
+    return `Looks at ${lowerFirst(sentence)}.`;
+  }
+  if (/^(what)\b/i.test(sentence)) {
+    return `Breaks down ${lowerFirst(sentence)}.`;
+  }
+  if (/^(does|is|are|can|could|should|will|would)\b/i.test(sentence)) {
+    return `Examines whether ${lowerFirst(sentence)}.`;
+  }
+  if (/^(review:)\b/i.test(sentence)) {
+    return sentence.replace(/^review:\s*/i, "Reviews ").replace(/\.$/, "") + ".";
+  }
+  return `${sentence}.`;
+}
+
 function conciseText(text = "", maxLength = 170) {
   if (!text) {
     return "";
@@ -333,14 +372,19 @@ function deriveSummary(item, matchedTerms) {
     normalizedSummary === `${sourceNormalized} ${normalizedTitle}`;
 
   if (!summary || titleIncluded || highTokenOverlap || sourceOnly || normalizedSummary.length < 25) {
-    const sourceText = (item.source || "a trusted source").trim();
-    const termText = formatNaturalList(matchedTerms.slice(0, 3).map((term) => TERM_LABELS[term] || term)) || "the core themes in this feed";
-    const templates = [
-      `A concise report from ${sourceText} on ${termText}.`,
-      `An overview from ${sourceText} touching on ${termText}.`,
-      `${sourceText} examines current developments in ${termText}.`
-    ];
-    summary = templates[hashText(item.title) % templates.length];
+    const rewritten = titleToReadableSummary(item.title);
+    if (rewritten) {
+      summary = rewritten;
+    } else {
+      const sourceText = (item.source || "a trusted source").trim();
+      const termText = formatNaturalList(matchedTerms.slice(0, 3).map((term) => TERM_LABELS[term] || term)) || "the core themes in this feed";
+      const templates = [
+        `A concise report from ${sourceText} on ${termText}.`,
+        `An overview from ${sourceText} touching on ${termText}.`,
+        `${sourceText} examines current developments in ${termText}.`
+      ];
+      summary = templates[hashText(item.title) % templates.length];
+    }
   }
 
   return conciseText(toSentenceCase(summary), 170);
@@ -563,7 +607,10 @@ async function buildFeedData() {
               item.summary.trim().toLowerCase().startsWith("covers ") ||
               item.summary.trim().toLowerCase().startsWith("a concise update on ") ||
               item.summary.trim().toLowerCase().startsWith("this piece tracks ") ||
-              item.summary.trim().toLowerCase().startsWith("a quick read on ")
+              item.summary.trim().toLowerCase().startsWith("a quick read on ") ||
+              item.summary.trim().toLowerCase().startsWith("a concise report from ") ||
+              item.summary.trim().toLowerCase().startsWith("an overview from ") ||
+              item.summary.trim().toLowerCase().includes(" examines current developments in ")
             );
           const summarySeed = legacySummary ? "" : item.summary;
           return {

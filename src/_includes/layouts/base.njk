@@ -15,6 +15,15 @@
             generator="Eleventy v2.0.1",
             comments=true
         %}
+        {% if site.analytics and site.analytics.measurementId %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.measurementId }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag("js", new Date());
+            gtag("config", "{{ site.analytics.measurementId }}");
+        </script>
+        {% endif %}
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon_data/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon_data/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon_data/favicon-16x16.png">

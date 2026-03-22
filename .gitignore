@@ -9,3 +9,5 @@ node_modules
 
 # Eleventy cached API results
 .cache
+# Local Netlify folder
+.netlify

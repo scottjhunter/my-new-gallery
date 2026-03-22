@@ -2,7 +2,10 @@
 <header class="top-nav">
     <div class="intro">
         <div>
-            <a class="home-button" href="/">{{ site.author.firstName }} {{ site.author.lastName }}</a>
+            <a class="home-button" href="/">
+                <img class="home-button-icon" src="/favicon_data/favicon-32x32.png" alt="" width="32" height="32">
+                <span>{{ site.author.firstName }} {{ site.author.lastName }}</span>
+            </a>
             <p class="home-about">{{ site.author.about }}</p>
         </div>
         <a class="hire-me" href="/about/#contact-me">Contact Me</a>

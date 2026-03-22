@@ -28,7 +28,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    The American philosopher and psychologist William James spent much of his work trying to understand how the human mind organizes experience. In <em>The Principles of Psychology</em>, he famously described thought as a flowing process rather than a series of disconnected ideas. As he wrote:
+    The American philosopher and psychologist <a href="https://www.britannica.com/biography/William-James" target="_blank" rel="noopener noreferrer">William James</a> spent much of his work trying to understand how the human mind organizes experience. In <a href="https://psychclassics.yorku.ca/James/Principles/prin9.htm" target="_blank" rel="noopener noreferrer"><em>The Principles of Psychology</em></a>, he famously described thought as a flowing process rather than a series of disconnected ideas. As he wrote:
   </p>
 
   <blockquote style="margin-left: 2rem; padding-left: 1rem; border-left: 3px solid #d3d3d3;">
@@ -40,7 +40,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    For many people, this pattern-seeking extends all the way to the beginning of the universe. Whether one calls it God, a creative principle, or simply the laws of physics, the origin of the cosmos is often imagined as the moment when order emerged from chaos. Modern physics even hints at a surprisingly poetic possibility. In string theory, the most fundamental elements of reality may not be particles at all but unimaginably small strings that vibrate. Each vibration forms a kind of wave-much like a guitar string vibrating to produce sound. Different vibrations produce different particles and forces. In that sense, the structure of the universe may arise from tiny patterns of vibration at the deepest level of reality.
+    For many people, this pattern-seeking extends all the way to the beginning of the universe. Whether one calls it God, a creative principle, or simply the laws of physics, the origin of the cosmos is often imagined as the moment when order emerged from chaos. Modern physics even hints at a surprisingly poetic possibility. In <a href="https://www.britannica.com/science/string-theory" target="_blank" rel="noopener noreferrer">string theory</a>, the most fundamental elements of reality may not be particles at all but unimaginably small strings that vibrate. Each vibration forms a kind of wave-much like a guitar string vibrating to produce sound. Different vibrations produce different particles and forces. In that sense, the structure of the universe may arise from tiny patterns of vibration at the deepest level of reality.
   </p>
 
   <p>
@@ -56,7 +56,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    William James also hinted at something deeper about this human tendency. In <em>The Varieties of Religious Experience</em>, he suggested that our everyday awareness may only be a narrow slice of a much larger reality:
+    William James also hinted at something deeper about this human tendency. In <a href="https://www.gutenberg.org/files/621/621-h/621-h.htm" target="_blank" rel="noopener noreferrer"><em>The Varieties of Religious Experience</em></a>, he suggested that our everyday awareness may only be a narrow slice of a much larger reality:
   </p>
 
   <blockquote style="margin-left: 2rem; padding-left: 1rem; border-left: 3px solid #d3d3d3;">

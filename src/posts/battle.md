@@ -32,11 +32,11 @@ cardType: summary_large_image
   </p>
 
   <p>
-    I recently learned the painting style is called <em>impasto</em>. The word comes from the Italian <em>impastare</em>, meaning "to knead" or "to paste." Thick paint laid on in ridges and slabs so the surface becomes almost sculptural. Not illusion, but material presence. You do not just see color-you see matter.
+    I recently learned the painting style is called <a href="https://www.britannica.com/art/impasto" target="_blank" rel="noopener noreferrer"><em>impasto</em></a>. The word comes from the Italian <em>impastare</em>, meaning "to knead" or "to paste." Thick paint laid on in ridges and slabs so the surface becomes almost sculptural. Not illusion, but material presence. You do not just see color-you see matter.
   </p>
 
   <p>
-    Vincent van Gogh's <em>The Starry Night</em> is one of the most famous examples. The sky is not smooth; it churns. Rembrandt used impasto for highlights so that light would physically catch on raised paint. Frank Auerbach and Leon Kossoff built entire surfaces out of it. The canvas becomes terrain.
+    Vincent van Gogh's <a href="https://www.moma.org/collection/works/79802" target="_blank" rel="noopener noreferrer"><em>The Starry Night</em></a> is one of the most famous examples. The sky is not smooth; it churns. Rembrandt used impasto for highlights so that light would physically catch on raised paint. Frank Auerbach and Leon Kossoff built entire surfaces out of it. The canvas becomes terrain.
   </p>
 
   <p>
@@ -48,11 +48,11 @@ cardType: summary_large_image
   </p>
 
   <p>
-    Zoroastrianism is often cited as one of the earliest structured dualistic systems: Ahura Mazda versus Angra Mainyu-good and destructive spirit locked in cosmic struggle. The end, however, is predetermined. Good ultimately wins. History has a script.
+    <a href="https://www.britannica.com/topic/Zoroastrianism" target="_blank" rel="noopener noreferrer">Zoroastrianism</a> is often cited as one of the earliest structured dualistic systems: Ahura Mazda versus Angra Mainyu-good and destructive spirit locked in cosmic struggle. The end, however, is predetermined. Good ultimately wins. History has a script.
   </p>
 
   <p>
-    Mandaeanism, which likely emerged in the same broad Near Eastern milieu, also presents a stark light-versus-dark cosmology. But its structure feels different. The material world is often attributed to a flawed or lesser creator. Salvation is escape, not triumph. Knowledge-<em>gnosis</em>-is liberation. The tension is not simply moral but metaphysical.
+    <a href="https://www.britannica.com/topic/Mandaeanism" target="_blank" rel="noopener noreferrer">Mandaeanism</a>, which likely emerged in the same broad Near Eastern milieu, also presents a stark light-versus-dark cosmology. But its structure feels different. The material world is often attributed to a flawed or lesser creator. Salvation is escape, not triumph. Knowledge-<a href="https://www.britannica.com/topic/gnosticism" target="_blank" rel="noopener noreferrer"><em>gnosis</em></a>-is liberation. The tension is not simply moral but metaphysical.
   </p>
 
   <p>
@@ -60,7 +60,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    Of course, these ideas are not new. Carl Jung wrote about the shadow and the integration of opposites. William Blake famously suggested that "Energy is Eternal Delight," and portrayed the rebel not purely as villain but as a necessary force. Even in early Christian debates, some sects flirted with the idea that the creator god might not be the highest principle.
+    Of course, these ideas are not new. <a href="https://www.britannica.com/biography/Carl-Jung" target="_blank" rel="noopener noreferrer">Carl Jung</a> wrote about the shadow and the integration of opposites. William Blake famously suggested that "<a href="https://www.bl.uk/collection-items/the-marriage-of-heaven-and-hell-copy-g-object-4" target="_blank" rel="noopener noreferrer">Energy is Eternal Delight</a>," and portrayed the rebel not purely as villain but as a necessary force. Even in early Christian debates, some sects flirted with the idea that the creator god might not be the highest principle.
   </p>
 
   <p>
@@ -68,7 +68,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    If you strip it down to archetypes: God commands obedience. Satan offers knowledge. In Genesis, the serpent does not force the fruit; it presents an option. God withholds knowledge; the serpent invites choice. That framing has led many thinkers to reconsider who represents freedom and who represents control.
+    If you strip it down to archetypes: God commands obedience. Satan offers knowledge. In <a href="https://www.biblegateway.com/passage/?search=Genesis%203&version=NRSVUE" target="_blank" rel="noopener noreferrer">Genesis 3</a>, the serpent does not force the fruit; it presents an option. God withholds knowledge; the serpent invites choice. That framing has led many thinkers to reconsider who represents freedom and who represents control.
   </p>
 
   <p>

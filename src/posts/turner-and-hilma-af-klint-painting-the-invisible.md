@@ -19,14 +19,14 @@ cardType: summary_large_image
   <h1>{{ title }}</h1>
 
   <p>
-    J. M. W. Turner and Hilma af Klint lived in different centuries and painted in radically different styles, yet both seem to have been reaching toward something beyond ordinary representation. Turner pushed landscapes to the edge of dissolution-storms, sunlight, and mist swallowing ships and cities until only color and energy remained. Af Klint moved in the opposite direction: away from the visible world entirely, filling canvases with spirals, geometry, and symbols meant to represent unseen forces.
+    <a href="https://www.britannica.com/biography/J-M-W-Turner" target="_blank" rel="noopener noreferrer">J. M. W. Turner</a> and <a href="https://www.britannica.com/biography/Hilma-af-Klint" target="_blank" rel="noopener noreferrer">Hilma af Klint</a> lived in different centuries and painted in radically different styles, yet both seem to have been reaching toward something beyond ordinary representation. Turner pushed landscapes to the edge of dissolution-storms, sunlight, and mist swallowing ships and cities until only color and energy remained. Af Klint moved in the opposite direction: away from the visible world entirely, filling canvases with spirals, geometry, and symbols meant to represent unseen forces.
   </p>
 
   <figure style="float: left; margin: 0 1rem 0.75rem 0; max-width: 260px;">
     <a href="/images/Turner_-_Rain_Steam_and_Speed_-_National_Gallery_file-1200x896.jpg" target="_blank" rel="noopener" title="J. M. W. Turner, Rain, Steam and Speed - The Great Western Railway (1844)">
       <img src="/images/Turner_-_Rain_Steam_and_Speed_-_National_Gallery_file-1200x896.jpg" alt="J. M. W. Turner, Rain, Steam and Speed - The Great Western Railway, 1844." style="width: 100%; height: auto;">
     </a>
-    <figcaption><em>J. M. W. Turner, <span style="font-style: italic;">Rain, Steam and Speed - The Great Western Railway</span>, 1844. Oil on canvas. National Gallery, London (NG538). Click image to enlarge.</em></figcaption>
+    <figcaption><em>J. M. W. Turner, <a href="https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-rain-steam-and-speed-the-great-western-railway" target="_blank" rel="noopener noreferrer"><span style="font-style: italic;">Rain, Steam and Speed - The Great Western Railway</span></a>, 1844. Oil on canvas. National Gallery, London (NG538). Click image to enlarge.</em></figcaption>
   </figure>
 
   <p>
@@ -43,7 +43,7 @@ cardType: summary_large_image
   </figure>
 
   <p>
-    Af Klint was explicit about the spiritual dimension. A deeply mystical thinker, she participated in spiritualist circles and believed that many of her paintings were guided by higher intelligences. Beginning in 1906, she produced a massive body of abstract work she called <em>Paintings for the Temple</em>-a future contemplative sanctuary of spiritual understanding and profound inner transformation. This places her among the very earliest artists to work consistently in pure abstraction, years before abstraction was canonized through figures like Kandinsky, Mondrian, or Malevich. To her, these were not experiments in style but diagrams of a deeper reality-maps of spiritual evolution, duality, and cosmic order. Seen this way, her abstractions were not departures from meaning; they were attempts to make invisible structures legible.
+    Af Klint was explicit about the spiritual dimension. A deeply mystical thinker, she participated in spiritualist circles and believed that many of her paintings were guided by higher intelligences. Beginning in 1906, she produced a massive body of abstract work she called <a href="https://www.guggenheim.org/exhibition/hilma-af-klint-paintings-for-the-future" target="_blank" rel="noopener noreferrer"><em>Paintings for the Temple</em></a>-a future contemplative sanctuary of spiritual understanding and profound inner transformation. This places her among the very earliest artists to work consistently in pure abstraction, years before abstraction was canonized through figures like <a href="https://www.britannica.com/biography/Wassily-Kandinsky" target="_blank" rel="noopener noreferrer">Kandinsky</a>, <a href="https://www.britannica.com/biography/Piet-Mondrian" target="_blank" rel="noopener noreferrer">Mondrian</a>, or <a href="https://www.britannica.com/biography/Kazimir-Malevich" target="_blank" rel="noopener noreferrer">Malevich</a>. To her, these were not experiments in style but diagrams of a deeper reality-maps of spiritual evolution, duality, and cosmic order. Seen this way, her abstractions were not departures from meaning; they were attempts to make invisible structures legible.
   </p>
 
   <div style="clear: both;"></div>

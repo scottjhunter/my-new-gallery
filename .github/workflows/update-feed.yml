@@ -1,0 +1,54 @@
+name: Update Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    env:
+      NETLIFY_SITE_ID: e5e7f184-38c8-4263-a3ac-9c8924d1378e
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build feed data
+        run: npm run build:feed
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet src/_data/feed.json; then
+            echo "No feed changes."
+            echo "feed_changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/_data/feed.json
+          git commit -m "chore(feed): refresh curated feed"
+          git push
+          echo "feed_changed=true" >> $GITHUB_OUTPUT
+        id: commit_feed
+
+      - name: Build site
+        run: npm run build
+
+      - name: Deploy to Netlify
+        if: steps.commit_feed.outputs.feed_changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: npx netlify-cli deploy --prod --dir=_site --site="$NETLIFY_SITE_ID"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

@@ -259,6 +259,8 @@ h2, .h2 {
     margin: 0 0 1.5rem 0;
 
     img {
+        display: block;
+        width: 100%;
         height: auto;
         object-fit: contain;
     }

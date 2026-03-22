@@ -1,5 +1,93 @@
 [
   {
+    "title": "Cavapoo Portrait",
+    "date": "March 22, 2026",
+    "credit": "Scott Hunter (image) and ChatGPT (lighting only)",
+    "src": "poodle.png",
+    "alt": "A portrait of a poodle in a painterly style.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Town Study III",
+    "date": "March 21, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "town3.png",
+    "alt": "A town street scene with atmospheric light and depth.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Town Study II",
+    "date": "March 21, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "town2.png",
+    "alt": "A layered urban town image with architectural detail.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Town Study I",
+    "date": "March 21, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "town1.png",
+    "alt": "A town scene rendered in a stylized, painterly composition.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Cezanne Study",
+    "date": "March 20, 2026",
+    "credit": "ChatGPT (influenced by Paul Cezanne)",
+    "src": "Cezanne.png",
+    "alt": "A painting study in the style of Paul Cezanne with layered brushwork and balanced geometry.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Matisse Cutout Composition",
+    "date": "March 20, 2026",
+    "credit": "ChatGPT (influenced by Henri Matisse)",
+    "src": "Matisse.png",
+    "alt": "A colorful composition inspired by Henri Matisse with bold flat shapes and expressive movement.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Moreau Vision",
+    "date": "March 20, 2026",
+    "credit": "ChatGPT (influenced by Gustave Moreau)",
+    "src": "Moreau.png",
+    "alt": "A symbolist-style painting inspired by Gustave Moreau, rich with ornate detail and dramatic light.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Van Gogh Night Palette",
+    "date": "March 20, 2026",
+    "credit": "ChatGPT (influenced by Vincent van Gogh)",
+    "src": "VanGogh.png",
+    "alt": "An expressive painting with swirling texture and vivid color inspired by Vincent van Gogh.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "line drawing",
+    "date": "March 16, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "abstract-c.png",
+    "alt": "An abstract artwork titled line drawing.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "fibonacci spirals",
+    "date": "March 16, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "abstract-b.png",
+    "alt": "An abstract artwork titled fibonacci spirals.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "A study in blue and green",
+    "date": "March 16, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "abstract-a.png",
+    "alt": "An abstract artwork titled A study in blue and green.",
+    "imgDir": "/images/"
+  },
+  {
     "title": "A Dangerous Journey",
     "date": "March 7, 2026",
     "credit": "Scott Hunter and ChatGPT",
@@ -56,14 +144,6 @@
     "imgDir": "/images/"
   },
   {
-    "title": "The Last Lamp in the Stacks",
-    "date": "February 22, 2026",
-    "credit": "Scott Hunter and ChatGPT",
-    "src": "librarian.png",
-    "alt": "A solitary librarian framed by tall bookshelves under a single glowing lamp, creating a quiet, contemplative atmosphere.",
-    "imgDir": "/images/"
-  },
-  {
     "title": "Steampunk Dirigible Market",
     "date": "December 19, 2025",
     "credit": "Scott Hunter and Midjourney",
@@ -101,14 +181,6 @@
     "credit": "Scott Hunter and Gemini",
     "src": "east-end.jpg",
     "alt": "A well-dressed man sitting on the front of a classic vintage car on a cobblestone street.",
-    "imgDir": "/images/"
-  },
-  {
-    "title": "Scholar in the Study",
-    "date": "June 13, 2025",
-    "credit": "Scott Hunter and Gemini",
-    "src": "time-travel.jpg",
-    "alt": "A black and white photo of a man in vintage clothing sitting at a desk in a library filled with books.",
     "imgDir": "/images/"
   },
   {

@@ -64,7 +64,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    When the cotton gin was introduced, many believed it would reduce the need for labor. The logic seemed obvious: faster processing meant less work. But the opposite happened. Cotton became vastly more profitable. Production expanded. Demand exploded. And instead of labor decreasing, labor increased, brutally, catastrophically, and at industrial scale.
+    When the <a href="https://www.britannica.com/technology/cotton-gin" target="_blank" rel="noopener noreferrer">cotton gin</a> was introduced, many believed it would reduce the need for labor. The logic seemed obvious: faster processing meant less work. But the opposite happened. Cotton became vastly more profitable. Production expanded. Demand exploded. And instead of labor decreasing, labor increased, brutally, catastrophically, and at industrial scale.
   </p>
 
   <p>

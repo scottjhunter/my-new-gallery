@@ -1,21 +1,24 @@
 {
   "url": "https://scottjhunter.org",
   "author": {
-    "firstName": "Scott",
+    "firstName": "Scott J.",
     "lastName": "Hunter",
     "email": "scottjhunter@gmail.com",
     "twitterHandle": "",
-    "about": "Exploring the intersection of ancient wisdom, artificial intelligence, and digital art."
+    "about": "Exploring the intersection of mysticism, artificial intelligence, consciousness, and art"
   },
   "socials": {
     "twitter": "",
     "linkedin": "",
     "dribbble": "",
-    "github": ""
+    "github": "https://github.com/scottjhunter"
+  },
+  "analytics": {
+    "measurementId": "G-H9BPF0Z08G"
   },
   "pageMetadata": {
     "home": {
-      "content": "Explore a curated collection of fine art photography. A visual journey into philosophy, light, and form."
+      "content": "Exploring the intersection of mysticism, artificial intelligence, consciousness, and art through essays, experiments, and digital creative work."
     },
     "gallery": {
       "content": "The complete portfolio of photographer Scott Hunter. Browse the full collection of images."
@@ -25,6 +28,9 @@
     },
     "about": {
       "content": "Learn more about the artist, his philosophy, and the creative process behind the images."
+    },
+    "feed": {
+      "content": "Twice-daily curated links spanning AI, ethics, consciousness, art, and mysticism."
     }
   }
 }

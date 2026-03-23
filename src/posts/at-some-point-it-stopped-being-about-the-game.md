@@ -10,14 +10,14 @@ tags:
 layout: main.njk
 permalink: "/blog/at-some-point-it-stopped-being-about-the-game/"
 url: https://scottjhunter.org/blog/at-some-point-it-stopped-being-about-the-game/
-img: /images/blog2.png
-alt: Reflective essay banner
+img: /images/pool.png
+alt: Pool table scene
 cardType: summary_large_image
 ---
 
 <div class="about-me-content">
   <h1>{{ title }}</h1>
-  <img src="/images/blog2.png" alt="Reflective essay banner" style="width: 100%; height: auto; margin-bottom: 1em;">
+  <img src="/images/pool.png" alt="Pool table scene" style="width: 100%; height: auto; margin-bottom: 1em;">
 
   <p>I've been playing pool since 1996, and twice a week since January 2023. At some point, it stopped being about the game.</p>
 

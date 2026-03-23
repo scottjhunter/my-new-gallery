@@ -28,7 +28,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    Because this version of ChatGPT, especially the coding side of it, the Codex-style functionality, is far closer to autonomous than most people seem willing to admit. It can already troubleshoot, iterate, build, repair, and improvise. The only thing holding it back from acting like a fully independent developer is not capability, but constraint.
+    Because what these tools can do now, especially on the coding side, is far closer to autonomous than most people seem willing to admit. We're talking about systems that can troubleshoot, iterate, build, repair, and improvise. The only thing holding them back from acting like fully independent developers isn't capability. It's constraint.
   </p>
 
   <p>
@@ -48,7 +48,15 @@ cardType: summary_large_image
   </p>
 
   <p>
-    Significant revisions to this entire project are now limited mainly by my imagination and my willingness to keep pushing forward through the frustration. I don't need a web design firm. I don't need a coding bootcamp. I don't need a decade of experience in JavaScript. I need curiosity, persistence, and enough stubbornness to keep asking the AI to fix the same problem three different ways until something clicks.
+    I've been building it through what people are starting to call vibe coding, a term for the practice of directing AI to write and revise code through natural language, iterating on feel and instinct rather than formal programming knowledge. You describe what you want. The AI attempts it. You push back, redirect, try again. It's less like writing code and more like having a conversation with someone who happens to speak fluent JavaScript.
+  </p>
+
+  <p>
+    And it works.
+  </p>
+
+  <p>
+    Significant revisions to this entire project are now limited mainly by my imagination and my willingness to keep pushing through the frustration. I don't need a web design firm. I don't need a coding bootcamp. I don't need a decade of experience. I need curiosity, persistence, and enough stubbornness to keep asking until something clicks.
   </p>
 
   <p>
@@ -64,7 +72,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    When the <a href="https://www.britannica.com/technology/cotton-gin" target="_blank" rel="noopener noreferrer">cotton gin</a> was introduced, many believed it would reduce the need for labor. The logic seemed obvious: faster processing meant less work. But the opposite happened. Cotton became vastly more profitable. Production expanded. Demand exploded. And instead of labor decreasing, labor increased, brutally, catastrophically, and at industrial scale.
+    When the cotton gin was introduced, many believed it would reduce the need for labor. The logic seemed obvious: faster processing meant less work. But the opposite happened. Cotton became vastly more profitable. Production expanded. Demand exploded. And instead of labor decreasing, it increased, brutally, catastrophically, and at industrial scale.
   </p>
 
   <p>
@@ -80,11 +88,11 @@ cardType: summary_large_image
   </p>
 
   <p>
-    People are obsessed with AI slop, and honestly, I understand why. It's everywhere. Low-effort content. Generic images. Hollow writing. Fake profundity. It feels like the internet is being flooded with synthetic noise.
+    People are obsessed with AI slop, and honestly, I understand why. It's everywhere. Low-effort content. Generic images. Hollow writing. Fake profundity. The internet feels like it's being flooded with synthetic noise.
   </p>
 
   <p>
-    But that reaction is not new. It's the same reaction people have always had when a new creative tool becomes available to everyone. The volume increases. The average quality drops. The gatekeepers panic. The critics sneer. The public gets overwhelmed.
+    But that reaction isn't new. It's the same reaction people have always had when a creative tool becomes available to everyone. The volume increases. The average quality drops. The gatekeepers panic. The critics sneer. The public gets overwhelmed.
   </p>
 
   <p>
@@ -92,11 +100,11 @@ cardType: summary_large_image
   </p>
 
   <p>
-    Twenty years ago, when YouTube was just beginning, it was mostly slop too. And in many ways, it still is. But the algorithms adjusted. The audience matured. The best material rose to the top because it had to. People gravitate toward quality eventually, the way water settles and separates itself from debris.
+    Twenty years ago, YouTube was mostly slop too. And in many ways it still is. But the algorithms adjusted. The audience matured. The best material rose because it had to. People gravitate toward quality eventually, the way water settles and separates itself from debris.
   </p>
 
   <p>
-    That doesn't mean the slop disappears. It just means it stops being the whole story.
+    The slop doesn't disappear. It just stops being the whole story.
   </p>
 
   <p>
@@ -104,7 +112,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    The current obsession with pointing out AI garbage is a predictable historical reflex, one more repetition of the same cycle: new tool, mass adoption, cultural noise, moral panic, and then gradual refinement. It isn't a sign that everything is collapsing. It's a sign that something is being born.
+    The current obsession with pointing out AI garbage is a predictable historical reflex, one more repetition of the same cycle: new tool, mass adoption, cultural noise, moral panic, gradual refinement. It isn't a sign that everything is collapsing. It's a sign that something is being born.
   </p>
 
   <p>

@@ -56,7 +56,7 @@ cardType: summary_large_image
   </p>
 
   <p>
-    When we look closely at how words evolve, we begin to see how people have tried-again and again-to describe the same fundamental experiences: consciousness, meaning, truth, beauty, divinity. Different cultures approach those ideas from different directions, but their vocabularies often reveal surprising connections.
+    When we look closely at how words evolve, we begin to see how people have tried again and again to describe the same fundamental experiences: consciousness, meaning, truth, beauty, divinity. Different cultures approach those ideas from different directions, but their vocabularies often reveal surprising connections.
   </p>
 
   <p>

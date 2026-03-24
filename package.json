@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tannerdolby/eleventy-photo-gallery.git"
+    "url": "git+https://github.com/scottjhunter/my-new-gallery.git"
   },
   "bugs": {
-    "url": "https://github.com/tannerdolby/eleventy-photo-gallery/issues"
+    "url": "https://github.com/scottjhunter/my-new-gallery/issues"
   },
   "author": {
     "name": "Tanner Dolby",
@@ -33,7 +33,7 @@
     "Eleventy",
     "11ty"
   ],
-  "homepage": "https://github.com/tannerdolby/eleventy-photo-gallery#readme",
+  "homepage": "https://scottjhunter.org",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",

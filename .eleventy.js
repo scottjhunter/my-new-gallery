@@ -6,6 +6,37 @@ const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = (eleventyConfig) => {
+  const toSlug = (value = "") => {
+    return value
+      .toString()
+      .replace(/[\'\u2019]/g, "")
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  };
+
+  const getPostTopics = (post = {}) => {
+    const excludedTags = new Set(["all", "posts", "post", "blog", "nav"]);
+    const rawTopics = Array.isArray(post?.data?.topics) ? post.data.topics : [];
+    const explicitTopics = rawTopics
+      .filter((topic) => typeof topic === "string")
+      .map((topic) => topic.trim())
+      .filter(Boolean);
+
+    const rawTags = Array.isArray(post?.data?.tags) ? post.data.tags : [];
+    const tagTopics = rawTags
+      .filter((tag) => typeof tag === "string")
+      .map((tag) => tag.trim())
+      .filter((tag) => tag && !excludedTags.has(tag.toLowerCase()));
+
+    const explicitTopic = typeof post?.data?.topic === "string"
+      ? post.data.topic.trim()
+      : "";
+
+    const topics = [...new Set([...explicitTopics, explicitTopic, ...tagTopics].filter(Boolean))];
+    return topics.length ? topics : ["General"];
+  };
 
   eleventyConfig.addPlugin(metagen);
   eleventyConfig.addPlugin(eleventyNavigation);
@@ -32,13 +63,37 @@ module.exports = (eleventyConfig) => {
 
   // Create a stable URL slug by removing apostrophes before slugifying
   eleventyConfig.addFilter("safeSlug", function (value = "") {
-    return value
-      .toString()
-      .replace(/['’]/g, "")
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
+    return toSlug(value);
+  });
+
+  eleventyConfig.addFilter("topicSlug", function (value = "") {
+    return toSlug(value);
+  });
+
+  eleventyConfig.addFilter("postTopics", function (post = {}) {
+    return getPostTopics(post);
+  });
+
+  eleventyConfig.addFilter("blogTopics", function (posts = []) {
+    const counts = new Map();
+
+    posts.forEach((post) => {
+      const topics = getPostTopics(post);
+      topics.forEach((topic) => {
+        counts.set(topic, (counts.get(topic) || 0) + 1);
+      });
+    });
+
+    return Array.from(counts.entries())
+      .map(([name, count]) => ({
+        name,
+        count,
+        slug: toSlug(name),
+      }))
+      .sort((a, b) => {
+        if (b.count !== a.count) return b.count - a.count;
+        return a.name.localeCompare(b.name);
+      });
   });
 
   // Create terser JS Minifier async filter (Nunjucks)

@@ -7,6 +7,11 @@ displayDate: March 22, 2026
 date: 2026-03-22
 tags:
   - posts
+topic: Language
+topics:
+  - Language
+  - Identity
+  - Consciousness
 layout: main.njk
 permalink: "/blog/code-switching-consciousness-and-the-selves-we-dont-know-were-wearing/"
 url: https://scottjhunter.org/blog/code-switching-consciousness-and-the-selves-we-dont-know-were-wearing/
@@ -109,3 +114,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

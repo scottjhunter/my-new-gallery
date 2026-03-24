@@ -7,6 +7,11 @@ displayDate: March 19, 2026
 date: 2026-03-19
 tags:
   - posts
+topic: Perception
+topics:
+  - Perception
+  - Cognition
+  - Consciousness
 layout: main.njk
 permalink: "/blog/what-your-eyes-dont-show-you/"
 url: https://scottjhunter.org/blog/what-your-eyes-dont-show-you/
@@ -123,3 +128,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

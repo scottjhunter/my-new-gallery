@@ -7,6 +7,11 @@ displayDate: February 28, 2026
 date: 2026-02-28
 tags:
   - posts
+topic: Health
+topics:
+  - Health
+  - Mind
+  - Consciousness
 layout: main.njk
 permalink: "/blog/this-too-shall-pass-in-theory/"
 url: https://scottjhunter.org/blog/this-too-shall-pass-in-theory/
@@ -65,3 +70,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

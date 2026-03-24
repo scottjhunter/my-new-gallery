@@ -15,15 +15,49 @@ layout: main.njk
 <div class="about-me-content">
   <h1>{{ heading }}</h1>
   <figure class="blog-page-image">
-    <img src="/images/blog2.png" alt="Blog banner image">
+    <img src="/images/blog.png" alt="Blog banner image">
   </figure>
+  <p class="blog-filter-status" aria-live="polite"></p>
   <ul class="blog-list">
     {% for post in collections.posts | reverse %}
-    <li class="blog-list-item">
+    {% set postTopics = post | postTopics %}
+    <li class="blog-list-item" data-topics="{% for topic in postTopics %}{{ topic | topicSlug }}{% if not loop.last %},{% endif %}{% endfor %}">
       <p class="blog-preview-date">{{ post.data.displayDate }}</p>
       <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
       <p>{{ post.data.excerpt }}</p>
+      <p class="blog-list-topics">
+        {% for topic in postTopics %}
+        <a href="/blog/?topic={{ topic | topicSlug }}">#{{ topic }}</a>{% if not loop.last %} <span aria-hidden="true"> </span> {% endif %}
+        {% endfor %}
+      </p>
     </li>
     {% endfor %}
   </ul>
 </div>
+
+<script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const topicSlug = params.get("topic");
+    if (!topicSlug) return;
+
+    const items = Array.from(document.querySelectorAll(".blog-list-item"));
+    let shown = 0;
+    items.forEach((item) => {
+      const topics = (item.dataset.topics || "").split(",").filter(Boolean);
+      const matches = topics.includes(topicSlug);
+      item.hidden = !matches;
+      if (matches) shown += 1;
+    });
+
+    const topicLink = document.querySelector(`.blog-sidebar-topic[data-topic-slug="${topicSlug}"]`);
+    const topicName = topicLink ? topicLink.dataset.topicName : topicSlug.replace(/-/g, " ");
+    if (topicLink) topicLink.setAttribute("aria-current", "page");
+
+    const allPostsLink = document.querySelector(".blog-sidebar-all");
+    if (allPostsLink) allPostsLink.removeAttribute("aria-current");
+
+    const status = document.querySelector(".blog-filter-status");
+    if (status) status.textContent = `Showing topic: ${topicName} (${shown})`;
+  })();
+</script>

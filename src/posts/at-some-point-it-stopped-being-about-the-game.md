@@ -7,6 +7,11 @@ displayDate: March 23, 2026
 date: 2026-03-23
 tags:
   - posts
+topic: Consciousness
+topics:
+  - Consciousness
+  - Practice
+  - Cognition
 layout: main.njk
 permalink: "/blog/at-some-point-it-stopped-being-about-the-game/"
 url: https://scottjhunter.org/blog/at-some-point-it-stopped-being-about-the-game/
@@ -18,6 +23,7 @@ cardType: summary_large_image
 <div class="about-me-content">
   <h1>{{ title }}</h1>
   <img src="/images/pool.png" alt="Pool table scene" style="width: 100%; height: auto; margin-bottom: 1em;">
+  <p style="font-style: italic; margin-top: -0.25em; margin-bottom: 1.25em;"><em>A different angle on a rolling topic, with typical bad English.</em></p>
 
   <p>I've been playing pool since 1996, and twice a week since January 2023. At some point, it stopped being about the game.</p>
 
@@ -75,3 +81,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

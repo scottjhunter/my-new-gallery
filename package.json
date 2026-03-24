@@ -13,8 +13,8 @@
     "build:sass": "sass src/_includes/sass:src/_includes/css",
     "watch:sass": "sass --watch src/_includes/sass:src/_includes/css",
     "debug": "DEBUG=* @11ty/eleventy",
-    "deploy:prod": "netlify deploy --prod --dir=_site --site=e5e7f184-38c8-4263-a3ac-9c8924d1378e",
-    "deploy:draft": "netlify deploy --dir=_site --site=e5e7f184-38c8-4263-a3ac-9c8924d1378e"
+    "deploy:prod": "npm run build && netlify deploy --prod --dir=_site --site=e5e7f184-38c8-4263-a3ac-9c8924d1378e",
+    "deploy:draft": "npm run build && netlify deploy --dir=_site --site=e5e7f184-38c8-4263-a3ac-9c8924d1378e"
   },
   "repository": {
     "type": "git",

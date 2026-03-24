@@ -7,6 +7,11 @@ displayDate: February 22, 2026
 date: 2026-02-22
 tags:
   - posts
+topic: Consciousness
+topics:
+  - Consciousness
+  - Psychology
+  - Creativity
 layout: main.njk
 permalink: "/blog/battle/"
 url: https://scottjhunter.org/blog/battle/
@@ -97,3 +102,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

@@ -1,5 +1,37 @@
 [
   {
+    "title": "Dawn in Taipei",
+    "date": "March 23, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "taipei.png",
+    "alt": "A dawn cityscape in Taipei with layered architecture and atmospheric morning light.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Hawker",
+    "date": "March 23, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "vendor.png",
+    "alt": "A portrait-style street scene centered on a market vendor in warm, cinematic light.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Towers and Fog",
+    "date": "March 23, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "towers.png",
+    "alt": "An architectural study of two towers with strong vertical lines and atmospheric contrast.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Doloma Portrait",
+    "date": "March 23, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "doloma.png",
+    "alt": "A stylized portrait titled Doloma with painterly detail and dramatic tone.",
+    "imgDir": "/images/"
+  },
+  {
     "title": "Cavapoo Portrait",
     "date": "March 22, 2026",
     "credit": "Scott Hunter (image) and ChatGPT (lighting only)",
@@ -176,14 +208,6 @@
     "imgDir": "/images/"
   },
   {
-    "title": "Man in the Classic Car",
-    "date": "July 18, 2025",
-    "credit": "Scott Hunter and Gemini",
-    "src": "east-end.jpg",
-    "alt": "A well-dressed man sitting on the front of a classic vintage car on a cobblestone street.",
-    "imgDir": "/images/"
-  },
-  {
     "title": "Woman with Red Hair",
     "date": "May 16, 2025",
     "credit": "Scott Hunter and Gemini",
@@ -192,27 +216,11 @@
     "imgDir": "/images/"
   },
   {
-    "title": "Viking Ship on the Shore",
-    "date": "April 11, 2025",
-    "credit": "Scott Hunter and Gemini",
-    "src": "ship.png",
-    "alt": "A Viking longship beached on a misty, rocky shore under a cloudy sky.",
-    "imgDir": "/images/"
-  },
-  {
     "title": "Android with a Tulip",
     "date": "February 14, 2025",
     "credit": "Scott Hunter and various",
     "src": "flower.png",
     "alt": "A dramatic portrait of a woman looking down at a single red tulip she is holding.",
-    "imgDir": "/images/"
-  },
-  {
-    "title": "Gorgon's Gaze",
-    "date": "January 17, 2025",
-    "credit": "Scott Hunter and various",
-    "src": "medusa.jpeg",
-    "alt": "A dark, artistic portrait of Medusa with snakes for hair, looking directly at the viewer.",
     "imgDir": "/images/"
   },
   {

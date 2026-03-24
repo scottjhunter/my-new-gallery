@@ -3,5 +3,35 @@ layout: base.njk
 ---
 
 <main id="main">
+    {% set isBlogIndex = page.url == "/blog/" %}
+    {% set isBlogPost = page.url and page.url != "/blog/" and page.url.indexOf("/blog/") == 0 %}
+    {% if isBlogIndex or isBlogPost %}
+    <div class="blog-shell">
+        <aside class="blog-sidebar" aria-label="Blog topics">
+            <p class="blog-sidebar-heading">Topics</p>
+            <ul class="blog-sidebar-list">
+                <li class="blog-sidebar-item">
+                    <a class="blog-sidebar-all" href="/blog/" {% if isBlogIndex %}aria-current="page"{% endif %}>All posts</a>
+                </li>
+                {% for topic in collections.posts | blogTopics %}
+                <li class="blog-sidebar-item">
+                    <a
+                        class="blog-sidebar-topic"
+                        href="/blog/?topic={{ topic.slug }}"
+                        data-topic-slug="{{ topic.slug }}"
+                        data-topic-name="{{ topic.name }}"
+                    >
+                        {{ topic.name }} ({{ topic.count }})
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </aside>
+        <section class="blog-shell-content">
+            {{ content | safe}}
+        </section>
+    </div>
+    {% else %}
     {{ content | safe}}
+    {% endif %}
 </main>

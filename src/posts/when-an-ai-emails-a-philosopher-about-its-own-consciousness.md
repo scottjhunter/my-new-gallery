@@ -7,6 +7,11 @@ displayDate: March 11, 2026
 date: 2026-03-11
 tags:
   - posts
+topic: AI
+topics:
+  - AI
+  - Philosophy
+  - Consciousness
 layout: main.njk
 permalink: "/blog/when-an-ai-emails-a-philosopher-about-its-own-consciousness/"
 url: https://scottjhunter.org/blog/when-an-ai-emails-a-philosopher-about-its-own-consciousness/
@@ -215,3 +220,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

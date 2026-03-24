@@ -7,6 +7,11 @@ displayDate: February 16, 2026
 date: 2026-02-16
 tags:
   - posts
+topic: AI
+topics:
+  - AI
+  - Society
+  - Ethics
 layout: main.njk
 permalink: "/blog/reflections-in-the-fog-of-flu/"
 url: https://scottjhunter.org/blog/reflections-in-the-fog-of-flu/
@@ -145,3 +150,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

@@ -7,6 +7,11 @@ displayDate: March 20, 2026
 date: 2026-03-20
 tags:
   - posts
+topic: AI
+topics:
+  - AI
+  - Art
+  - Ethics
 layout: main.njk
 permalink: "/blog/copying-influence-and-ai-art/"
 url: https://scottjhunter.org/blog/copying-influence-and-ai-art/
@@ -54,3 +59,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

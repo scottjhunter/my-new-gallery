@@ -7,6 +7,11 @@ displayDate: March 15, 2026
 date: 2026-03-15
 tags:
   - posts
+topic: Consciousness
+topics:
+  - Consciousness
+  - Pattern Recognition
+  - Philosophy
 layout: main.njk
 permalink: "/blog/the-many-scott-j-hunters/"
 url: https://scottjhunter.org/blog/the-many-scott-j-hunters/
@@ -65,3 +70,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

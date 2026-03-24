@@ -7,6 +7,12 @@ displayDate: March 16, 2026
 date: 2026-03-16
 tags:
   - posts
+topic: Art
+topics:
+  - Art
+  - AI
+  - Creativity
+  - Pattern Recognition
 layout: main.njk
 permalink: "/blog/abstract-art-patterns-and-ai/"
 url: https://scottjhunter.org/blog/abstract-art-patterns-and-ai/
@@ -87,3 +93,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

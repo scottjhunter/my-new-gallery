@@ -7,6 +7,11 @@ displayDate: March 8, 2026
 date: 2026-03-08
 tags:
   - posts
+topic: Language
+topics:
+  - Language
+  - Philosophy
+  - History
 layout: main.njk
 permalink: "/blog/the-paths-words-travel/"
 url: https://scottjhunter.org/blog/the-paths-words-travel/
@@ -81,3 +86,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

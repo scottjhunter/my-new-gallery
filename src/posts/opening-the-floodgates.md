@@ -7,6 +7,11 @@ displayDate: February 13, 2026
 date: 2026-02-13
 tags:
   - posts
+topic: AI
+topics:
+  - AI
+  - Creativity
+  - Consciousness
 layout: main.njk
 permalink: "/blog/opening-the-floodgates/"
 url: https://scottjhunter.org/blog/opening-the-floodgates/
@@ -41,3 +46,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

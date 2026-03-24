@@ -7,6 +7,11 @@ displayDate: March 4, 2026
 date: 2026-03-04
 tags:
   - posts
+topic: Art
+topics:
+  - Art
+  - History
+  - Philosophy
 layout: main.njk
 permalink: "/blog/turner-and-hilma-af-klint-painting-the-invisible/"
 url: https://scottjhunter.org/blog/turner-and-hilma-af-klint-painting-the-invisible/
@@ -67,3 +72,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

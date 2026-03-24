@@ -7,6 +7,11 @@ displayDate: March 3, 2026
 date: 2026-03-03
 tags:
   - posts
+topic: Pattern Recognition
+topics:
+  - Pattern Recognition
+  - AI
+  - Philosophy
 layout: main.njk
 permalink: "/blog/patterns/"
 url: https://scottjhunter.org/blog/patterns/
@@ -73,3 +78,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

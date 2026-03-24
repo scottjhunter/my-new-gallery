@@ -7,6 +7,11 @@ displayDate: March 12, 2026
 date: 2026-03-12
 tags:
   - posts
+topic: Cognition
+topics:
+  - Cognition
+  - Psychology
+  - Society
 layout: main.njk
 permalink: "/blog/cognitive-dissidents/"
 url: https://scottjhunter.org/blog/cognitive-dissidents/
@@ -45,3 +50,6 @@ cardType: summary_large_image
 
   <p class="post-meta">{{ displayDate }} - SJH</p>
 </div>
+
+
+

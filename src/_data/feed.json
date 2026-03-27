@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-27T02:13:03.418Z",
-  "generatedDisplay": "March 27, 2026 at 2:13 AM UTC",
+  "generatedAt": "2026-03-27T13:04:52.507Z",
+  "generatedDisplay": "March 27, 2026 at 1:04 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -72,12 +72,12 @@
         "artist integrates",
         "integrates portraiture"
       ],
-      "score": 74,
+      "score": 68,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Opinion",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOa0JCYWY2b2F5TmI1dVEwNTZUTE45OFhIcU4xbWNZOEJ4YjVlM09fcEVKX0Zsek9ReTJNQWh3eVFPQ1VEZ2NlSFVLSTFxa1pZTHpJN1RraUlTaDVVLXRrSHctWF9oQ3RzdXZOeW14UW5oVkhxLWprUFNFZGI5dk1HdmJUVnhCRi0xalB2czlLXzVRLUVrX2l0N0xmQ1ZKaU1wejVZSDZic21qLUJ1NzVLU0gzdjdmc2RRRXJZQzZpODhpWTg5RmpMNkg2V05IU3d0VXIydHpKcE5VRzBCN0tvWUM2cVpZTVI3OEpnZFBKUlpyNF9SNTRHeUtYVl9ZVHc0YnBrS2U2Z1UxSng0VzZpcXFZNGk3U3EtclBHVU50cVM0YW45d1F3clcyNjFKY1JIbERfLTE5YmwzZFIteURlbHMyQTZRWXdMQTJEdllRZjVIdTYtRWxXM0VjWVZBSmRrUnM5OElkODBwc04zaUVHaG1VSUxFUEgxcElReElRVWZtSEk5TXlhbndhZnpNVGZXMVZJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNUUQ1a3NjcGRzalQtb0dCNzk2MEU4YzFqeVhNRk9Gdno3c205Vm1rUFdpeC1hWGNHQVRGcURCSXk3WTdmN2dkODFMZF9JVEcyUTlseElZZ25RczNacUVTQ3R0Tk50cDNkYkFJQjBFYjB4STZuaFFtcmttOUZOVXRfbldINlNvSEdnTnllM2NBQzQ4VHZVcU91ci1lZmtZTDN0V1RrMk5nbjQ3YjVPUUpTMGxlZ1Z3MkdPNzJ2MEFQREdjeWJVdnlwaXpZZVVkc2s2SGxDOXZMMnJ2UFl6cC05Q3FxQS1jZjY4d1M1YmhFN3ZSRE91Vm1SYU1RUnZwZHlsNFdnZlVxelZONlZydG81M1ByUnpOemVERGE1cDlreHNuX2I2NXhQaVkwczg1LTU4RWxORVdzcmh6SjhOMVVBZHkwVlAzU2x6aXdqM0d5Y3JFbHdwY0ZXRXZ5SjBkazZMdEUxOTJxYWNtdkR0dWoyRzI4X3U3SDc4c3c0cVlfOTA3NUpvLWkyRWdQRGNsYV9PdTdF?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "WSJ",
       "publishedAt": "2026-03-25T16:46:00.000Z",
@@ -111,7 +111,7 @@
         "mechanisms treatments",
         "treatments disorders"
       ],
-      "score": 68,
+      "score": 62,
       "publishedDisplay": "March 24, 2026"
     },
     {
@@ -134,7 +134,7 @@
         "restore once",
         "once disordered"
       ],
-      "score": 68,
+      "score": 62,
       "publishedDisplay": "March 24, 2026"
     },
     {
@@ -154,7 +154,7 @@
       "bigrams": [
         "editorial cartoon"
       ],
-      "score": 64,
+      "score": 58,
       "publishedDisplay": "March 26, 2026"
     },
     {
@@ -224,6 +224,29 @@
         "heart seniors",
         "seniors dive",
         "dive business"
+      ],
+      "score": 58,
+      "publishedDisplay": "March 25, 2026"
+    },
+    {
+      "title": "Neural Dispatch: AI bubbles, slop and (lack of) ethics| Business News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZaSUc2TDVLLVVsakZtNWNVY291ZE95YnBoUHpMQnhCZFJ1UGVsMy1QOW9MWWgtQkw1UDZsNEtnTGRvQndqZ1YzR3FoVnVFa28zSVltTHZlNWNnY3k4YjFKWnZyMjBKUUtTNkhNb2o4MVJfZ2pxUV9HZVlWU2JscW9SRkRtMzZfTmhXbEEyckxDUEhPSjZLZjhnZThIQ0oyNGtPTjFBMVdIc2RrRmNqdA?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Hindustan Times",
+      "publishedAt": "2026-03-25T04:14:21.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "neural dispatch ai bubbles slop and lack of ethics business news",
+      "fingerprint": "bubbles|business|dispatch|ethics|lack|neural|news|slop",
+      "topicKey": "neural dispatch",
+      "bigrams": [
+        "neural dispatch",
+        "dispatch bubbles",
+        "bubbles slop",
+        "slop lack",
+        "business news"
       ],
       "score": 58,
       "publishedDisplay": "March 25, 2026"
@@ -324,56 +347,218 @@
       "publishedDisplay": "March 22, 2026"
     },
     {
-      "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY29DZjN5cEcwajdycDlTWHlOaktjUEZkZWhWMUU1dkNOOVRMblR6SHRHWE5DSFN6bXdyZEdZWE5UUG9aakhLbWM1WGhWMklTelh1aTQ3dlhmT1NtRVN5MFY4eHVGaFVidzVMb0ZjMEhFaVRHOE9zT3BzTmotXzNhbVl1MnpEa1A2eEtQdmZLeTdsNU1FUjZMc0xuS2dQQnQtMTFqRDNTVU9KcFpxWk8wbjIwRG9YTFFVYWdGdXRidUJSaFZIREpUdlB6YnBtQWE5SUpMcmh3?oc=5",
+      "title": "Subhash Ghai thanks Odisha's Sudarsan Pattnaik for his sand portrait; artist says it’s ‘AI-generated’. See viral post",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVXlseXBGbTZsNkMtbkxtdnFRMFhuN0d3TGxPMHQyWEpPZmZhUEZhS2Z1Qm5GS0liMV9ybDFZNzFHeFUwSVgzRkpiakpGajZ3SF9IS2FsNW9QRDNOZENzZDBGeThsblN2QWxhU3ZqZ0E0WjJya1VKRVU4Rl9pcjRTaThMNElaeFdZSmx1cVR1czc5U2tZUzhjYldZelczemgzVGE5ZFVVR1RXTlhzQ05LRU9IMGxETko1SG9lVmZfVlhIc0kyaWJ1V0lhQXlaOUp2VUM0c3FuWnBLdVRMVzVneG1wZ3NNNUJjZ1NIYmhBdG1IalpHZ3owd0gxVnhDZw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "The Malaysian Reserve",
-      "publishedAt": "2026-03-20T04:23:35.000Z",
+      "source": "Mint",
+      "publishedAt": "2026-03-27T12:41:16.000Z",
       "matchedTerms": [
         "ai",
-        "ethics",
         "art"
       ],
-      "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics",
-      "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land",
-      "topicKey": "chiayi international",
+      "titleKey": "subhash ghai thanks odisha s sudarsan pattnaik for his sand portrait artist says it s ai generated see viral post",
+      "fingerprint": "artist|generated|ghai|odisha|pattnaik|portrait|post|sand|subhash|sudarsan",
+      "topicKey": "subhash ghai",
       "bigrams": [
-        "chiayi international",
-        "international film",
-        "film festival",
-        "festival 2026",
-        "2026 global",
-        "global intersection",
-        "intersection land"
-      ],
-      "score": 52,
-      "publishedDisplay": "March 20, 2026"
-    },
-    {
-      "title": "NerdWallet Updates Code of Business Conduct to Address Artificial Intelligence and Ethics – March 2026",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQzlCRGxvbWY3cHViTFJvejR6MmM0bHVNc0lIS3J5NlJIS1lzdE1uUkdneTZuWVVuMjdJODBmRDV4NFhKVVlYZUhZTGVWSk1EQzJpVnZXQ1RrblBGZ3p0UDd1bmRJUGttT3NoYTVOMWl2RFI1YkxudTBvLUZHcmlJOThrZ1NiQURsZ0p0YzIyZHZtam9NZ2pJc0Q2ZHF6bUlMTGpOZjFVOFh6STlIcm5HeWo4QjZhLTRNNllYd3JWN0k4ZFd5WlY1bnRRTVFzX2F4Tmh5aXZ3UHA?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Minichart",
-      "publishedAt": "2026-03-27T00:09:00.000Z",
-      "matchedTerms": [
-        "ethics",
-        "art"
-      ],
-      "titleKey": "nerdwallet updates code of business conduct to address artificial intelligence and ethics march 2026",
-      "fingerprint": "2026|address|artificial|business|code|conduct|ethics|intelligence|march|nerdwallet",
-      "topicKey": "nerdwallet updates",
-      "bigrams": [
-        "nerdwallet updates",
-        "updates code",
-        "code business",
-        "business conduct",
-        "conduct address",
-        "address artificial",
-        "artificial intelligence",
-        "march 2026"
+        "subhash ghai",
+        "ghai thanks",
+        "thanks odisha",
+        "odisha sudarsan",
+        "sudarsan pattnaik",
+        "pattnaik sand",
+        "sand portrait",
+        "portrait artist",
+        "artist generated",
+        "generated viral",
+        "viral post"
       ],
       "score": 50,
       "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Board game publisher Awaken Realms addresses yet another AI art scandal",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FVzQ2YW9XQlhNZnJhNWY5UmJJYlNEckhScGtpeEhkNEl3Ylo1UmJFbHBHRmNCYXBGaUo5Z2NNTWRBX0F3Z19nV01GWVNZZmVIcFdLdEVDWWtjVnBkbnVJWlluUQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "wargamer.com",
+      "publishedAt": "2026-03-27T12:39:56.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "board game publisher awaken realms addresses yet another ai art scandal",
+      "fingerprint": "addresses|another|awaken|board|game|publisher|realms|scandal",
+      "topicKey": "board game",
+      "bigrams": [
+        "board game",
+        "game publisher",
+        "publisher awaken",
+        "awaken realms",
+        "realms addresses",
+        "addresses another",
+        "another scandal"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Art Basel Hong Kong: See a millionaire AI artist at work",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzV1RPR1dkU3V4a2hKb0tHRnRzVXp4Mm16M1hQTURhZU9WTzhRVDgxdVVlQWFLYnowcXUtOXFZekNwZGJ3V1ZCcVQ1SE5WZElocnZpMzdVcXo1d0RzWW8tOVhudnFnYmdTUFg1SVpCanMySTB4UTRGNmU3cw?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "CNN",
+      "publishedAt": "2026-03-27T11:05:05.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "art basel hong kong see a millionaire ai artist at work",
+      "fingerprint": "artist|basel|hong|kong|millionaire|work",
+      "topicKey": "basel hong",
+      "bigrams": [
+        "basel hong",
+        "hong kong",
+        "kong millionaire",
+        "millionaire artist",
+        "artist work"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Globethics Emerging Leaders in Ethical AI Governance Fellowship 2026",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlZEWnQ5ZmtlOTZQWEdxZzI1eXYzVS1weXVjZVcwOEJleHpVOEdKaGE3SXRCN1FWelpqVVRDRWh2cldieU9QUGM5cWp4MWxBYUd1aEJhOVJKZi1MZmlrUk92Q3lGYlBZNnBKcmJCS2E4dzJGVUVpbUhTV09ITGRCOEt1OFFtbmZBVl9ON2l4VW1jT1hFZTR1SV82aW40OW5zUWo0MnNrME10dHpt?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Opportunity Desk",
+      "publishedAt": "2026-03-27T10:59:55.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "globethics emerging leaders in ethical ai governance fellowship 2026",
+      "fingerprint": "2026|emerging|ethical|fellowship|globethics|governance|leaders",
+      "topicKey": "globethics emerging",
+      "bigrams": [
+        "globethics emerging",
+        "emerging leaders",
+        "leaders ethical",
+        "ethical governance",
+        "governance fellowship",
+        "fellowship 2026"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Shekhar Natarajan Proposes New AI Paradigm Focused on Trust, Ethics, and Long-Term Impact",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQM3JDRHVVUEpVUEpIZl9hUER6bG5NaWRXVERnQS1HTVNRdkZ2TFB1Wmdkem1PN3YxZFRRX0lzUEttbVFyei1VT1BaZW9YR0Robk5Nb2ZwaVNBTG4zZnpVLWd4S1Y5NDBjbXp6ZUszQ25nazVTeHNfMV9MNWVjWkVsTEVKcmY2aWJBRW9hSmZLSUR1U3pGWGJCSV9PUlcyNUFQeUxjSWRBWkFfbTN3bWNBQXhELTZXTU54bUdVek0yR00xaXNJNzdJSDdhZ25wSkszOGNqZWdsT0hldEh3dDFTYUpjWVlqWlU4ZHlPWDJnV19aci1jdmlr?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "FinancialContent",
+      "publishedAt": "2026-03-27T10:30:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "shekhar natarajan proposes new ai paradigm focused on trust ethics and long term impact",
+      "fingerprint": "ethics|focused|impact|long|natarajan|paradigm|proposes|shekhar|term|trust",
+      "topicKey": "shekhar natarajan",
+      "bigrams": [
+        "shekhar natarajan",
+        "natarajan proposes",
+        "proposes paradigm",
+        "paradigm focused",
+        "focused trust",
+        "long term",
+        "term impact"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "AI artist Botto transformed visitors into surreal digital portraits at Art Basel Hong Kong",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11bFNVdWJTbU41a1dUbWtQTVUtSzBubW5jcnJWNFFicUU2a2FWT2F0cTRXbGo0dy12Tm1oV0NhclRoZmNCc1pJQkhUakhYa2oxVmJmU1lxTQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "mezha.net",
+      "publishedAt": "2026-03-27T10:05:22.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "ai artist botto transformed visitors into surreal digital portraits at art basel hong kong",
+      "fingerprint": "artist|basel|botto|digital|hong|kong|portraits|surreal|transformed|visitors",
+      "topicKey": "artist botto",
+      "bigrams": [
+        "artist botto",
+        "botto transformed",
+        "transformed visitors",
+        "visitors surreal",
+        "surreal digital",
+        "digital portraits",
+        "portraits basel",
+        "basel hong",
+        "hong kong"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Meet Botto: The AI-artist who has already made millions",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOHNXeE51MmdJdUpROHRldTc2TnlzN1F5WnZTYlJRQncyZzRJVXJfcGJzeDRxSnZIS3hqRG9PZEx4bEs2M0NEVnRadmJvSlpNam5Xb181dWdUZjh4MTVjUUk5MXUtTVF2b1NIYTh3eGtBaXV1UkdmMzNrd3dIS3daSGdUbDVxcWFIQ0sybXI2VlM2R2h1RnJHaDZ1WDRPbGZ2d1dIQXdSWdIBrAFBVV95cUxNM3FYeVdTUWJFWjFxZkdQRUlYaXBTS1RibzlURTc1UmN6OFZnSlBpeFN3bVNxNHFoZmVHSFZDLXBvMVQ3Q19pV1hGLWgtbWJkc0tJZG5ZRkF5WndLcVY5ZlFkVHRMZGpxLU1mMFJ4Y0phUjJTcGpyS3dhQ0RnNTRJNm5ZS3c1VHR2Z3lCNHhEdTRKRm1hUFV0UVJpVUhuYk9EMWZXa3ZNVmtMS2xQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Firstpost",
+      "publishedAt": "2026-03-27T08:20:03.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "meet botto the ai artist who has already made millions",
+      "fingerprint": "already|artist|botto|made|meet|millions",
+      "topicKey": "meet botto",
+      "bigrams": [
+        "meet botto",
+        "botto artist",
+        "artist already",
+        "already made",
+        "made millions"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Watch: AI, Ethics and Animals with Prof Peter Singer",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajlNRmRSeWozMzc0SVlpdndjZlowa3BETF9FRm9oeF80SnhjNzQycjd6SmpQeE1JUGNTV2dtcVpCbkt1dHVBMmFkS2VVUUYtamlqSEF6eUZCSnRnWFVZNkhLeklZR2hwTV9UR3M1ZkZQcWFES2ZENEMweUVmTlRKOEZKVF8ycFpDXzFtQzZiR2NvZw?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Melbourne Law School",
+      "publishedAt": "2026-03-27T03:47:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "watch ai ethics and animals with prof peter singer",
+      "fingerprint": "animals|ethics|peter|prof|singer|watch",
+      "topicKey": "watch animals",
+      "bigrams": [
+        "animals prof",
+        "prof peter",
+        "peter singer"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "AI as a Consciousness Interface",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lQ0xPTkRVZlJNaVlfNW5GaTFERVVGUnY1RTlIRjB3a2tWc0ltRm1uU081a0o1cGRJeHZWbjlpZ0s4YWE1MjZITzNva1lndUdUOXVFVnRpN3F2ME5PQ2VNTkZPV09ZQ0szeno3X3BiRE1SQzNZaTBYUDMwU3ZSQTg?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "SUCCESS Magazine",
+      "publishedAt": "2026-03-26T22:19:09.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "ai as a consciousness interface",
+      "fingerprint": "consciousness|interface",
+      "topicKey": "interface",
+      "bigrams": [],
+      "score": 50,
+      "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Trend Monitor: Can AI make art?",
@@ -423,33 +608,9 @@
       "publishedDisplay": "March 26, 2026"
     },
     {
-      "title": "Labor split over renewed push for AI to be able to harvest Australian art",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeTdiMTk2cks1NFZPNHdPTi1kM3NpYkliOHBxdE02dmFuLVRwNGY1Z2VFRE41SjJBNl9YMVZ3UHp6SEs1elBQLUxaWm0yb2FEZGNSQWgzRHlqMXBweTZISXloQnZCd2xjU3gtZGpHbVZOTU93b0xvaXBKSDZpZWJRbndpbEFybk1QTUQ1cU9wNGt0dXRXNGFMc2FycEw3SnNzRzFrNXpMamRvU0FIc29wZHYyb3phMEtZMGJEd3Z5YkhoNm9JVHk4QlVwLWZxYnM?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "SMH.com.au",
-      "publishedAt": "2026-03-26T18:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "labor split over renewed push for ai to be able to harvest australian art",
-      "fingerprint": "able|australian|harvest|labor|push|renewed|split",
-      "topicKey": "labor split",
-      "bigrams": [
-        "labor split",
-        "split renewed",
-        "renewed push",
-        "push able",
-        "able harvest",
-        "harvest australian"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 26, 2026"
-    },
-    {
       "title": "Pragmata's devs created human-made AI slop to mimic the 'uncanny feel' of LLM art",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGpPOUlWRV9DU0ZXVEg4WWoxS2VVVHVCb3ZWN1poUXN4SFJJdFJNMkw2RGlqY0RkOGVlSFNaeVNnUlFKek5BUWItcFQ2Y2Vtc0Vpd3B4enRYeGtyempSYkZuaVU4RUxzamI1VmJvWlpWdm1NanVSVlEtLVB2NzJraW1Hc3pkN1d5S3h2YXJPdjY1X0NLZEdGSnBoejhMd19XamE3Y2NPWENfY1pDMjBUZVlTUnVOaGs?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Pragmata's devs created human-made AI slop to mimic the 'uncanny feel' of LLM art.",
       "source": "PC Gamer",
       "publishedAt": "2026-03-26T17:26:20.000Z",
       "matchedTerms": [
@@ -475,7 +636,7 @@
     {
       "title": "Exploring the Ethics of AI",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sWUUtSElqekdOaV94SC1MZnFiVHBIdkwyYVhzRzFvRVpTM3huNVpLaXdSY1pTdjBnR2tUaEsyQlcwcTNheDhacWVxU2tkWFE4bU00dTZZdEVoNXZTNDlvSVlxU3EyZw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Exploring the Ethics of AI.",
       "source": "Door County Pulse",
       "publishedAt": "2026-03-26T17:00:00.000Z",
       "matchedTerms": [
@@ -492,7 +653,7 @@
     {
       "title": "What The AI Consciousness Question Conceals",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kUVBUTi01UnhtRmRmRlV3eDBENEVpTGVvWFpoTTcycG42bV80M0FyZmI2UmN0TWRXQjNrWHZtMzZDUUwwR1BsbnhvMlV1NVdKQkd6bkktcnpGU3FGRHBMdFdZNVF5Tjl4Q3RFbmRmYTlNaGc0dllV?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Breaks down what The AI Consciousness Question Conceals.",
       "source": "Noema Magazine",
       "publishedAt": "2026-03-26T13:47:01.000Z",
       "matchedTerms": [
@@ -511,7 +672,7 @@
     {
       "title": "AI in the Music Industry: Art or Slop?",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU1R3dlBmTW53dldCRlZxVHByc3VpM2FFdTV3T0ZBcjNWZjBfVVY5TDNQek9ocFZ3SFltdGxacV80cHV5WUhjWjRTSUN4SkZoSW1ocUJfRlk1UEh2NUhoT2pfRFpJaVVyNHV3WXBZVi1qU1lXQzA0ek1lRnpNcFlNc0tR?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "AI in the Music Industry: Art or Slop?.",
       "source": "The College Voice",
       "publishedAt": "2026-03-26T12:14:10.000Z",
       "matchedTerms": [
@@ -525,13 +686,13 @@
         "music industry",
         "industry slop"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Recap: AI Ethics & Networking in London",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOW9BN1p5RmFtbjRkXzJzMmNDYzdzcS03TXRtNFpfWmZpdFJYemcyOXgxRDR2Mk0wRGJHV19Eb3M2dkhQN3R6a0pmdkFWeG5YeWY5Q0k1WFRndFh5dHR4X3VLVnhDazBURFY0b3MtRExsMWdiUjJSRnZibk9BMndYak5YbER4dm1BRzB3?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Recap: AI Ethics & Networking in London.",
       "source": "Technische Universiteit Delft",
       "publishedAt": "2026-03-26T10:43:58.000Z",
       "matchedTerms": [
@@ -544,13 +705,13 @@
       "bigrams": [
         "networking london"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "AI’s growing role in creativity: Winkler's art community weighs in",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWdqbUlrX1RKWGhVSFQyMGtsMnFLbU5rSWstWENQN2Q0Rnh2cWdUR0kzRGU2S3A4OGZtaDFJVWlhVU84eldSN2ZYRnZDQzJWVlJtcWxVYlJCYk1BSDBHUGp5ZTA1ekJoSHV1bmY2UDRjdUVwRzFkUUNyU2VLTzJWSEJMUmdQOC1VYkVoZzVza3V3V29BR3pfajh5Rjh6X3BnZ0tfemtkUQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "AI’s growing role in creativity: Winkler's art community weighs in.",
       "source": "PembinaValleyOnline",
       "publishedAt": "2026-03-26T10:05:55.000Z",
       "matchedTerms": [
@@ -567,13 +728,13 @@
         "winkler community",
         "community weighs"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Physical Education: Commercial Artists Don’t Fear AI … Yet",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONU8waTRESVRsczB4OVlSZThtcFp4ZGJ1cDBvRjBJSFhwVFRBVFIwMFY4TDZlc1lONkJMV1hXdzI2blNTNm9NcDRSNjhPODI5MzJTM1VrNHRCaXZnaG9xTlk2a2dzWGVBUTluclRqZG1BR1JSMXlSRG43aE16dDVhcmlyX3ExVmd4Q0REZHEzRE04Z0hSd0p2YjJlQTJBcUV6Sk5uR2M1a0ZNQVpmYW9TZFp5bzNXcDVTR19qa0UzVml2dEJYaU5vQVRCM3YxbzZwSjJF?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Physical Education: Commercial Artists Don’t Fear AI … Yet.",
       "source": "Nashville Scene",
       "publishedAt": "2026-03-26T10:00:00.000Z",
       "matchedTerms": [
@@ -589,49 +750,30 @@
         "commercial artists",
         "artists fear"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
-      "title": "New USC Institute on Ethics and Trust in Computing hosts inaugural AI summit",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSm1MdGljTC1wTUM2Ui1SY005LWwzeUxRSTVkY2RxLU9NQVRGQ3lDNk9Tb2NGcWFmTXNCcFV1ZE5IOXFQQ0hLRE5FYWQxOURxUXBWdWh6WHZldGY5V0dWOWVWVWxqOHZvMjc4SXc0WUkzdkJSMUVLdkR5cnZiTTN2bEhYRG5yR2VfVkJNNFFmQzM1V0J1WGtTUDRGMXZMYWZmcU1RN0NLZTI0ZVdOdy1yMGJqSjZtZw?oc=5",
-      "summary": "New USC Institute on Ethics and Trust in Computing hosts inaugural AI summit.",
-      "source": "USC Dornsife",
-      "publishedAt": "2026-03-26T02:14:20.000Z",
+      "title": "Richmond Integrates AI Across the Liberal Arts",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORXd0MlFZalp2aElJdnJpOHJEQUU4U1pja01yQVdleTVRYVViYlF0WnFRa3UtVDdKOTgzRm1NWGlaLUU2N1JIdjBmVGM1TUcwdEdNeFNfV05oSmtyWXZ3aGJFbXJnTXhwaGZ2M1dNa2R2cEJXUkU1LXJVQlVseFBySzd4YVRqNlhIUFI0ZEtrdGxHdm9CZVZEdUlwN0RXNVl4TVVia21NdUhGYjhaWm9WcEpreW1aZHFnTEh3?oc=5",
+      "summary": "Richmond Integrates AI Across the Liberal Arts.",
+      "source": "Inside Higher Ed",
+      "publishedAt": "2026-03-26T09:09:22.000Z",
       "matchedTerms": [
         "ai",
-        "ethics"
+        "art"
       ],
-      "titleKey": "new usc institute on ethics and trust in computing hosts inaugural ai summit",
-      "fingerprint": "computing|ethics|hosts|inaugural|institute|summit|trust",
-      "topicKey": "institute trust",
+      "titleKey": "richmond integrates ai across the liberal arts",
+      "fingerprint": "across|arts|integrates|liberal|richmond",
+      "topicKey": "richmond integrates",
       "bigrams": [
-        "trust computing",
-        "computing hosts",
-        "hosts inaugural",
-        "inaugural summit"
+        "richmond integrates",
+        "integrates across",
+        "across liberal",
+        "liberal arts"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
-    },
-    {
-      "title": "Human Consciousness In The Age Of AI: The Last Frontier",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNak9LM3pWLVBGMnZ4VzBhb1dkOGhtZ25kZXRBRVJQNHVUbl9VNGs5R2l2OTFXNVlMSVp0WXRSLXFPRVpsbnZsMm84Zmp1VllXUi1EMkZ6cE4tYUM3ems5OEJjXzBpVXZya1dNMGRiaEJWM3lEOHBJOG9QcVJ2dTlPM3JocDNtVnBVRXFHZkNaNlNfVXFSSHhHNDd0M3VpZWY1MUVlVmNHLW4wZzhh?oc=5",
-      "summary": "Human Consciousness In The Age Of AI: The Last Frontier.",
-      "source": "Forbes",
-      "publishedAt": "2026-03-17T11:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness"
-      ],
-      "titleKey": "human consciousness in the age of ai the last frontier",
-      "fingerprint": "consciousness|frontier|human|last",
-      "topicKey": "human last",
-      "bigrams": [
-        "last frontier"
-      ],
-      "score": 46,
-      "publishedDisplay": "March 17, 2026"
     },
     {
       "title": "The Globethics’ Emerging Leaders in Ethical AI Governance Fellowship 2026 for early-career professionals (Funded stay in Geneva, Switzerland)",
@@ -758,6 +900,31 @@
       "publishedDisplay": "March 25, 2026"
     },
     {
+      "title": "Timbaland’s AI artist TaTa Taktumi signs with Ne-Yo’s Pacific Music Group",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXVkSGhhbHRUQkxRUkZ6YlJ4RTYyaWpmLWRLWFlMaHpEbjFjbGRjeU9LUDZESXlmVFFJY3MzUmZqUVRvMUFjRjlxRnhIREhzMVpJZ210Zjl0WXZKbTBPaWZhaEdUZllQWUt5ZHZrbExER0pLQ183LU9rQ3lfZU5IQi01dVBGdEtDcWxhd1BCeFVNdnl0V2pzVUp1UF8wYVVaYkxzWWxtSGJQTzg3Ml90ag?oc=5",
+      "summary": "Timbaland’s AI artist TaTa Taktumi signs with Ne-Yo’s Pacific Music Group.",
+      "source": "Music Business Worldwide",
+      "publishedAt": "2026-03-25T13:24:17.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "timbaland s ai artist tata taktumi signs with ne yo s pacific music group",
+      "fingerprint": "artist|group|music|pacific|signs|taktumi|tata|timbaland",
+      "topicKey": "timbaland artist",
+      "bigrams": [
+        "timbaland artist",
+        "artist tata",
+        "tata taktumi",
+        "taktumi signs",
+        "signs pacific",
+        "pacific music",
+        "music group"
+      ],
+      "score": 44,
+      "publishedDisplay": "March 25, 2026"
+    },
+    {
       "title": "We're All Flailing With AI: I Tried Art That Pokes Back at the Chaos",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMVhlcjBDanhnXy1UbzVBellPYjl5OXp1dnd1TXp4NURvRDRNd3k1NnpGSGlDTnRmMDM3Uk56ekF1cHQ4WXcwSU5LOUxLZWl4eFF5eHRPSElSb1J1TkpuTG04MzhlX2V1ZThmQkJ5LU5Ga1pPZ1NTSDdpWUh0MW92UVNOWnlkeXUyVEczWXNLR1R0UQ?oc=5",
       "summary": "We're All Flailing With AI: I Tried Art That Pokes Back at the Chaos.",
@@ -811,173 +978,6 @@
       ],
       "score": 44,
       "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "This artist’s work has been shown at MoMA. Now it’s training AI",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVVNYdUdkMUgyeUo0eWVlNEtnVElhOTIxcXJ2T1VIUE1JSW9kakllbDV2VnZoaFdXZnV6Y1Z4TWktUjR2dFJkQnhHVmhGaVZCNXpLWlYxOUZobFVhaHU4Rm91YjFzcFNlbGdVZEFlNEI0UDNlcDRvcTZtLVp3cGJfT1U4SQ?oc=5",
-      "summary": "This artist’s work has been shown at MoMA. Now it’s training AI.",
-      "source": "Fast Company",
-      "publishedAt": "2026-03-25T10:05:13.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "this artist s work has been shown at moma now it s training ai",
-      "fingerprint": "artist|been|moma|shown|training|work",
-      "topicKey": "artist work",
-      "bigrams": [
-        "artist work",
-        "work been",
-        "been shown",
-        "shown moma",
-        "moma training"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Mysticism meets art in 'Ekaa-The One' exhibition",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNZmp4MHR4WWw4dFZKLWNCVmtfV3ZxLTRzYzZRRWJZVkZSMXk3OHEyNFZBQ1hvVGJTOUVoUHB1Z0RoS19ZWHRSVE1Pd0dMZWI1LWtDZmE5SkI5bEhGdkNPR2o2c3FYc2dVM1ZzQzRuaUFCWmNzWG1FWDA1V1o3YXRwbHdpNGgxMG90UV9CMGlid2JFQ2ZOWUl5Y0dpX01lLWh5dVIzdFdZWnlNd3Z6T2ExekEtTy1OcFVZT1diQ1BIZHlSNUhCREwySFJPMk1lLWt3VkktNmU4QUZVZnlwS2FXMC1fcFN1dThtbldYaFZMaW1ad1ZKbUVLT3F4cjY1eVBfcmpMbnZPNkEwTTZfZFZZUWdtM01laHZYajFFanloYTFHSWJ5OVI4SUpTdGEyUlVkV2c?oc=5",
-      "summary": "Mysticism meets art in 'Ekaa-The One' exhibition.",
-      "source": "MSN",
-      "publishedAt": "2026-03-25T09:30:42.000Z",
-      "matchedTerms": [
-        "art",
-        "mysticism"
-      ],
-      "titleKey": "mysticism meets art in ekaa the one exhibition",
-      "fingerprint": "ekaa|exhibition|meets|mysticism",
-      "topicKey": "meets ekaa",
-      "bigrams": [
-        "meets ekaa",
-        "ekaa exhibition"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Why AI Will Never Replace Human-Created Art",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sWHBsdV8ybnFqZjlmWXBKZUdPTmtsUnRtUzRlalNiajVCaEZQT0RNc1puckxfanYyWEFXNXlES0ViaG1wMDZtMmRaamg4clZtaWFHWXNmUXZKa0J0M1NPT3pGZU5MMGQyNmU1UUl0amtIbVZXblE?oc=5",
-      "summary": "Looks at why AI Will Never Replace Human-Created Art.",
-      "source": "vocal.media",
-      "publishedAt": "2026-03-24T21:26:16.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "why ai will never replace human created art",
-      "fingerprint": "created|human|never|replace|will",
-      "topicKey": "will never",
-      "bigrams": [
-        "will never",
-        "never replace",
-        "replace human",
-        "human created"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 24, 2026"
-    },
-    {
-      "title": "Ethan Hawke beautifully explains why AI art can’t replace imperfect human creativity",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT0JzRWM5TzFuTFdZc1N3X1Z1TzZzRHp5WXhpWE1rS2U0VkVWdFpvSXRrOTM0SlZUTG1sNE5jS2t6c3BDNlhlMmRta2ZlYlpDelhxMk1GRWpDc1ZVSHdpS1BZTUhkWnkzQjVTcmxmQUlIM0liR1N2aFV1SUVZc0pEZlctWEhFUkRRZWpXaTNLR0lBOGNqN2RhOTFsNzlyaVNST0hjRldLT3pNWUl1dXc?oc=5",
-      "summary": "Ethan Hawke beautifully explains why AI art can’t replace imperfect human creativity.",
-      "source": "Upworthy",
-      "publishedAt": "2026-03-24T20:34:52.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "ethan hawke beautifully explains why ai art can t replace imperfect human creativity",
-      "fingerprint": "beautifully|creativity|ethan|explains|hawke|human|imperfect|replace",
-      "topicKey": "ethan hawke",
-      "bigrams": [
-        "ethan hawke",
-        "hawke beautifully",
-        "beautifully explains",
-        "explains replace",
-        "replace imperfect",
-        "imperfect human",
-        "human creativity"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 24, 2026"
-    },
-    {
-      "title": "'We’ve made protecting artist identity a top priority for 2026’ — Spotify takes a first big step in combating AI, letting artists approve what music appears on their profile",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdThNRmpkR2swNElmdjlQZFQ2eTV2dTJkd2syeEhzOVctZEtidXg0Y0tvYXBKZVlEOWZtQWprU1BESUJNT0ZFdmpSVnZpSmY2MTFiOEVnUVBiV2ZWeGt1MkRDOGhsR1RQMTBFLWxRMnhzOWJHZi0yNDBjYTJiTFVlOWJfblFNVWFkb19BZWdERzVJd3dLX2lfTG9MYmQxNmJtbkNCNGFobzVGNXJnYWo1NFZzMlNqZXl1SmxxaDdIbi1PWWZFeTJwNFp0QVVYX19xY1J5QWZzcC1UcVJFYUhWRE1SeUp0UnB5TnplNVZ3Slhab2ZFcGlhbw?oc=5",
-      "summary": "'We’ve made protecting artist identity a top priority for 2026’ — Spotify takes a first big step in combating AI, letting artists approve what music appears on their...",
-      "source": "TechRadar",
-      "publishedAt": "2026-03-24T15:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "we ve made protecting artist identity a top priority for 2026 spotify takes a first big step in combating ai letting artists approve what music appears on their profile",
-      "fingerprint": "2026|appears|approve|artist|artists|combating|first|identity|letting|made",
-      "topicKey": "made protecting",
-      "bigrams": [
-        "made protecting",
-        "protecting artist",
-        "artist identity",
-        "identity priority",
-        "priority 2026",
-        "2026 spotify",
-        "spotify takes",
-        "takes first",
-        "first step",
-        "step combating",
-        "combating letting",
-        "letting artists",
-        "artists approve",
-        "approve music",
-        "music appears",
-        "appears their",
-        "their profile"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 24, 2026"
-    },
-    {
-      "title": "AI Art Exhibition at Rice Examines Image-Making",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82T0U4elRhLUwyQWlSRHdNT25RWFlKLTdjVWo3OFJJcHhsdk5FQnJQZWcyVzdnWGJ2SG9INnBRenVUSDNBTnc1UEhuSjJjQ2E2ZVV2dWVpQTV2TGhfcC1pS0NJMlZQQlRTOUtwRndMbmp0NzBJWFNQaExTS3pMbk0?oc=5",
-      "summary": "AI Art Exhibition at Rice Examines Image-Making.",
-      "source": "Culture.org",
-      "publishedAt": "2026-03-24T07:29:42.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "ai art exhibition at rice examines image making",
-      "fingerprint": "examines|exhibition|image|making|rice",
-      "topicKey": "exhibition rice",
-      "bigrams": [
-        "exhibition rice",
-        "rice examines",
-        "examines image",
-        "image making"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 24, 2026"
-    },
-    {
-      "title": "Is There an Ethical Path for AI Art?",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83NGVQajBpaTA1clQ1Y3VQMnFDRjVNNGxMUXM1dy12dVFqYmp4VmRMLURSbkdKVVBMZHdVMThPa0g4WlF2Wllnb3p4WEVHdkNKUmdtXy1UZzFfeWtNV2dsOHBuTlVGVzdLdmhjb0RMaw?oc=5",
-      "summary": "Examines whether is There an Ethical Path for AI Art?.",
-      "source": "Hyperallergic",
-      "publishedAt": "2026-03-23T21:38:40.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "is there an ethical path for ai art",
-      "fingerprint": "ethical|path|there",
-      "topicKey": "there ethical",
-      "bigrams": [
-        "there ethical",
-        "ethical path"
-      ],
-      "score": 38,
-      "publishedDisplay": "March 23, 2026"
     }
   ]
 }

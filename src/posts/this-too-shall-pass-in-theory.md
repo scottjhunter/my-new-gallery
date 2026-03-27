@@ -10,7 +10,7 @@ tags:
 topic: Health
 topics:
   - Health
-  - Mind
+  - Cognition
   - Consciousness
 layout: main.njk
 permalink: "/blog/this-too-shall-pass-in-theory/"

@@ -50,6 +50,12 @@ layout: main.njk
       if (matches) shown += 1;
     });
 
+    if (shown === 0) {
+      items.forEach((item) => {
+        item.hidden = false;
+      });
+    }
+
     const topicLink = document.querySelector(`.blog-sidebar-topic[data-topic-slug="${topicSlug}"]`);
     const topicName = topicLink ? topicLink.dataset.topicName : topicSlug.replace(/-/g, " ");
     if (topicLink) topicLink.setAttribute("aria-current", "page");
@@ -58,6 +64,12 @@ layout: main.njk
     if (allPostsLink) allPostsLink.removeAttribute("aria-current");
 
     const status = document.querySelector(".blog-filter-status");
-    if (status) status.textContent = `Showing topic: ${topicName} (${shown})`;
+    if (status) {
+      if (shown === 0) {
+        status.textContent = `No posts found for topic: ${topicName}. Showing all posts.`;
+      } else {
+        status.textContent = `Showing topic: ${topicName} (${shown})`;
+      }
+    }
   })();
 </script>

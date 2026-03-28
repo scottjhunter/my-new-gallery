@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-27T13:04:52.507Z",
-  "generatedDisplay": "March 27, 2026 at 1:04 PM UTC",
+  "generatedAt": "2026-03-28T02:04:30.713Z",
+  "generatedDisplay": "March 28, 2026 at 2:04 AM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -56,6 +56,28 @@
   "failures": [],
   "items": [
     {
+      "title": "AI Ethics Frames Techno-Social Development And Decisions",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR1pVaEptNEF1NGNHLXFNbVRfYWhmQlNDOW9JZTAwcFJDdTNjX2twNXV5T2dNMThXUVQ0RjV1RXZ4NUk1MFAwT3FxV0V6LUFtVHV5Ry1JMFpqazd0ajNsUTcyMGFNa1E4VnBWSDhkaTM5b1JjOFVJMGptbWNkdEdNN1lIbWVnS281T18xQ2E1TF9Lc29XbVFHSFc3dEU1d0E?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Let's Data Science",
+      "publishedAt": "2026-03-28T00:34:02.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "ai ethics frames techno social development and decisions",
+      "fingerprint": "decisions|development|ethics|frames|social|techno",
+      "topicKey": "frames techno",
+      "bigrams": [
+        "frames techno",
+        "techno social",
+        "social development",
+        "development decisions"
+      ],
+      "score": 74,
+      "publishedDisplay": "March 28, 2026"
+    },
+    {
       "title": "Artist OLY.B Integrates AI Into Portraiture",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOajVrNG5ySHVRY0FqSWxFQWtkY2ZWWEJrM3pWM2pCT1ExNHduX1lhRFhfUmd3SFFVOWNXSzFuNVhJa3RKemI0TjNTOExQekthLS1PTGJEcjhRNHVzMEhrSEJMaElWU1I3MFFjY3hzMnh2WVJaLTJTdzFscmNfRWIzT3ZOWGE5b3FaTUs3RQ?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -77,7 +99,7 @@
     },
     {
       "title": "Opinion",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNUUQ1a3NjcGRzalQtb0dCNzk2MEU4YzFqeVhNRk9Gdno3c205Vm1rUFdpeC1hWGNHQVRGcURCSXk3WTdmN2dkODFMZF9JVEcyUTlseElZZ25RczNacUVTQ3R0Tk50cDNkYkFJQjBFYjB4STZuaFFtcmttOUZOVXRfbldINlNvSEdnTnllM2NBQzQ4VHZVcU91ci1lZmtZTDN0V1RrMk5nbjQ3YjVPUUpTMGxlZ1Z3MkdPNzJ2MEFQREdjeWJVdnlwaXpZZVVkc2s2SGxDOXZMMnJ2UFl6cC05Q3FxQS1jZjY4d1M1YmhFN3ZSRE91Vm1SYU1RUnZwZHlsNFdnZlVxelZONlZydG81M1ByUnpOemVERGE1cDlreHNuX2I2NXhQaVkwczg1LTU4RWxORVdzcmh6SjhOMVVBZHkwVlAzU2x6aXdqM0d5Y3JFbHdwY0ZXRXZ5SjBkazZMdEUxOTJxYWNtdkR0dWoyRzI4X3U3SDc4c3c0cVlfOTA3NUpvLWkyRWdQRGNsYV9PdTdF?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNS1B4V0xCVWh2QjRqVHlTQzFVZ0w4U3Z6dXR4MmJnVjRRZVFkWllqdEZoZ2lEWTMzLWRuS2FFeTlDSkVlUVhLdU5NNzNKSXdNNnF4Z0VwbTFDOWdOY0dBQlVFbUlmTDZkdUdhSUhsRnhyRXlPa3hZQ1hwb0prOFFuaE9uOWMtd2JCcVBNWUtRN3hiUVd0ZXFHQ1hJNkNiTXV3OW45OV9IT3BxbWJHTnNrMXFDNVZUT3VDOC1Idldva3NWTUVtNG5vendmV0c3UzFObUFrT1ZqVjFKNncyRW5YLWNOMjFsRDNPSG1DQVJWenpnN1dNZ2N3aEs3OUc3NGNENXVDYUM4TlZSWng5bWFxZXpZT25NRmR5YjhoamNGS1N5bm01TG5jQzllOWRtUGZiRVBadDdKazdiUENickg1Y3dGNXhST3lvSHZaTDVYUktfb3NnekkySVB6STlNZHhFRnFpbVljUGVhUWhrd3Bhak4xaWRab3d1UHVEaGx0ZmpzcXJ5OU54ejB0bW1VQmxDUHk0?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "WSJ",
       "publishedAt": "2026-03-25T16:46:00.000Z",
@@ -91,6 +113,75 @@
       "bigrams": [],
       "score": 68,
       "publishedDisplay": "March 25, 2026"
+    },
+    {
+      "title": "Swalwell Pitched AI Startup to Fellow Dem Lawmakers in Possible Violation of House Ethics Rules: Report",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPejBXS2o5RnFWRWFsR05XckIzUUpXMmFLaEs0aVFtS3dFblBUMmp6Q3hmVHpYd29jZTFsWU41NkV0cUpkRWEtT1drYy0weWQ1a18wRllNZ2Z0TEhpQXVESXpTMW1HbUZzeEw2ODJaQ0s2amVDRjMyczVlWGtRUWRkLUMzd3FZV2t6X1pucjJxcUNNV1FRMmUtTC1fcFpuSGRkUkNubzl2QmZ0cXR5REVKeE1vVGhWMENzSUtqQ2NQQ0xUY05JMmc?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "freebeacon.com",
+      "publishedAt": "2026-03-27T16:52:40.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics",
+        "art"
+      ],
+      "titleKey": "swalwell pitched ai startup to fellow dem lawmakers in possible violation of house ethics rules report",
+      "fingerprint": "ethics|fellow|house|lawmakers|pitched|possible|report|rules|startup|swalwell",
+      "topicKey": "swalwell pitched",
+      "bigrams": [
+        "swalwell pitched",
+        "pitched startup",
+        "startup fellow",
+        "fellow lawmakers",
+        "lawmakers possible",
+        "possible violation",
+        "violation house",
+        "rules report"
+      ],
+      "score": 64,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "AI artist at Art Basel Hong Kong is making millions",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmNmR0FFM0hHdnlydzFDcmxTNmhZOTlNZ0pudG1lREJwZXp6ZmhsQW1ZUTlxNHFXX3FJblhDdnFsUF9pTWVMNjg5U2JfeFZjbERWdk12WjlQSlA1S0xPdHVpMVRPRkNKUi1jM1Z6RkcxcUI3dE1ieG91bjJnYWRmYjEyTjlOX1dHWDBMU3hHYzVfR080X0ZjRk5jNA?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Washington Times",
+      "publishedAt": "2026-03-27T16:37:06.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "ai artist at art basel hong kong is making millions",
+      "fingerprint": "artist|basel|hong|kong|making|millions",
+      "topicKey": "artist basel",
+      "bigrams": [
+        "artist basel",
+        "basel hong",
+        "hong kong",
+        "kong making",
+        "making millions"
+      ],
+      "score": 64,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Ethics more important in the age of AI, CPA says",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMG5yb2xadFRTbk93NE81amtpdWYxekZaY0s2VWZrdFdqVGNZakE1UzJqN3cwNzVmaVVBQjByZS13Rl9YNE55dTZ5dUs5RkNjbldHRjFya3VYRWpJRm1qd0ZaZTFUVWg5Y3hWZ1U5SGtRQzhaM0dTcDlYVmFtam13MU4tM1RvVm9XVDFreFJJTGFYXzhua2otNw?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Accounting Times",
+      "publishedAt": "2026-03-27T09:00:34.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "ethics more important in the age of ai cpa says",
+      "fingerprint": "ethics|important|more",
+      "topicKey": "more important",
+      "bigrams": [
+        "more important"
+      ],
+      "score": 64,
+      "publishedDisplay": "March 27, 2026"
     },
     {
       "title": "Adversarial AI reveals mechanisms and treatments for disorders of consciousness",
@@ -138,26 +229,6 @@
       "publishedDisplay": "March 24, 2026"
     },
     {
-      "title": "Editorial cartoon: Ethics of AI",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZm04RWM4RHVLNmlhQnh4WDZTQ2RnRDdMUTlfbmxmamcxOThpZHNmakdhNGlkMHNEbUs2RjFYQ18xV1M5SWdNb1hoM0E2djhxVS0zZndESWhueXU1SmxOUm84NmNyQUlncTAxME9nNnRTMVJmeUotMXZrY20tV0I0TEVwS2ZBQVU5OENoUlNTTnNoQQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Dallas News",
-      "publishedAt": "2026-03-26T06:04:28.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics",
-        "art"
-      ],
-      "titleKey": "editorial cartoon ethics of ai",
-      "fingerprint": "cartoon|editorial|ethics",
-      "topicKey": "editorial cartoon",
-      "bigrams": [
-        "editorial cartoon"
-      ],
-      "score": 58,
-      "publishedDisplay": "March 26, 2026"
-    },
-    {
       "title": "Spotify is letting artists manually approve releases to combat AI fakes",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT1JDLWtKZkx5SDljYkNWaXo2WnU3YndhLVhfMXdydzREWGhqdmdBNlhnVVI3ZkNha0xKNFJyQVYyTDZFZ2x0YXZkRm51N2ctbnlVQXVOR2k5WElvNi16TEFWYWVUa25ZMV96V1M1Y3FzeWoycVM1dTd4cVd3cEVCUEd1ZzJFNHVqaW5pRDNB?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -178,27 +249,6 @@
         "approve releases",
         "releases combat",
         "combat fakes"
-      ],
-      "score": 58,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Islander News Events",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOemVkYjU2WVp6UktseWlmcXlLU3ExcElHMnYwRVlsNWVYTmV3U19qXzVYU1A2MXRpZ0hFQUtEbDRUQzYxakV5YkRKVW5rUm1wSllRUl9Qa0d0M3BVVVNkUXo5SVYzU3prX3h2N3Q4ZWlJSWxSby1qblhtRGFWTGNaNFVwb04tVUdmdldieldNWlhGc0VpNzg4bktDTnZBUGF3YVd1dFBkblBDTTZtb3M1NjF6VE1SM3ZCTWdtN1V2UTNnU29UWXc?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "IslanderNews.com",
-      "publishedAt": "2026-03-25T19:24:51.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics",
-        "art"
-      ],
-      "titleKey": "islander news events",
-      "fingerprint": "events|islander|news",
-      "topicKey": "islander news",
-      "bigrams": [
-        "islander news",
-        "news events"
       ],
       "score": 58,
       "publishedDisplay": "March 25, 2026"
@@ -229,26 +279,33 @@
       "publishedDisplay": "March 25, 2026"
     },
     {
-      "title": "Neural Dispatch: AI bubbles, slop and (lack of) ethics| Business News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZaSUc2TDVLLVVsakZtNWNVY291ZE95YnBoUHpMQnhCZFJ1UGVsMy1QOW9MWWgtQkw1UDZsNEtnTGRvQndqZ1YzR3FoVnVFa28zSVltTHZlNWNnY3k4YjFKWnZyMjBKUUtTNkhNb2o4MVJfZ2pxUV9HZVlWU2JscW9SRkRtMzZfTmhXbEEyckxDUEhPSjZLZjhnZThIQ0oyNGtPTjFBMVdIc2RrRmNqdA?oc=5",
+      "title": "Jensen Huang on Life, Death, and the Future: Wishes to Depart Suddenly While Working, Plans to Launch AI Consciousness into Space",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSV91alBJQ2k0V2ZLVWFoUEhaZk0tdjZySk93OGRlRDZZQWpVNG5lTURwWVFuZy02VmNGa1JLLWVvSTJOaFV0QVdjVnB3aHZIU0N6TEh2TW53WVVFWEFCRktxMkFVYTdqS0tSVWFRZFBfaHQ2OFd6OXF3S2RtSFNpbTJGal9HMGxHY0hfb0hfeHJyS3R5WkZ3?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Hindustan Times",
-      "publishedAt": "2026-03-25T04:14:21.000Z",
+      "source": "富途牛牛",
+      "publishedAt": "2026-03-25T00:40:40.000Z",
       "matchedTerms": [
         "ai",
-        "ethics"
+        "consciousness",
+        "art"
       ],
-      "titleKey": "neural dispatch ai bubbles slop and lack of ethics business news",
-      "fingerprint": "bubbles|business|dispatch|ethics|lack|neural|news|slop",
-      "topicKey": "neural dispatch",
+      "titleKey": "jensen huang on life death and the future wishes to depart suddenly while working plans to launch ai consciousness into space",
+      "fingerprint": "consciousness|death|depart|future|huang|jensen|launch|life|plans|space",
+      "topicKey": "jensen huang",
       "bigrams": [
-        "neural dispatch",
-        "dispatch bubbles",
-        "bubbles slop",
-        "slop lack",
-        "business news"
+        "jensen huang",
+        "huang life",
+        "life death",
+        "death future",
+        "future wishes",
+        "wishes depart",
+        "depart suddenly",
+        "suddenly while",
+        "while working",
+        "working plans",
+        "plans launch"
       ],
-      "score": 58,
+      "score": 52,
       "publishedDisplay": "March 25, 2026"
     },
     {
@@ -274,7 +331,7 @@
         "attributed real",
         "real artists"
       ],
-      "score": 58,
+      "score": 52,
       "publishedDisplay": "March 24, 2026"
     },
     {
@@ -301,30 +358,8 @@
         "arts saying",
         "saying problem"
       ],
-      "score": 58,
-      "publishedDisplay": "March 24, 2026"
-    },
-    {
-      "title": "How AI Is Rewiring Fashion’s Art And Science—Beyond The Hype",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQnM3bVhXMkE4NU5kbHdjcWlZZHVKOVIwcm1pMkFsb0ZIMTd5emYxSjNoYVRfU0hOZkpfQ2dTWDBiOGxGdUxuNjRsZWtyYlg0YTRWRUVtMl93UDk0UlVRdXd3SU54MGhxYS1vTFl5ZmVWWGtuNG5obTlWc3E5YVdSbXVjMU9JajBGVmwwdkwtU1RINm5Lc2IzUHBhOVBXcWtCUVo3eHQtbkdfN0hoSmtPQg?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Forbes",
-      "publishedAt": "2026-03-23T17:52:17.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "how ai is rewiring fashion s art and science beyond the hype",
-      "fingerprint": "beyond|fashion|hype|rewiring|science",
-      "topicKey": "rewiring fashion",
-      "bigrams": [
-        "rewiring fashion",
-        "fashion science",
-        "science beyond",
-        "beyond hype"
-      ],
       "score": 52,
-      "publishedDisplay": "March 23, 2026"
+      "publishedDisplay": "March 24, 2026"
     },
     {
       "title": "Crimson Desert dev apologizes for use of AI art",
@@ -347,30 +382,180 @@
       "publishedDisplay": "March 22, 2026"
     },
     {
-      "title": "Subhash Ghai thanks Odisha's Sudarsan Pattnaik for his sand portrait; artist says it’s ‘AI-generated’. See viral post",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVXlseXBGbTZsNkMtbkxtdnFRMFhuN0d3TGxPMHQyWEpPZmZhUEZhS2Z1Qm5GS0liMV9ybDFZNzFHeFUwSVgzRkpiakpGajZ3SF9IS2FsNW9QRDNOZENzZDBGeThsblN2QWxhU3ZqZ0E0WjJya1VKRVU4Rl9pcjRTaThMNElaeFdZSmx1cVR1czc5U2tZUzhjYldZelczemgzVGE5ZFVVR1RXTlhzQ05LRU9IMGxETko1SG9lVmZfVlhIc0kyaWJ1V0lhQXlaOUp2VUM0c3FuWnBLdVRMVzVneG1wZ3NNNUJjZ1NIYmhBdG1IalpHZ3owd0gxVnhDZw?oc=5",
+      "title": "Desperate Rep. Eric Swalwell may have broken ethics rules hitting up colleagues for AI cash",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYV9ZQkZaYkoyck9SZUNkUDgwOXhPeXRlejlPNVlzVFIxcW94dnM3ZkpOYmNFRS1LUUd3dUJOX2laZXpsa1JzemJVMDFWZ1l1SmtYa1VOS2psX3FkaGVZUHFDdkllcjJzdlB6Wkg2NWFRTElPXzA2YjdJSDV6ZmJ2Zll1SEpTLTR1VjRrNWNscS11RWVsSTR0MUhvWEhSRHF1dkFsejlqWVlEQ181d1BKaF9qSlR6UVJtSHp4cW9JeFAzTkxmdDZxSA?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Mint",
-      "publishedAt": "2026-03-27T12:41:16.000Z",
+      "source": "New York Post",
+      "publishedAt": "2026-03-27T23:44:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "desperate rep eric swalwell may have broken ethics rules hitting up colleagues for ai cash",
+      "fingerprint": "broken|cash|colleagues|desperate|eric|ethics|have|hitting|rules|swalwell",
+      "topicKey": "desperate eric",
+      "bigrams": [
+        "desperate eric",
+        "eric swalwell",
+        "swalwell have",
+        "have broken",
+        "rules hitting",
+        "hitting colleagues",
+        "colleagues cash"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "After Willie Nelson's Fourth of July Picnic used AI art in its poster, a Texas artist is pushing back with love",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdjJRa3JnTXJhdWxmT2FnTFZXVHZCUzlsQ0lVejNmcjYyaGxyNm00cmdaT2VHUEMybDBpdW1nNDFnYWNoVVliTWVTUmhpVkxNdExYMkh5N0dGVk81Y3hNTk05NklSYkphbzc4QlNpUzRDazJlQWRFNkdjd1RWaWxrTnFqU2xwZEJ5T1dMZjBXTU9fM18zRnpkblRLeTVhNjNJWnJHLUZmX1VlQmUyZnE4ZG13VHhNQ3o3ZjRxTmZjaEdQM0hLZUJJaHZycmxTd2w0TjBXeE9GNGk1TFZLVGNUR21JTWRfbnFyOVB5b3oySVU5Z2hPb2dFUmJqWnhoMGZW?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "San Antonio Current",
+      "publishedAt": "2026-03-27T20:13:16.000Z",
       "matchedTerms": [
         "ai",
         "art"
       ],
-      "titleKey": "subhash ghai thanks odisha s sudarsan pattnaik for his sand portrait artist says it s ai generated see viral post",
-      "fingerprint": "artist|generated|ghai|odisha|pattnaik|portrait|post|sand|subhash|sudarsan",
-      "topicKey": "subhash ghai",
+      "titleKey": "after willie nelson s fourth of july picnic used ai art in its poster a texas artist is pushing back with love",
+      "fingerprint": "artist|back|fourth|july|love|nelson|picnic|poster|pushing|texas",
+      "topicKey": "willie nelson",
       "bigrams": [
-        "subhash ghai",
-        "ghai thanks",
-        "thanks odisha",
-        "odisha sudarsan",
-        "sudarsan pattnaik",
-        "pattnaik sand",
-        "sand portrait",
-        "portrait artist",
-        "artist generated",
-        "generated viral",
-        "viral post"
+        "willie nelson",
+        "nelson fourth",
+        "fourth july",
+        "july picnic",
+        "picnic used",
+        "used poster",
+        "poster texas",
+        "texas artist",
+        "artist pushing",
+        "pushing back",
+        "back love"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "The sound of (AI) music: Innovation or a path to artist poverty?",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcEJ6NTVRQXItTDU5VHJMSlRVUTZlTG1qMjM5R2dLYUpGaDFkVjZwTDZ3MG8xYURjZ3ltUDRQdkJndTZjaDV1NEVoUXFQaFFIanhVLXpIZWtNVXltT1Z6LVU4eHhiN2s4YzFrakFrTm1sTnFrVkNKdlZ5cG82eUVRNGRVdEZqT05hcWF6VF9PQTFobjkzc01aVXBHOFB2cy1idmJwZFlydjF3aXVXRDJsd0xVNUFtMTIzYUkta3FYbGRXUGVDSkZZVUtn0gHPAUFVX3lxTFBXNzRFd1BhbVVHdkNuZDJpM2NfVTdDR05OVEVNWVBZWlVkaFNlTmhDOWx4THRTa000b21HS0NpU0RoWkU2eGV5NzZIaERlN3VOUEtZZmxhX1Q3eWJMNlVIZEVWQWxoWDU5amxNMlJYemhrT2FWaUhJRTI4SVl3dmNWR2U0bFc0RUY5NkkzYkZUNHREYW1zclNBNmlHaWdHV0dYVklJRGl1enZJVWFQWndhQjhMMERWSndIcFg2bVhuQTlQdUlhd0l6cDZQdTdibw?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Business Standard",
+      "publishedAt": "2026-03-27T16:21:44.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "the sound of ai music innovation or a path to artist poverty",
+      "fingerprint": "artist|innovation|music|path|poverty|sound",
+      "topicKey": "sound music",
+      "bigrams": [
+        "sound music",
+        "music innovation",
+        "innovation path",
+        "path artist",
+        "artist poverty"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Tech firm raises AI consciousness question as Pentagon clash deepens and Musk reacts",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaEFhYVJoV1VTTWc5U0lua2hxTmtRS3VvTU1FVEIyRkQ5VmRaSjdCODI3RzRDbXVlUTVXeExod2RyOVpwVE5Feko3Ui02d0pDZUtkbXdHOXZfSi1uT0Q1OU1lMWVTQXVmQVR2Z3h5VGt4X3NCTjJnYVNDV0dzZU9XR0IwMEFKekhfWFMzRDF5SDFHa2V6bnBfcTVsZ1BpYWRpZmNhRk9XZWpfWlBNamU0QThGQmdqSjBHOVp4Y3NtNFhwVnFEWnMwaDBtSVE1MmpNelVXaA?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "MSN",
+      "publishedAt": "2026-03-27T14:07:16.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "tech firm raises ai consciousness question as pentagon clash deepens and musk reacts",
+      "fingerprint": "clash|consciousness|deepens|firm|musk|pentagon|question|raises|reacts|tech",
+      "topicKey": "tech firm",
+      "bigrams": [
+        "tech firm",
+        "firm raises",
+        "question pentagon",
+        "pentagon clash",
+        "clash deepens",
+        "deepens musk",
+        "musk reacts"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Peterborough artist David Geene explores the ethics and politics of proposed high rises in ‘Economies of Scale?’ exhibit",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQk5mY0dieHlNOXhGRVk0NWdxWU85eFJSZ05QajhnZExuTmd3UkNWbDl1dldfMkFlMDZMWnJHRjZwU1Z5T1NHNWdVaFpzSmVLSXEzQ21lSWJqOVZKSmNaSGo2SUVMeThYOFIxaDFZUy1LOEM0cFE4UFUwU3E1ZFlITkpZSVYtQ01qT2NzMFpHOENnMk9DTkNpRkdyZ2R1Y2FpN0p4Y2tQOE4tR2g3VTZYWXFKNDNJSkk1ejdONy13WV9QMDJvUmhrLUxZY2pnSkdDbFBWOEUzTi1RWWd3MjZNUmFqNGtaZVFF?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "kawarthaNOW",
+      "publishedAt": "2026-03-27T13:59:49.000Z",
+      "matchedTerms": [
+        "ethics",
+        "art"
+      ],
+      "titleKey": "peterborough artist david geene explores the ethics and politics of proposed high rises in economies of scale exhibit",
+      "fingerprint": "artist|david|economies|ethics|exhibit|explores|geene|high|peterborough|politics",
+      "topicKey": "peterborough artist",
+      "bigrams": [
+        "peterborough artist",
+        "artist david",
+        "david geene",
+        "geene explores",
+        "politics proposed",
+        "proposed high",
+        "high rises",
+        "rises economies",
+        "economies scale",
+        "scale exhibit"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "\"Why make game art at all?\" New Blood publisher fears DLSS 5 is replacing artistry with AI",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWVVkbWsxVTB6ejgyNnRnT3BnTVhRRVEwOFNOVlBkMG1WekRNZ1NzdG11SnRiTktwWmNtYW1lVkRwVWxkY2pUM25vZlk4R0F2eF9qbWMtX0VSV2hqdGhWeWNjZmlwVk1Ec0pRYXBfc2JUekR4NUZ1QzRIWnhoTEVIOUpXMVdvYUo0UHZV?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "TechSpot",
+      "publishedAt": "2026-03-27T13:22:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "why make game art at all new blood publisher fears dlss 5 is replacing artistry with ai",
+      "fingerprint": "artistry|blood|dlss|fears|game|make|publisher|replacing",
+      "topicKey": "make game",
+      "bigrams": [
+        "make game",
+        "game blood",
+        "blood publisher",
+        "publisher fears",
+        "fears dlss",
+        "dlss replacing",
+        "replacing artistry"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Hofstra Fuses AI Ethics with Functionality in New Undergrad Interdisciplinary Certificate for Fall 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbC1mbEx0bEVHcUtIb0U3NDRqNWtSb2xFUzVnOHp6U3BiZ3Q1YVkzc1gxaFBGZjhfanB3Umdrc2JuT1FjUm5obDlQMmVUUHhhc01tNmw3ajRidldleU9uUC1hYUlhOWhtVk9pc1FuYnNKMFc2ZjVLcXg2aThWWERvYmRyV3djaC1qbEdqbHk4M21MZXZGY0Y2OXVpNDFxWmc4WlRfQlVFOWs0WUh6dG9Ld3BlR29aeGVhZ3dJTTEtWHI3X2JaWmNQZGZlMkEzU0VKYS1PQ2FiTQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Hofstra University News",
+      "publishedAt": "2026-03-27T12:59:26.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "hofstra fuses ai ethics with functionality in new undergrad interdisciplinary certificate for fall 2026",
+      "fingerprint": "2026|certificate|ethics|fall|functionality|fuses|hofstra|interdisciplinary|undergrad",
+      "topicKey": "hofstra fuses",
+      "bigrams": [
+        "hofstra fuses",
+        "functionality undergrad",
+        "undergrad interdisciplinary",
+        "interdisciplinary certificate",
+        "certificate fall",
+        "fall 2026"
       ],
       "score": 50,
       "publishedDisplay": "March 27, 2026"
@@ -396,29 +581,6 @@
         "realms addresses",
         "addresses another",
         "another scandal"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
-      "title": "Art Basel Hong Kong: See a millionaire AI artist at work",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzV1RPR1dkU3V4a2hKb0tHRnRzVXp4Mm16M1hQTURhZU9WTzhRVDgxdVVlQWFLYnowcXUtOXFZekNwZGJ3V1ZCcVQ1SE5WZElocnZpMzdVcXo1d0RzWW8tOVhudnFnYmdTUFg1SVpCanMySTB4UTRGNmU3cw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "CNN",
-      "publishedAt": "2026-03-27T11:05:05.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "art basel hong kong see a millionaire ai artist at work",
-      "fingerprint": "artist|basel|hong|kong|millionaire|work",
-      "topicKey": "basel hong",
-      "bigrams": [
-        "basel hong",
-        "hong kong",
-        "kong millionaire",
-        "millionaire artist",
-        "artist work"
       ],
       "score": 50,
       "publishedDisplay": "March 27, 2026"
@@ -475,7 +637,7 @@
     {
       "title": "AI artist Botto transformed visitors into surreal digital portraits at Art Basel Hong Kong",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11bFNVdWJTbU41a1dUbWtQTVUtSzBubW5jcnJWNFFicUU2a2FWT2F0cTRXbGo0dy12Tm1oV0NhclRoZmNCc1pJQkhUakhYa2oxVmJmU1lxTQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "AI artist Botto transformed visitors into surreal digital portraits at Art Basel Hong Kong.",
       "source": "mezha.net",
       "publishedAt": "2026-03-27T10:05:22.000Z",
       "matchedTerms": [
@@ -502,7 +664,7 @@
     {
       "title": "Meet Botto: The AI-artist who has already made millions",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOHNXeE51MmdJdUpROHRldTc2TnlzN1F5WnZTYlJRQncyZzRJVXJfcGJzeDRxSnZIS3hqRG9PZEx4bEs2M0NEVnRadmJvSlpNam5Xb181dWdUZjh4MTVjUUk5MXUtTVF2b1NIYTh3eGtBaXV1UkdmMzNrd3dIS3daSGdUbDVxcWFIQ0sybXI2VlM2R2h1RnJHaDZ1WDRPbGZ2d1dIQXdSWdIBrAFBVV95cUxNM3FYeVdTUWJFWjFxZkdQRUlYaXBTS1RibzlURTc1UmN6OFZnSlBpeFN3bVNxNHFoZmVHSFZDLXBvMVQ3Q19pV1hGLWgtbWJkc0tJZG5ZRkF5WndLcVY5ZlFkVHRMZGpxLU1mMFJ4Y0phUjJTcGpyS3dhQ0RnNTRJNm5ZS3c1VHR2Z3lCNHhEdTRKRm1hUFV0UVJpVUhuYk9EMWZXa3ZNVmtMS2xQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Meet Botto: The AI-artist who has already made millions.",
       "source": "Firstpost",
       "publishedAt": "2026-03-27T08:20:03.000Z",
       "matchedTerms": [
@@ -525,7 +687,7 @@
     {
       "title": "Watch: AI, Ethics and Animals with Prof Peter Singer",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajlNRmRSeWozMzc0SVlpdndjZlowa3BETF9FRm9oeF80SnhjNzQycjd6SmpQeE1JUGNTV2dtcVpCbkt1dHVBMmFkS2VVUUYtamlqSEF6eUZCSnRnWFVZNkhLeklZR2hwTV9UR3M1ZkZQcWFES2ZENEMweUVmTlRKOEZKVF8ycFpDXzFtQzZiR2NvZw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Watch: AI, Ethics and Animals with Prof Peter Singer.",
       "source": "Melbourne Law School",
       "publishedAt": "2026-03-27T03:47:00.000Z",
       "matchedTerms": [
@@ -544,9 +706,57 @@
       "publishedDisplay": "March 27, 2026"
     },
     {
+      "title": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY29DZjN5cEcwajdycDlTWHlOaktjUEZkZWhWMUU1dkNOOVRMblR6SHRHWE5DSFN6bXdyZEdZWE5UUG9aakhLbWM1WGhWMklTelh1aTQ3dlhmT1NtRVN5MFY4eHVGaFVidzVMb0ZjMEhFaVRHOE9zT3BzTmotXzNhbVl1MnpEa1A2eEtQdmZLeTdsNU1FUjZMc0xuS2dQQnQtMTFqRDNTVU9KcFpxWk8wbjIwRG9YTFFVYWdGdXRidUJSaFZIREpUdlB6YnBtQWE5SUpMcmh3?oc=5",
+      "summary": "Chiayi International Art Doc Film Festival 2026: A Global Intersection of Land Art and AI Ethics.",
+      "source": "The Malaysian Reserve",
+      "publishedAt": "2026-03-20T04:23:35.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics",
+        "art"
+      ],
+      "titleKey": "chiayi international art doc film festival 2026 a global intersection of land art and ai ethics",
+      "fingerprint": "2026|chiayi|ethics|festival|film|global|international|intersection|land",
+      "topicKey": "chiayi international",
+      "bigrams": [
+        "chiayi international",
+        "international film",
+        "film festival",
+        "festival 2026",
+        "2026 global",
+        "global intersection",
+        "intersection land"
+      ],
+      "score": 46,
+      "publishedDisplay": "March 20, 2026"
+    },
+    {
+      "title": "Why AI Will Never Replace Human-Created Art",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sWHBsdV8ybnFqZjlmWXBKZUdPTmtsUnRtUzRlalNiajVCaEZQT0RNc1puckxfanYyWEFXNXlES0ViaG1wMDZtMmRaamg4clZtaWFHWXNmUXZKa0J0M1NPT3pGZU5MMGQyNmU1UUl0amtIbVZXblE?oc=5",
+      "summary": "Looks at why AI Will Never Replace Human-Created Art.",
+      "source": "vocal.media",
+      "publishedAt": "2026-03-27T00:47:49.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "why ai will never replace human created art",
+      "fingerprint": "created|human|never|replace|will",
+      "topicKey": "will never",
+      "bigrams": [
+        "will never",
+        "never replace",
+        "replace human",
+        "human created"
+      ],
+      "score": 44,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
       "title": "AI as a Consciousness Interface",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lQ0xPTkRVZlJNaVlfNW5GaTFERVVGUnY1RTlIRjB3a2tWc0ltRm1uU081a0o1cGRJeHZWbjlpZ0s4YWE1MjZITzNva1lndUdUOXVFVnRpN3F2ME5PQ2VNTkZPV09ZQ0szeno3X3BiRE1SQzNZaTBYUDMwU3ZSQTg?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "AI as a Consciousness Interface.",
       "source": "SUCCESS Magazine",
       "publishedAt": "2026-03-26T22:19:09.000Z",
       "matchedTerms": [
@@ -557,13 +767,13 @@
       "fingerprint": "consciousness|interface",
       "topicKey": "interface",
       "bigrams": [],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Trend Monitor: Can AI make art?",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PWngxck1FRnIyd2dPTjlQa2JYNmtZSlRkTnNNWDd3dXA1dmlzb1VzN1VUSkhyNUlXbEc2YVFHOGRzWTFOWDNpQVUxeDROTUdaelBybkx5d3FQdVJxcWlzcnJyTG1JRnk1SjlXTHR1cHFUSE1W?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Trend Monitor: Can AI make art?.",
       "source": "Table.Briefings",
       "publishedAt": "2026-03-26T21:03:14.000Z",
       "matchedTerms": [
@@ -577,13 +787,13 @@
         "trend monitor",
         "monitor make"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "'Forge' Trailer: Jing Ai Ng's Art Forgery Thriller Starring Kelly Marie Tran Hits NYC & LA In May",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnU0UzFvU0lLWDdHZUdGbFFFbnZLNGUzX05PS1NiUVpsTHYydzNqZzdQT0Y1WVNPUmo0VklQN21XUVpYVHlTVjFMSERSb3Zram92T3J1djhaVXd6TmtTLUxlb1lIQlMzNlViVEo0RGVWZklEMDY5TktTeGdzWTdxenV5S3RrOTJiTGd0Uk1SbWxCVlVubnNCWmoteTNUenhReGFaZXVITnU1UTdGbUF4ZDhWUEtvT1RqcmVLZk1EV2hld3NWQXhXemZqN0c?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "'Forge' Trailer: Jing Ai Ng's Art Forgery Thriller Starring Kelly Marie Tran Hits NYC & LA In May.",
       "source": "The Playlist",
       "publishedAt": "2026-03-26T18:28:15.000Z",
       "matchedTerms": [
@@ -604,7 +814,7 @@
         "marie tran",
         "tran hits"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
@@ -630,7 +840,7 @@
         "mimic uncanny",
         "uncanny feel"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
@@ -647,7 +857,7 @@
       "fingerprint": "ethics|exploring",
       "topicKey": "exploring",
       "bigrams": [],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
@@ -666,7 +876,7 @@
       "bigrams": [
         "question conceals"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 26, 2026"
     },
     {
@@ -685,25 +895,6 @@
       "bigrams": [
         "music industry",
         "industry slop"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 26, 2026"
-    },
-    {
-      "title": "Recap: AI Ethics & Networking in London",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOW9BN1p5RmFtbjRkXzJzMmNDYzdzcS03TXRtNFpfWmZpdFJYemcyOXgxRDR2Mk0wRGJHV19Eb3M2dkhQN3R6a0pmdkFWeG5YeWY5Q0k1WFRndFh5dHR4X3VLVnhDazBURFY0b3MtRExsMWdiUjJSRnZibk9BMndYak5YbER4dm1BRzB3?oc=5",
-      "summary": "Recap: AI Ethics & Networking in London.",
-      "source": "Technische Universiteit Delft",
-      "publishedAt": "2026-03-26T10:43:58.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "recap ai ethics and networking in london",
-      "fingerprint": "ethics|london|networking|recap",
-      "topicKey": "recap networking",
-      "bigrams": [
-        "networking london"
       ],
       "score": 44,
       "publishedDisplay": "March 26, 2026"
@@ -805,179 +996,6 @@
       ],
       "score": 44,
       "publishedDisplay": "March 26, 2026"
-    },
-    {
-      "title": "Timbaland’s AI Artist TaTa Signs to Pacific Music Group",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR1pRRHMtYzR3YWpqLUQ5SHJOZnNyUHkzWVh2N2tvdjBEM3ZNN1lGUUZsSHV2QXpFclNNS3cxRER0VTdmZ3lOMmNaLTZEVVZNQ1d1NnV5RUFKMGJTOF9WX0Z2VV9hbFc0bDZUWGV5enpvUDIzN2V6UFR0VUpRTUNkeHh3WEdhUGxV?oc=5",
-      "summary": "Timbaland’s AI Artist TaTa Signs to Pacific Music Group.",
-      "source": "Billboard",
-      "publishedAt": "2026-03-25T22:41:26.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "timbaland s ai artist tata signs to pacific music group",
-      "fingerprint": "artist|group|music|pacific|signs|tata|timbaland",
-      "topicKey": "timbaland artist",
-      "bigrams": [
-        "timbaland artist",
-        "artist tata",
-        "tata signs",
-        "signs pacific",
-        "pacific music",
-        "music group"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Is AI Conscious? It Depends What Consciousness Is",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSTQxME1obklwWUdzcEktM1V3RmRJdDBLUUU5UzkyX055OGlJU0pkbTBJc2ZySmNELWR2WmhoSHBTc21CeHliNjV1ejlqdkFaZ3pxNGxtT2l6bk9pcEt0ajQ3ZGlldEFURHBrVXhScDRqeFgyZ3dBcFExckcxd1N2ZjdwRnZEMXk2dWZuLUQyLUQ4N3BoRC1PR0hTOFlMdGtmOHhZRlh0Y1RwcUR1bDhKbTFGOGpqRmFuaTVZaVRBM2VuVmxxZnc?oc=5",
-      "summary": "Examines whether is AI Conscious? It Depends What Consciousness Is.",
-      "source": "The Facts",
-      "publishedAt": "2026-03-25T20:21:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness"
-      ],
-      "titleKey": "is ai conscious it depends what consciousness is",
-      "fingerprint": "conscious|consciousness|depends",
-      "topicKey": "conscious depends",
-      "bigrams": [
-        "conscious depends"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Ohio State launches Arts and Humanities AI Institute to support research and teaching",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMXJlTm0tNlU0SUJ5NFZ2dWxOdHF3U290YjhMYnQwX0wxd25wTzhGeTdCelFoeVNvMGl4X3ptM2p0RXJDa004Q09rZDFpc0hDUk5GWDl5Y2t2MF9UbEhMVm9QT1dqd0V1NDhYUzQxQ1ZCeXY2SEhxUlowTEtCb3J6VkthWnRHc2c1QlYxTjN3T1VERll0VmpESnUyaVBHa1kyS1R2Z290MmU5QTg?oc=5",
-      "summary": "Ohio State launches Arts and Humanities AI Institute to support research and teaching.",
-      "source": "Ohio State News",
-      "publishedAt": "2026-03-25T19:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "ohio state launches arts and humanities ai institute to support research and teaching",
-      "fingerprint": "arts|humanities|institute|launches|ohio|research|state|support|teaching",
-      "topicKey": "ohio state",
-      "bigrams": [
-        "ohio state",
-        "state launches",
-        "launches arts",
-        "arts humanities",
-        "humanities institute",
-        "institute support",
-        "support research",
-        "research teaching"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Adversarial AI framework reveals mechanisms behind impaired consciousness and a potential therapy",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRzRJc2dpLTAwUFE5aWQ3OGJ3cWFhY1V0X19tZkd1cFhSUTB6SWpMZHNmcThvaHJ5a0Z6dXFZUUxsdkR1SFNwZmJsZWFPUEZiYXZpTHBUdHV4X1F2MVBsUlY2TlA5MmtqUnpwZDNPaDgwTlpJdG5xZTZFY2N3QzRZOEtsdExRc3RxdW1jSEU3eVo?oc=5",
-      "summary": "Adversarial AI framework reveals mechanisms behind impaired consciousness and a potential therapy.",
-      "source": "Medical Xpress",
-      "publishedAt": "2026-03-25T16:20:01.000Z",
-      "matchedTerms": [
-        "ai",
-        "consciousness"
-      ],
-      "titleKey": "adversarial ai framework reveals mechanisms behind impaired consciousness and a potential therapy",
-      "fingerprint": "adversarial|behind|consciousness|framework|impaired|mechanisms|potential|reveals|therapy",
-      "topicKey": "adversarial framework",
-      "bigrams": [
-        "adversarial framework",
-        "framework reveals",
-        "reveals mechanisms",
-        "mechanisms behind",
-        "behind impaired",
-        "potential therapy"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Timbaland’s AI artist TaTa Taktumi signs with Ne-Yo’s Pacific Music Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXVkSGhhbHRUQkxRUkZ6YlJ4RTYyaWpmLWRLWFlMaHpEbjFjbGRjeU9LUDZESXlmVFFJY3MzUmZqUVRvMUFjRjlxRnhIREhzMVpJZ210Zjl0WXZKbTBPaWZhaEdUZllQWUt5ZHZrbExER0pLQ183LU9rQ3lfZU5IQi01dVBGdEtDcWxhd1BCeFVNdnl0V2pzVUp1UF8wYVVaYkxzWWxtSGJQTzg3Ml90ag?oc=5",
-      "summary": "Timbaland’s AI artist TaTa Taktumi signs with Ne-Yo’s Pacific Music Group.",
-      "source": "Music Business Worldwide",
-      "publishedAt": "2026-03-25T13:24:17.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "timbaland s ai artist tata taktumi signs with ne yo s pacific music group",
-      "fingerprint": "artist|group|music|pacific|signs|taktumi|tata|timbaland",
-      "topicKey": "timbaland artist",
-      "bigrams": [
-        "timbaland artist",
-        "artist tata",
-        "tata taktumi",
-        "taktumi signs",
-        "signs pacific",
-        "pacific music",
-        "music group"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "We're All Flailing With AI: I Tried Art That Pokes Back at the Chaos",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMVhlcjBDanhnXy1UbzVBellPYjl5OXp1dnd1TXp4NURvRDRNd3k1NnpGSGlDTnRmMDM3Uk56ekF1cHQ4WXcwSU5LOUxLZWl4eFF5eHRPSElSb1J1TkpuTG04MzhlX2V1ZThmQkJ5LU5Ga1pPZ1NTSDdpWUh0MW92UVNOWnlkeXUyVEczWXNLR1R0UQ?oc=5",
-      "summary": "We're All Flailing With AI: I Tried Art That Pokes Back at the Chaos.",
-      "source": "CNET",
-      "publishedAt": "2026-03-25T13:01:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "we re all flailing with ai i tried art that pokes back at the chaos",
-      "fingerprint": "back|chaos|flailing|pokes|tried",
-      "topicKey": "flailing tried",
-      "bigrams": [
-        "flailing tried",
-        "tried pokes",
-        "pokes back",
-        "back chaos"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "As Crimson Desert becomes the latest game to see AI art slip through the cracks, Mewgenics co-creator says concept art is \"one of the worst\" places to use it: \"That's where you want to be the most creative\"",
-      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNZEk0TnNaeUJBcGJlRTBQZ2xLb0NOUzJNVUpBUHljRUUyZUdXSFIxbVFaTnhmejBkV0dicFhGX3EwZFhYMldiTEtXcklIei1KdXVmQW5PN2t4eVE2c0IybUdkN2l0ckFiOS1PS1h0TXh4OGpra0V2Q1VGMDZJblNyV3NDU0dsYzR4SWduTXg1ZUlaWUZoUjZVb0FraTB2U3VKYjBSdnF2ZjZiY0xfbTlVS3lsRU8wZXk1a1RyQ3ZsLVB2cUZLUjlrOFlfLWFGUjR6M093TnRjNGpoaUJLcWlUeVpHdGNLMXJvVEZpUzZRRnBFWGdzUl9oamR0SnBNa3FHTVBEWTBoZ1RJRjZxanV6QUVJZDVVbHVXU1hiYm1JbkNWXzVMR0ttdGswWEszWWs5QVdSX1F2WlJvMjVnRXpqQUU4cmQ4N3JjQzNPLVBkam9MejVkZm01N2JDNUNjNTJnMlE?oc=5",
-      "summary": "As Crimson Desert becomes the latest game to see AI art slip through the cracks, Mewgenics co-creator says concept art is \"one of the worst\" places to use it: \"That's...",
-      "source": "GamesRadar+",
-      "publishedAt": "2026-03-25T12:50:54.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "as crimson desert becomes the latest game to see ai art slip through the cracks mewgenics co creator says concept art is one of the worst places to use it that s where you want to be the most creative",
-      "fingerprint": "becomes|concept|cracks|creative|creator|crimson|desert|game|latest|mewgenics",
-      "topicKey": "crimson desert",
-      "bigrams": [
-        "crimson desert",
-        "desert becomes",
-        "becomes latest",
-        "latest game",
-        "game slip",
-        "slip through",
-        "through cracks",
-        "cracks mewgenics",
-        "mewgenics creator",
-        "creator concept",
-        "concept worst",
-        "worst places",
-        "places want",
-        "want most",
-        "most creative"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 25, 2026"
     }
   ]
 }

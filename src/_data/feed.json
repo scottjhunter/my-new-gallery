@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-28T12:54:05.622Z",
-  "generatedDisplay": "March 28, 2026 at 12:54 PM UTC",
+  "generatedAt": "2026-03-29T02:23:38.341Z",
+  "generatedDisplay": "March 29, 2026 at 2:23 AM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -74,14 +74,14 @@
         "social development",
         "development decisions"
       ],
-      "score": 74,
+      "score": 68,
       "publishedDisplay": "March 28, 2026"
     },
     {
       "title": "Opinion",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPZV9qTFNSV05lYmVfaUs4UmRKRTZrbE90WHlsUHdVY0JVWlgza24zckVlTGlUME54TW12YXRISm5aQzVCZ3JzZU5XcHJfVHFJYWIzenNrUzVkVXUyTUJ0aTVFdDlma2pBNWZhQlhJZlJFLUhha0ZBSnh5cDdEV1JFVVRuTktVWVFLV19CZkFkVGZwazJuWW51S29ORi1aTDVkZ25JUTg3RmlwejExMGRyQW5LSExfS09XMjNuM0p2emxlMjZTaG9BeXV3UmxZX3BxclpsblYzMEFTRjVBS3RuVUtHaGNFdFQ3SVJqYmpwdThpU2VlUktpQURsVUo2YlRRRVhuNVNVd1FrcUFEaXlsR2w1Y1pTNWpZbXBHcmlSQ04wQ0phdGVSQ1BuSEZQeUJ4OTg5WkZJSDFma0ktSFR4WGNvZEpKMTdBcHpxS0xod3BXN2VqVkNCU0pXYk13dktHdHUtanhLQzB4c0QtQkJkdWFDQ0ZOdHRzdWx4Vk9oWk9kUGtRTlU0THYtYnh4V1JGSmFN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOSW9ILTJnUW85MDJfVlR6Qmk2MEdvWUF3LXZlM2ZEeWhudFI4MktUSm5rWldpX0U2QjBuNi1ZWkFqenlyQ2ltQlV3U2JNMTFoMzZQR2wxU1NJbDZleHdJOTM1QUJvQjBRRXBhM3BiajVvVFg4eGY4VzYtc1Y5cVJJa3R5RDhSVzc3T2JqUWVlU0ljSWVKMUFwR2VZNmNRd1RxcUVYX2hJRjNlRTQ3Z3ZVSENJLW5wWEZmeldWZVUzSDAwalF1b3Y1c0Z1eGJ1QVhiYndMRHhhZmFuaWxnVEpoVk8zMXpqTDFFdllwX3RKRnVyQjJMNVl4UjdVS1VSRWhzYzZ3aUl2dFdfMGtiNDkyOVZqaG9faXZqRjJtXy1aeW9TRUw0WmFTWUJodW5iMVFSdTJraGZraW5xRHhKUUtxYjVqSlpGTEZBaEJqWVNwQ3lrMVpzWEM1N2lnNnVFQlA3VFRkMnh2c0Z3X0R1MEtBSnBmSUJfbFdYTVNEcTV3MEJNV2ZVdHNGdmk3eWd4ejFHcjNZ?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-03-25T16:46:00.000Z",
       "matchedTerms": [
         "ai",
@@ -91,8 +91,53 @@
       "fingerprint": "opinion",
       "topicKey": "opinion",
       "bigrams": [],
-      "score": 68,
+      "score": 62,
       "publishedDisplay": "March 25, 2026"
+    },
+    {
+      "title": "Adversarial AI reveals mechanisms and treatments for disorders of consciousness",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CLXRYbkZDWFQ0eGppdEFSQl9DQldfcWJ1QzM2czNhbnNZOWN0N2t3QVVuclcxZTRxMDdWWXJYbk5FWS15QXVTcWowYS1CaWNwOEVCWGpvTEFpRDJGMnpz?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Nature",
+      "publishedAt": "2026-03-24T10:40:42.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "adversarial ai reveals mechanisms and treatments for disorders of consciousness",
+      "fingerprint": "adversarial|consciousness|disorders|mechanisms|reveals|treatments",
+      "topicKey": "adversarial reveals",
+      "bigrams": [
+        "adversarial reveals",
+        "reveals mechanisms",
+        "mechanisms treatments",
+        "treatments disorders"
+      ],
+      "score": 62,
+      "publishedDisplay": "March 24, 2026"
+    },
+    {
+      "title": "AI predicts how brain injuries disrupt consciousness — and how to restore it once it’s disordered",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zYmR0MVJ4V1FhMC1YamVRa0x6M0xzUU9pM3F5Nm5yU011eTdEZ1lKSGYtZV96R2ZuRnNGbW55Z0x5NHNPM2V0UWpVOFBrYnFpVWZaWEQ4LWQzMFpUSWtN?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Nature",
+      "publishedAt": "2026-03-24T10:16:32.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "ai predicts how brain injuries disrupt consciousness and how to restore it once it s disordered",
+      "fingerprint": "brain|consciousness|disordered|disrupt|injuries|once|predicts|restore",
+      "topicKey": "predicts brain",
+      "bigrams": [
+        "predicts brain",
+        "brain injuries",
+        "injuries disrupt",
+        "restore once",
+        "once disordered"
+      ],
+      "score": 62,
+      "publishedDisplay": "March 24, 2026"
     },
     {
       "title": "Swalwell Pitched AI Startup to Fellow Dem Lawmakers in Possible Violation of House Ethics Rules: Report",
@@ -118,7 +163,7 @@
         "violation house",
         "rules report"
       ],
-      "score": 64,
+      "score": 58,
       "publishedDisplay": "March 27, 2026"
     },
     {
@@ -141,30 +186,47 @@
         "kong making",
         "making millions"
       ],
-      "score": 64,
+      "score": 58,
       "publishedDisplay": "March 27, 2026"
     },
     {
-      "title": "Adversarial AI reveals mechanisms and treatments for disorders of consciousness",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CLXRYbkZDWFQ0eGppdEFSQl9DQldfcWJ1QzM2czNhbnNZOWN0N2t3QVVuclcxZTRxMDdWWXJYbk5FWS15QXVTcWowYS1CaWNwOEVCWGpvTEFpRDJGMnpz?oc=5",
+      "title": "Ethics more important in the age of AI, CPA says",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMG5yb2xadFRTbk93NE81amtpdWYxekZaY0s2VWZrdFdqVGNZakE1UzJqN3cwNzVmaVVBQjByZS13Rl9YNE55dTZ5dUs5RkNjbldHRjFya3VYRWpJRm1qd0ZaZTFUVWg5Y3hWZ1U5SGtRQzhaM0dTcDlYVmFtam13MU4tM1RvVm9XVDFreFJJTGFYXzhua2otNw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Nature",
-      "publishedAt": "2026-03-24T10:40:42.000Z",
+      "source": "Accounting Times",
+      "publishedAt": "2026-03-27T09:00:34.000Z",
       "matchedTerms": [
         "ai",
-        "consciousness"
+        "ethics"
       ],
-      "titleKey": "adversarial ai reveals mechanisms and treatments for disorders of consciousness",
-      "fingerprint": "adversarial|consciousness|disorders|mechanisms|reveals|treatments",
-      "topicKey": "adversarial reveals",
+      "titleKey": "ethics more important in the age of ai cpa says",
+      "fingerprint": "ethics|important|more",
+      "topicKey": "more important",
       "bigrams": [
-        "adversarial reveals",
-        "reveals mechanisms",
-        "mechanisms treatments",
-        "treatments disorders"
+        "more important"
       ],
-      "score": 62,
-      "publishedDisplay": "March 24, 2026"
+      "score": 58,
+      "publishedDisplay": "March 27, 2026"
+    },
+    {
+      "title": "Editorial cartoon: Ethics of AI",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZm04RWM4RHVLNmlhQnh4WDZTQ2RnRDdMUTlfbmxmamcxOThpZHNmakdhNGlkMHNEbUs2RjFYQ18xV1M5SWdNb1hoM0E2djhxVS0zZndESWhueXU1SmxOUm84NmNyQUlncTAxME9nNnRTMVJmeUotMXZrY20tV0I0TEVwS2ZBQVU5OENoUlNTTnNoQQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Dallas News",
+      "publishedAt": "2026-03-26T06:04:28.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics",
+        "art"
+      ],
+      "titleKey": "editorial cartoon ethics of ai",
+      "fingerprint": "cartoon|editorial|ethics",
+      "topicKey": "editorial cartoon",
+      "bigrams": [
+        "editorial cartoon"
+      ],
+      "score": 58,
+      "publishedDisplay": "March 26, 2026"
     },
     {
       "title": "Spotify is letting artists manually approve releases to combat AI fakes",
@@ -188,53 +250,7 @@
         "releases combat",
         "combat fakes"
       ],
-      "score": 58,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "Islander News Events",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOemVkYjU2WVp6UktseWlmcXlLU3ExcElHMnYwRVlsNWVYTmV3U19qXzVYU1A2MXRpZ0hFQUtEbDRUQzYxakV5YkRKVW5rUm1wSllRUl9Qa0d0M3BVVVNkUXo5SVYzU3prX3h2N3Q4ZWlJSWxSby1qblhtRGFWTGNaNFVwb04tVUdmdldieldNWlhGc0VpNzg4bktDTnZBUGF3YVd1dFBkblBDTTZtb3M1NjF6VE1SM3ZCTWdtN1V2UTNnU29UWXc?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "IslanderNews.com",
-      "publishedAt": "2026-03-25T19:24:51.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics",
-        "art"
-      ],
-      "titleKey": "islander news events",
-      "fingerprint": "events|islander|news",
-      "topicKey": "islander news",
-      "bigrams": [
-        "islander news",
-        "news events"
-      ],
-      "score": 58,
-      "publishedDisplay": "March 25, 2026"
-    },
-    {
-      "title": "From Classroom to Campus: Sacred Heart Seniors Dive into AI and Business Ethics at St. John’s",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPLVM4WkFGZHU4dEhHeFNYR2dEX2ctc0ZWa3FYVjQ3b0xOREZCcUpNSktXdGVkTmVPZENPQTRlZ1ItSDFDY1BmdUd4anJvMXkwYm1RalhHWS1PbHZEbEg2RENRYlFsX2FlVHhaR0ZfOUIzSFIwbkhjOGpMLTNJQTEzeTJ6OXo0aE9wQVY1UlR5bTJockdPMmRXS1dfc09uc2J1Y3RXTTVDZG5oQ3pXeTlDR09LVzNFOXg0SURpQ21kaVRYRWc?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "St. John's University",
-      "publishedAt": "2026-03-25T16:53:08.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics",
-        "art"
-      ],
-      "titleKey": "from classroom to campus sacred heart seniors dive into ai and business ethics at st john s",
-      "fingerprint": "business|campus|classroom|dive|ethics|heart|john|sacred|seniors",
-      "topicKey": "classroom campus",
-      "bigrams": [
-        "classroom campus",
-        "campus sacred",
-        "sacred heart",
-        "heart seniors",
-        "seniors dive",
-        "dive business"
-      ],
-      "score": 58,
+      "score": 52,
       "publishedDisplay": "March 25, 2026"
     },
     {
@@ -291,6 +307,24 @@
       "publishedDisplay": "March 24, 2026"
     },
     {
+      "title": "Namjoo Kim | seat of consciousness (의식의 자리 ) (2026)",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXRJVmVOVVhPcTFkZ2RpYXpwbHpBSzhrSHNQay1uX3BMQ19VdU9QX0VKS1Z3VGNaZVhsTmVJSkFYclJGbnVQTjR4akVlbm5GQmVrNlBQbTZiRTRSWWxSUDliM0J1QkNCekhObWlhRUNWdW1vR18yeGZSMm5vRmlCaA?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "artsy.net",
+      "publishedAt": "2026-03-22T22:11:03.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness",
+        "art"
+      ],
+      "titleKey": "namjoo kim seat of consciousness 2026",
+      "fingerprint": "2026|consciousness|namjoo|seat",
+      "topicKey": "namjoo",
+      "bigrams": [],
+      "score": 52,
+      "publishedDisplay": "March 22, 2026"
+    },
+    {
       "title": "Crimson Desert dev apologizes for use of AI art",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMemNUVzZQbXVnVDh3bEhMN0FvMFlmWnM3cy1TcTkzcVc5ZHBhMVVHWVZ2Q1IyUjhZYUc4bHlJQmlpc0lKekFuUEhZZjlHZmhzc0FHd2FjTDVNenR4WElKbUJZWjVLdGhXTzRCZmYxWDh3dUdKLVBJLWNIUU5VR1E?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -309,6 +343,70 @@
       ],
       "score": 52,
       "publishedDisplay": "March 22, 2026"
+    },
+    {
+      "title": "OpenAI-o1 & AI Consciousness: Defining Machine Sentience in 2026",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSzhLTVZOUkZPVmJmdGZFd0kzQnNMUWhnS0xveFpBZlBJVC16UDU4VDZtZ2lONC1PSUVITWdxOUpmQ0szQTlhMlJiUEM0aHRycGQ4R3dyRkJVRTI0QkUzdHI0aTBla2pzc0U5ZlBKSTVpUnJzenFCQWpTQWNKOUNpSFBYNlEyOUpQcmJqRGZCUnFWUQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "HackerNoon",
+      "publishedAt": "2026-03-28T21:08:28.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "openai o1 and ai consciousness defining machine sentience in 2026",
+      "fingerprint": "2026|consciousness|defining|machine|openai|sentience",
+      "topicKey": "openai defining",
+      "bigrams": [
+        "defining machine",
+        "machine sentience",
+        "sentience 2026"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 28, 2026"
+    },
+    {
+      "title": "The Phenomenology of Machine: OpenAI-o1 and AI Consciousness",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcTVzTkJTZ196SVhIU2QyWmpyQXhkNjRMNXNVYmdZTnJ6VVJ1R09EeEh4ZnVEb0hCOWtaN3VwTHpjUXd1ZmJVR1I5NnNjVjNJUGVmem0tbWJpUUxqaUZLcXVvMGE4YlNkNy0yT2xIOUNDVGI0UnV0elNBRFVYczZETGszLWh4aUtoLVE?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "HackerNoon",
+      "publishedAt": "2026-03-28T20:03:30.000Z",
+      "matchedTerms": [
+        "ai",
+        "consciousness"
+      ],
+      "titleKey": "the phenomenology of machine openai o1 and ai consciousness",
+      "fingerprint": "consciousness|machine|openai|phenomenology",
+      "topicKey": "phenomenology machine",
+      "bigrams": [
+        "phenomenology machine",
+        "machine openai"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 28, 2026"
+    },
+    {
+      "title": "What to Expect at Art Central 2026 with Chance AI as Innovation Partner",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTBCbk9kYmhIQ0VPTjJmUWxtanRIY0ZIbDVHRXV0aFB4dGlQRXlqMlJ5RlppQkdBbnluREppYVlFOF9rbG45UjlLcFpEVlFzOGdQWUtxekwxS0Rrd1lQU3RVSzNCY2xwa1BmRXhwN2MzN1lVbnlTTUk5U1JvajlVN25ZZzF6a21SNm9QTGg3Z3hzSHZ3dzAyNjZSRVdaekpJZHc?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "vocal.media",
+      "publishedAt": "2026-03-28T18:03:29.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "what to expect at art central 2026 with chance ai as innovation partner",
+      "fingerprint": "2026|central|chance|expect|innovation|partner",
+      "topicKey": "expect central",
+      "bigrams": [
+        "expect central",
+        "central 2026",
+        "2026 chance",
+        "chance innovation",
+        "innovation partner"
+      ],
+      "score": 50,
+      "publishedDisplay": "March 28, 2026"
     },
     {
       "title": "Juice’s Mawaan Rizwan on importance of creating art in a time of AI",
@@ -356,27 +454,6 @@
       "publishedDisplay": "March 28, 2026"
     },
     {
-      "title": "Supreme Court rejects AI art copyright bid",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQkgxb3U5NFFpUkF4Uy1Sb2g0ZUt1NHVxdk93ODZrWGFtdjlCSlpzbnlnTVRqYVlYOTBNOTNWdlpFOEN5ZkE2clR5QUFjZjNkSjZjNFhwYW5rbk50QVFrNGJ5ek05eGpYMmJ3OU02SnJPWUhHZF9TT3dzWFBtcmRGeTlqSGIxb2dBLTVJOEdSbllHdnluSmVLTDUxaEluS0ZfRmg2OG9FY2tYRFBUWDVZd3hCejJOZjFaaXhyVk5CS0NlYXJkUzZLUkllbkZVSkNpME1Nd2N6QWc5OTJV?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "MSN",
-      "publishedAt": "2026-03-28T06:45:20.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "supreme court rejects ai art copyright bid",
-      "fingerprint": "copyright|court|rejects|supreme",
-      "topicKey": "supreme court",
-      "bigrams": [
-        "supreme court",
-        "court rejects",
-        "rejects copyright"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 28, 2026"
-    },
-    {
       "title": "Veteran filmmaker Subhash Ghai falls for AI art hoax, Sudarsan clears air",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjI3dG1PTVdpVklJSXppbHB1cFVFZkdhdlY5Z3BKdEt3V2F4UTE1RmZ4WjdFRlZ6REVqT3d6QW1nZnl0anVGdU5mUU01eGE1QjRobkRMVGZMUUhmVHRKUXlwSWtSS2x2aG5HR193T29HNTI4UzlScWtjMFgxMlpQaWpyQ3dnSTJvMncyWlN0MWdJTXkzWElxTXlrcUIzclB0Q3MyZ05WTkxtR0hfWEJ6Yzc0VGQ4a3NYZXo5cTBZWlljYS11TVdFVGphS0xRQzJNVGfSAd8BQVVfeXFMT0RRMGtLZ0x2b2xxOUNvTWxGOE12Y25USEdHTFlyLVAxYXhhS0Q5RWZtMi1MajNuR1NZbmh5TU8taWxtMWt4bUNuLXVKNzlMYzZzSVMyeWpBZS1ZYXRUa2trOVJDaXNBNXBHenlQRl91S3J2ckRmZnljUHpCUnlXVWxTZ1c1bjVhcS1xVEE2T1NETWN2elZvRXB6RzI4SWpvRU5wd0l5UzhBT3gyTFBZN2FpWm1oaDdCQXRGbTdPNU5rWGVUbVlhOHdxclk0NjM2LW5TZ0lteVB2LWdtQTk5aw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -402,6 +479,26 @@
       "publishedDisplay": "March 28, 2026"
     },
     {
+      "title": "Wisdom–Ethics–AI and Future of Law: From Intelligence to Judgement",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSVJHUjNMN3dsTWZCblliSHhyZERvdUZrUFhES3B6U2dWOFBSY1RmNVAtY0ZnZ3RYQjJ6dWQ1VXZuSHRDQUlTcUtqaVlyaktzSWh2Z19PS1lCVHpjdjNjbUNjTExMbmM3Nmx5aFlaYUNQMTZ1ekNxdXFYZ1BxX0FkTEFLNHhYckxXbTRuZkl1V2l0NEtLWHlEZEJtaHcyZGNjdnBBVGlOZWI0c1NGMmktcE94OHRYVGFVYnp0a0ZnSQ?oc=5",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "Indian Masterminds",
+      "publishedAt": "2026-03-28T01:23:36.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "wisdom ethics ai and future of law from intelligence to judgement",
+      "fingerprint": "ethics|future|intelligence|judgement|wisdom",
+      "topicKey": "wisdom future",
+      "bigrams": [
+        "future intelligence",
+        "intelligence judgement"
+      ],
+      "score": 44,
+      "publishedDisplay": "March 28, 2026"
+    },
+    {
       "title": "Desperate Rep. Eric Swalwell may have broken ethics rules hitting up colleagues for AI cash",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYV9ZQkZaYkoyck9SZUNkUDgwOXhPeXRlejlPNVlzVFIxcW94dnM3ZkpOYmNFRS1LUUd3dUJOX2laZXpsa1JzemJVMDFWZ1l1SmtYa1VOS2psX3FkaGVZUHFDdkllcjJzdlB6Wkg2NWFRTElPXzA2YjdJSDV6ZmJ2Zll1SEpTLTR1VjRrNWNscS11RWVsSTR0MUhvWEhSRHF1dkFsejlqWVlEQ181d1BKaF9qSlR6UVJtSHp4cW9JeFAzTkxmdDZxSA?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -423,7 +520,7 @@
         "hitting colleagues",
         "colleagues cash"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
@@ -452,30 +549,29 @@
         "pushing back",
         "back love"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
-      "title": "The sound of (AI) music: Innovation or a path to artist poverty?",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcEJ6NTVRQXItTDU5VHJMSlRVUTZlTG1qMjM5R2dLYUpGaDFkVjZwTDZ3MG8xYURjZ3ltUDRQdkJndTZjaDV1NEVoUXFQaFFIanhVLXpIZWtNVXltT1Z6LVU4eHhiN2s4YzFrakFrTm1sTnFrVkNKdlZ5cG82eUVRNGRVdEZqT05hcWF6VF9PQTFobjkzc01aVXBHOFB2cy1idmJwZFlydjF3aXVXRDJsd0xVNUFtMTIzYUkta3FYbGRXUGVDSkZZVUtn0gHPAUFVX3lxTFBXNzRFd1BhbVVHdkNuZDJpM2NfVTdDR05OVEVNWVBZWlVkaFNlTmhDOWx4THRTa000b21HS0NpU0RoWkU2eGV5NzZIaERlN3VOUEtZZmxhX1Q3eWJMNlVIZEVWQWxoWDU5amxNMlJYemhrT2FWaUhJRTI4SVl3dmNWR2U0bFc0RUY5NkkzYkZUNHREYW1zclNBNmlHaWdHV0dYVklJRGl1enZJVWFQWndhQjhMMERWSndIcFg2bVhuQTlQdUlhd0l6cDZQdTdibw?oc=5",
+      "title": "As AI Transforms our World, Ethics Becomes a Leader’s True North",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41aDFTcktQNWZ6MWRsZmtVUld2NE4zRk5ZY2ZYVDh6N1N1OUVFTFdFTHRwWFRGbVVZcTRkNE5YVG92ZmhFSlY2Q3gtcEhBdkliOU8xTEg1MGhITzRKNExMODB1aHJZdy1pM0tqMFZRRlMzQjl4UTA5Vk02VFhtQQ?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Business Standard",
-      "publishedAt": "2026-03-27T16:21:44.000Z",
+      "source": "India CSR",
+      "publishedAt": "2026-03-27T14:08:02.000Z",
       "matchedTerms": [
         "ai",
-        "art"
+        "ethics"
       ],
-      "titleKey": "the sound of ai music innovation or a path to artist poverty",
-      "fingerprint": "artist|innovation|music|path|poverty|sound",
-      "topicKey": "sound music",
+      "titleKey": "as ai transforms our world ethics becomes a leader s true north",
+      "fingerprint": "becomes|ethics|leader|north|transforms|true|world",
+      "topicKey": "transforms world",
       "bigrams": [
-        "sound music",
-        "music innovation",
-        "innovation path",
-        "path artist",
-        "artist poverty"
+        "transforms world",
+        "becomes leader",
+        "leader true",
+        "true north"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
@@ -500,14 +596,14 @@
         "deepens musk",
         "musk reacts"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
       "title": "Peterborough artist David Geene explores the ethics and politics of proposed high rises in ‘Economies of Scale?’ exhibit",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQk5mY0dieHlNOXhGRVk0NWdxWU85eFJSZ05QajhnZExuTmd3UkNWbDl1dldfMkFlMDZMWnJHRjZwU1Z5T1NHNWdVaFpzSmVLSXEzQ21lSWJqOVZKSmNaSGo2SUVMeThYOFIxaDFZUy1LOEM0cFE4UFUwU3E1ZFlITkpZSVYtQ01qT2NzMFpHOENnMk9DTkNpRkdyZ2R1Y2FpN0p4Y2tQOE4tR2g3VTZYWXFKNDNJSkk1ejdONy13WV9QMDJvUmhrLUxZY2pnSkdDbFBWOEUzTi1RWWd3MjZNUmFqNGtaZVFF?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "kawarthaNOW",
+      "summary": "Peterborough artist David Geene explores the ethics and politics of proposed high rises in ‘Economies of Scale?’ exhibit.",
+      "source": "kawarthanow.com",
       "publishedAt": "2026-03-27T13:59:49.000Z",
       "matchedTerms": [
         "ethics",
@@ -528,14 +624,14 @@
         "economies scale",
         "scale exhibit"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
       "title": "\"Why make game art at all?\" New Blood publisher fears DLSS 5 is replacing artistry with AI",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWVVkbWsxVTB6ejgyNnRnT3BnTVhRRVEwOFNOVlBkMG1WekRNZ1NzdG11SnRiTktwWmNtYW1lVkRwVWxkY2pUM25vZlk4R0F2eF9qbWMtX0VSV2hqdGhWeWNjZmlwVk1Ec0pRYXBfc2JUekR4NUZ1QzRIWnhoTEVIOUpXMVdvYUo0UHZV?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "techspot.com",
+      "summary": "\"Why make game art at all?\" New Blood publisher fears DLSS 5 is replacing artistry with AI.",
+      "source": "TechSpot",
       "publishedAt": "2026-03-27T13:22:00.000Z",
       "matchedTerms": [
         "ai",
@@ -553,13 +649,13 @@
         "dlss replacing",
         "replacing artistry"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
       "title": "Hofstra Fuses AI Ethics with Functionality in New Undergrad Interdisciplinary Certificate for Fall 2026",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbC1mbEx0bEVHcUtIb0U3NDRqNWtSb2xFUzVnOHp6U3BiZ3Q1YVkzc1gxaFBGZjhfanB3Umdrc2JuT1FjUm5obDlQMmVUUHhhc01tNmw3ajRidldleU9uUC1hYUlhOWhtVk9pc1FuYnNKMFc2ZjVLcXg2aThWWERvYmRyV3djaC1qbEdqbHk4M21MZXZGY0Y2OXVpNDFxWmc4WlRfQlVFOWs0WUh6dG9Ld3BlR29aeGVhZ3dJTTEtWHI3X2JaWmNQZGZlMkEzU0VKYS1PQ2FiTQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Hofstra Fuses AI Ethics with Functionality in New Undergrad Interdisciplinary Certificate for Fall 2026.",
       "source": "Hofstra University News",
       "publishedAt": "2026-03-27T12:59:26.000Z",
       "matchedTerms": [
@@ -577,13 +673,13 @@
         "certificate fall",
         "fall 2026"
       ],
-      "score": 50,
+      "score": 44,
       "publishedDisplay": "March 27, 2026"
     },
     {
       "title": "Board game publisher Awaken Realms addresses yet another AI art scandal",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FVzQ2YW9XQlhNZnJhNWY5UmJJYlNEckhScGtpeEhkNEl3Ylo1UmJFbHBHRmNCYXBGaUo5Z2NNTWRBX0F3Z19nV01GWVNZZmVIcFdLdEVDWWtjVnBkbnVJWlluUQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "summary": "Board game publisher Awaken Realms addresses yet another AI art scandal.",
       "source": "wargamer.com",
       "publishedAt": "2026-03-27T12:39:56.000Z",
       "matchedTerms": [
@@ -601,29 +697,6 @@
         "realms addresses",
         "addresses another",
         "another scandal"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
-      "title": "Art Basel Hong Kong: See a millionaire AI artist at work",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzV1RPR1dkU3V4a2hKb0tHRnRzVXp4Mm16M1hQTURhZU9WTzhRVDgxdVVlQWFLYnowcXUtOXFZekNwZGJ3V1ZCcVQ1SE5WZElocnZpMzdVcXo1d0RzWW8tOVhudnFnYmdTUFg1SVpCanMySTB4UTRGNmU3cw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "CNN",
-      "publishedAt": "2026-03-27T11:05:05.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "art basel hong kong see a millionaire ai artist at work",
-      "fingerprint": "artist|basel|hong|kong|millionaire|work",
-      "topicKey": "basel hong",
-      "bigrams": [
-        "basel hong",
-        "hong kong",
-        "kong millionaire",
-        "millionaire artist",
-        "artist work"
       ],
       "score": 44,
       "publishedDisplay": "March 27, 2026"
@@ -656,7 +729,7 @@
       "title": "Shekhar Natarajan Proposes New AI Paradigm Focused on Trust, Ethics, and Long-Term Impact",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQM3JDRHVVUEpVUEpIZl9hUER6bG5NaWRXVERnQS1HTVNRdkZ2TFB1Wmdkem1PN3YxZFRRX0lzUEttbVFyei1VT1BaZW9YR0Robk5Nb2ZwaVNBTG4zZnpVLWd4S1Y5NDBjbXp6ZUszQ25nazVTeHNfMV9MNWVjWkVsTEVKcmY2aWJBRW9hSmZLSUR1U3pGWGJCSV9PUlcyNUFQeUxjSWRBWkFfbTN3bWNBQXhELTZXTU54bUdVek0yR00xaXNJNzdJSDdhZ25wSkszOGNqZWdsT0hldEh3dDFTYUpjWVlqWlU4ZHlPWDJnV19aci1jdmlr?oc=5",
       "summary": "Shekhar Natarajan Proposes New AI Paradigm Focused on Trust, Ethics, and Long-Term Impact.",
-      "source": "markets.financialcontent.com",
+      "source": "FinancialContent",
       "publishedAt": "2026-03-27T10:30:00.000Z",
       "matchedTerms": [
         "ai",
@@ -673,50 +746,6 @@
         "focused trust",
         "long term",
         "term impact"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
-      "title": "Meet Botto: The AI-artist who has already made millions",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOHNXeE51MmdJdUpROHRldTc2TnlzN1F5WnZTYlJRQncyZzRJVXJfcGJzeDRxSnZIS3hqRG9PZEx4bEs2M0NEVnRadmJvSlpNam5Xb181dWdUZjh4MTVjUUk5MXUtTVF2b1NIYTh3eGtBaXV1UkdmMzNrd3dIS3daSGdUbDVxcWFIQ0sybXI2VlM2R2h1RnJHaDZ1WDRPbGZ2d1dIQXdSWdIBrAFBVV95cUxNM3FYeVdTUWJFWjFxZkdQRUlYaXBTS1RibzlURTc1UmN6OFZnSlBpeFN3bVNxNHFoZmVHSFZDLXBvMVQ3Q19pV1hGLWgtbWJkc0tJZG5ZRkF5WndLcVY5ZlFkVHRMZGpxLU1mMFJ4Y0phUjJTcGpyS3dhQ0RnNTRJNm5ZS3c1VHR2Z3lCNHhEdTRKRm1hUFV0UVJpVUhuYk9EMWZXa3ZNVmtMS2xQ?oc=5",
-      "summary": "Meet Botto: The AI-artist who has already made millions.",
-      "source": "Firstpost",
-      "publishedAt": "2026-03-27T08:20:03.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "meet botto the ai artist who has already made millions",
-      "fingerprint": "already|artist|botto|made|meet|millions",
-      "topicKey": "meet botto",
-      "bigrams": [
-        "meet botto",
-        "botto artist",
-        "artist already",
-        "already made",
-        "made millions"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
-      "title": "Watch: AI, Ethics and Animals with Prof Peter Singer",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajlNRmRSeWozMzc0SVlpdndjZlowa3BETF9FRm9oeF80SnhjNzQycjd6SmpQeE1JUGNTV2dtcVpCbkt1dHVBMmFkS2VVUUYtamlqSEF6eUZCSnRnWFVZNkhLeklZR2hwTV9UR3M1ZkZQcWFES2ZENEMweUVmTlRKOEZKVF8ycFpDXzFtQzZiR2NvZw?oc=5",
-      "summary": "Watch: AI, Ethics and Animals with Prof Peter Singer.",
-      "source": "Melbourne Law School",
-      "publishedAt": "2026-03-27T03:47:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "watch ai ethics and animals with prof peter singer",
-      "fingerprint": "animals|ethics|peter|prof|singer|watch",
-      "topicKey": "watch animals",
-      "bigrams": [
-        "animals prof",
-        "prof peter",
-        "peter singer"
       ],
       "score": 44,
       "publishedDisplay": "March 27, 2026"
@@ -764,7 +793,7 @@
       "title": "Trend Monitor: Can AI make art?",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PWngxck1FRnIyd2dPTjlQa2JYNmtZSlRkTnNNWDd3dXA1dmlzb1VzN1VUSkhyNUlXbEc2YVFHOGRzWTFOWDNpQVUxeDROTUdaelBybkx5d3FQdVJxcWlzcnJyTG1JRnk1SjlXTHR1cHFUSE1W?oc=5",
       "summary": "Trend Monitor: Can AI make art?.",
-      "source": "table.media",
+      "source": "Table.Briefings",
       "publishedAt": "2026-03-26T21:03:14.000Z",
       "matchedTerms": [
         "ai",
@@ -927,51 +956,6 @@
       "topicKey": "recap networking",
       "bigrams": [
         "networking london"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 26, 2026"
-    },
-    {
-      "title": "AI’s growing role in creativity: Winkler's art community weighs in",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWdqbUlrX1RKWGhVSFQyMGtsMnFLbU5rSWstWENQN2Q0Rnh2cWdUR0kzRGU2S3A4OGZtaDFJVWlhVU84eldSN2ZYRnZDQzJWVlJtcWxVYlJCYk1BSDBHUGp5ZTA1ekJoSHV1bmY2UDRjdUVwRzFkUUNyU2VLTzJWSEJMUmdQOC1VYkVoZzVza3V3V29BR3pfajh5Rjh6X3BnZ0tfemtkUQ?oc=5",
-      "summary": "AI’s growing role in creativity: Winkler's art community weighs in.",
-      "source": "PembinaValleyOnline",
-      "publishedAt": "2026-03-26T10:05:55.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "ai s growing role in creativity winkler s art community weighs in",
-      "fingerprint": "community|creativity|growing|role|weighs|winkler",
-      "topicKey": "growing role",
-      "bigrams": [
-        "growing role",
-        "role creativity",
-        "creativity winkler",
-        "winkler community",
-        "community weighs"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 26, 2026"
-    },
-    {
-      "title": "Physical Education: Commercial Artists Don’t Fear AI … Yet",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONU8waTRESVRsczB4OVlSZThtcFp4ZGJ1cDBvRjBJSFhwVFRBVFIwMFY4TDZlc1lONkJMV1hXdzI2blNTNm9NcDRSNjhPODI5MzJTM1VrNHRCaXZnaG9xTlk2a2dzWGVBUTluclRqZG1BR1JSMXlSRG43aE16dDVhcmlyX3ExVmd4Q0REZHEzRE04Z0hSd0p2YjJlQTJBcUV6Sk5uR2M1a0ZNQVpmYW9TZFp5bzNXcDVTR19qa0UzVml2dEJYaU5vQVRCM3YxbzZwSjJF?oc=5",
-      "summary": "Physical Education: Commercial Artists Don’t Fear AI … Yet.",
-      "source": "Nashville Scene",
-      "publishedAt": "2026-03-26T10:00:00.000Z",
-      "matchedTerms": [
-        "ai",
-        "art"
-      ],
-      "titleKey": "physical education commercial artists don t fear ai yet",
-      "fingerprint": "artists|commercial|education|fear|physical",
-      "topicKey": "physical education",
-      "bigrams": [
-        "physical education",
-        "education commercial",
-        "commercial artists",
-        "artists fear"
       ],
       "score": 44,
       "publishedDisplay": "March 26, 2026"

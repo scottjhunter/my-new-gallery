@@ -1,5 +1,45 @@
 [
   {
+    "title": "Fourth Monkey",
+    "date": "March 28, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "monkeys.png",
+    "alt": "A stylized image depicting monkeys in a painterly composition.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Cinnamon Jellybeans",
+    "date": "March 28, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "jellybeans.png",
+    "alt": "A stylized still-life image featuring colorful jellybeans.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Flamin' Hot Cheetos",
+    "date": "March 28, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "cheetos.png",
+    "alt": "A stylized still-life image centered on a bag of Cheetos.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Heirlooms in Spring",
+    "date": "March 28, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "tomatoes.png",
+    "alt": "A stylized still-life image of tomatoes with rich color contrast.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Red Umbrella",
+    "date": "March 28, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "umbrella.png",
+    "alt": "A stylized scene centered on an umbrella in atmospheric light.",
+    "imgDir": "/images/"
+  },
+  {
     "title": "Dawn in Taipei",
     "date": "March 23, 2026",
     "credit": "Scott Hunter and ChatGPT",

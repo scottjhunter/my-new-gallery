@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-30T13:17:43.874Z",
-  "generatedDisplay": "March 30, 2026 at 1:17 PM UTC",
+  "generatedAt": "2026-03-30T13:41:42.032Z",
+  "generatedDisplay": "March 30, 2026 at 1:41 PM UTC",
   "retentionDays": 10,
   "maxItems": 40,
   "terms": [
@@ -59,7 +59,7 @@
       "title": "AI Ethics Frames Techno-Social Development And Decisions",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR1pVaEptNEF1NGNHLXFNbVRfYWhmQlNDOW9JZTAwcFJDdTNjX2twNXV5T2dNMThXUVQ0RjV1RXZ4NUk1MFAwT3FxV0V6LUFtVHV5Ry1JMFpqazd0ajNsUTcyMGFNa1E4VnBWSDhkaTM5b1JjOFVJMGptbWNkdEdNN1lIbWVnS281T18xQ2E1TF9Lc29XbVFHSFc3dEU1d0E?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "letsdatascience.com",
+      "source": "Let's Data Science",
       "publishedAt": "2026-03-28T00:34:02.000Z",
       "matchedTerms": [
         "ai",
@@ -127,7 +127,7 @@
     },
     {
       "title": "Opinion",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPdWVQeGNsb2hGZXZDUlBuTGpsbVFkRVZ5YlBWa3FoWC0wN2hJT2xKWVpsMGdaOWxjS0F3bFNPNFM1cl9ocS03S1hLMUt4SldoZW50dk5EN0pFN1dOWG1udlVWd2thRVlFa3JZUlBldDBwQmNiNktUcDZTVG9TTDg1aFFzb1dUdzJOeEJ6Q3QwSS1zWmVDM1NuUlhHS3dOUUJaTmk4UjE3TW1ONllxblhud3JWWWM0Y0RPX18zOWpYeGFqRVAwYnpvSGw4Nzg3UV8tOHB4U1RCbXZWUHQxRFRnZzFoYldMWkpLS1EzaThHcHVsbW5nYlp6cF9XVW9HcGN1a0lGS0dfMmx1S1l2QU1QQy1wMHNwdWZfLUw1X0M1c0luY1gwZ1E2UXNsSmpiUTAwdEVIejhjZUFNTW0wMWNQcDFzVklRczVmWGNNVjlsYktjN2t0eDZYUFNNRldNQTR4bHRySmJ1cFgwNzNXWGtESFNmQzl5cm9Hdk95aXRmOVBNUmZCVm1aWk1XSXotMkRLWm93?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxONW1RaU11ZXpFVzdOVTNFSXV0SWkwRnVWUklLZmdZUWZraDZvenpKQU5hYmp6MHBrQ1Vxc1dZSjFtWGVjeko0U0hMbm5OR0lvRmE5OVp2RG1rM2VndERMRE5pb2F3bUdoNHR5d2hyVHBNYnMzUnFQM3lVYzVaX2VyUVp4M3NOUnpsR21RdEN2SDVYREI1bG9YOEp2STN6aURhZFFvX2hNWk9vRllmQVV2YVNvOEpOLTcyTlQ1WUFEQkJMejBQLWJGdmRTVmxuSVlKSWt0c3YxMU1sXzU1Mi0wMzBIb2pVSFp2NHA3ejRvWFJIQXR2UXFiLXotZ0NoTnJsQ0lKLVAxUmVLM3BqdnFpRHlYRlM0bkxXUDR1VUxBX3hCUFZ1ODJEVU5ZcTcxY19uUjBzMTdyU1YzVmp5REx1X04yb1pVMDA1c3dSSHBUMWJDZ3Fla1A4V0FZU2VVaGNNV19YR3M1dXVXZnM1YXJMOVc1MElTbTQxTE02ZjkzSGpROWVtd1c2cmZsZC1qTEhYY0g0?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "WSJ",
       "publishedAt": "2026-03-25T16:46:00.000Z",
@@ -211,25 +211,6 @@
       "publishedDisplay": "March 27, 2026"
     },
     {
-      "title": "Ethics more important in the age of AI, CPA says",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMG5yb2xadFRTbk93NE81amtpdWYxekZaY0s2VWZrdFdqVGNZakE1UzJqN3cwNzVmaVVBQjByZS13Rl9YNE55dTZ5dUs5RkNjbldHRjFya3VYRWpJRm1qd0ZaZTFUVWg5Y3hWZ1U5SGtRQzhaM0dTcDlYVmFtam13MU4tM1RvVm9XVDFreFJJTGFYXzhua2otNw?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Accounting Times",
-      "publishedAt": "2026-03-27T09:00:34.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "ethics more important in the age of ai cpa says",
-      "fingerprint": "ethics|important|more",
-      "topicKey": "more important",
-      "bigrams": [
-        "more important"
-      ],
-      "score": 52,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
       "title": "Artist Adam Licsko has Another Take on Artificial Intelligence in the Arts, Saying \"Ai (n't) a Problem”",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc0FLQ0RXeko5ZjdJU1c1WlFNNUNOS3Fua0VjTFlCQTQ3aUlXakR4Tl9RRklCdzNpRnNPZVBpOFVUZnlNdWVzamxyYUdndU9IQnd6dkNMVld3QlprWUNuTXo0Vmh5TmVHRHFhbFVub0lNQ2RhQWJFalhLRXdNQkx0azhkeW1kY0QyeEkta3ZhRG9pY0tuMlZnTElSYXBiNlJ3VzZaMGxwYUVMUXRNMmdOWG9CLVRvU0Z1VUYtaC03OGZ2ZDluSld0Tk5HZw?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -284,7 +265,7 @@
       "title": "Crimson Desert hits a new Steam peak of over 276,000 players on its second weekend as Pearl Abyss removes AI art and continues to improve divisive controls",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNbGtSdEhlR2lXazR0NGh5WnZmSzZrd0ZzZzZvQ0hRa3VuanVFTE5KQlkwbzJzc3NoZWdPbkkzZUJtT1RMc0FmMEJmTXAwNlRyVXF3TldSU0xwQ0FLMkpyNmxIYnNNOGtaTkJSakt4SjFOX3Vsd01kam9GdlppeUROU3hnSDdscmxoUFdCdnJKc3FEZzBRbjhFZV9hU215TUc4QVBOUmt1aVEzR3VqX1VITkVUd1BaUS15cnNkZmNOS0FyZm1EbHJPOEw0M2VpeFNpMjVVdGFlR2hmQkZvMWdzdkhiSmhQbzhjV0dJM2U0dklDV1dVeXU0bENBcDBmbDJ1SW84c1ladkI5QnNPNDJLV0JfbmJ1Zzk0V3RoOWtZWDZDbU1IdnZr?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "gamesradar.com",
+      "source": "GamesRadar+",
       "publishedAt": "2026-03-30T10:07:15.000Z",
       "matchedTerms": [
         "ai",
@@ -430,28 +411,6 @@
       "publishedDisplay": "March 29, 2026"
     },
     {
-      "title": "Scholars deliberate on ethics, AI and indigenous knowledge at Salesian College",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTU52Szl0a2ZpNzZHR3dTRloxbTdVYnAwaVgzZ21GT2p2d1ZlSEVnVlZ1TUJNX29kempBQXA4THN1Q0NkckZDdGxVSHR5azlxWWNnTWpHRXJ2QUVWRTZPV2ZfS19GMFFETTNlb2t1NDV3bUdyVFlndUctRlhvQ01CNGNYSGk4bHo3T0hhcWQ2Yk9XaW5fcXkwWVl1MG5rb1NmckR2YUtn?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "MorungExpress",
-      "publishedAt": "2026-03-29T15:35:44.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "scholars deliberate on ethics ai and indigenous knowledge at salesian college",
-      "fingerprint": "college|deliberate|ethics|indigenous|knowledge|salesian|scholars",
-      "topicKey": "scholars deliberate",
-      "bigrams": [
-        "scholars deliberate",
-        "indigenous knowledge",
-        "knowledge salesian",
-        "salesian college"
-      ],
-      "score": 50,
-      "publishedDisplay": "March 29, 2026"
-    },
-    {
       "title": "Namjoo Kim | seat of consciousness (의식의 자리 ) (2026)",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXRJVmVOVVhPcTFkZ2RpYXpwbHpBSzhrSHNQay1uX3BMQ19VdU9QX0VKS1Z3VGNaZVhsTmVJSkFYclJGbnVQTjR4akVlbm5GQmVrNlBQbTZiRTRSWWxSUDliM0J1QkNCekhObWlhRUNWdW1vR18yeGZSMm5vRmlCaA?oc=5",
       "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -581,29 +540,9 @@
       "publishedDisplay": "March 28, 2026"
     },
     {
-      "title": "Wisdom–Ethics–AI and Future of Law: From Intelligence to Judgement",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSVJHUjNMN3dsTWZCblliSHhyZERvdUZrUFhES3B6U2dWOFBSY1RmNVAtY0ZnZ3RYQjJ6dWQ1VXZuSHRDQUlTcUtqaVlyaktzSWh2Z19PS1lCVHpjdjNjbUNjTExMbmM3Nmx5aFlaYUNQMTZ1ekNxdXFYZ1BxX0FkTEFLNHhYckxXbTRuZkl1V2l0NEtLWHlEZEJtaHcyZGNjdnBBVGlOZWI0c1NGMmktcE94OHRYVGFVYnp0a0ZnSQ?oc=5",
-      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "source": "Indian Masterminds",
-      "publishedAt": "2026-03-28T01:23:36.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "wisdom ethics ai and future of law from intelligence to judgement",
-      "fingerprint": "ethics|future|intelligence|judgement|wisdom",
-      "topicKey": "wisdom future",
-      "bigrams": [
-        "future intelligence",
-        "intelligence judgement"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 28, 2026"
-    },
-    {
       "title": "Desperate Rep. Eric Swalwell may have broken ethics rules hitting up colleagues for AI cash",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYV9ZQkZaYkoyck9SZUNkUDgwOXhPeXRlejlPNVlzVFIxcW94dnM3ZkpOYmNFRS1LUUd3dUJOX2laZXpsa1JzemJVMDFWZ1l1SmtYa1VOS2psX3FkaGVZUHFDdkllcjJzdlB6Wkg2NWFRTElPXzA2YjdJSDV6ZmJ2Zll1SEpTLTR1VjRrNWNscS11RWVsSTR0MUhvWEhSRHF1dkFsejlqWVlEQ181d1BKaF9qSlR6UVJtSHp4cW9JeFAzTkxmdDZxSA?oc=5",
-      "summary": "Desperate Rep. Eric Swalwell may have broken ethics rules hitting up colleagues for AI cash.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "New York Post",
       "publishedAt": "2026-03-27T23:44:00.000Z",
       "matchedTerms": [
@@ -628,7 +567,7 @@
     {
       "title": "After Willie Nelson's Fourth of July Picnic used AI art in its poster, a Texas artist is pushing back with love",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdjJRa3JnTXJhdWxmT2FnTFZXVHZCUzlsQ0lVejNmcjYyaGxyNm00cmdaT2VHUEMybDBpdW1nNDFnYWNoVVliTWVTUmhpVkxNdExYMkh5N0dGVk81Y3hNTk05NklSYkphbzc4QlNpUzRDazJlQWRFNkdjd1RWaWxrTnFqU2xwZEJ5T1dMZjBXTU9fM18zRnpkblRLeTVhNjNJWnJHLUZmX1VlQmUyZnE4ZG13VHhNQ3o3ZjRxTmZjaEdQM0hLZUJJaHZycmxTd2w0TjBXeE9GNGk1TFZLVGNUR21JTWRfbnFyOVB5b3oySVU5Z2hPb2dFUmJqWnhoMGZW?oc=5",
-      "summary": "After Willie Nelson's Fourth of July Picnic used AI art in its poster, a Texas artist is pushing back with love.",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
       "source": "San Antonio Current",
       "publishedAt": "2026-03-27T20:13:16.000Z",
       "matchedTerms": [
@@ -655,32 +594,10 @@
       "publishedDisplay": "March 27, 2026"
     },
     {
-      "title": "As AI Transforms our World, Ethics Becomes a Leader’s True North",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41aDFTcktQNWZ6MWRsZmtVUld2NE4zRk5ZY2ZYVDh6N1N1OUVFTFdFTHRwWFRGbVVZcTRkNE5YVG92ZmhFSlY2Q3gtcEhBdkliOU8xTEg1MGhITzRKNExMODB1aHJZdy1pM0tqMFZRRlMzQjl4UTA5Vk02VFhtQQ?oc=5",
-      "summary": "As AI Transforms our World, Ethics Becomes a Leader’s True North.",
-      "source": "India CSR",
-      "publishedAt": "2026-03-27T14:08:02.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "as ai transforms our world ethics becomes a leader s true north",
-      "fingerprint": "becomes|ethics|leader|north|transforms|true|world",
-      "topicKey": "transforms world",
-      "bigrams": [
-        "transforms world",
-        "becomes leader",
-        "leader true",
-        "true north"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
       "title": "Peterborough artist David Geene explores the ethics and politics of proposed high rises in ‘Economies of Scale?’ exhibit",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQk5mY0dieHlNOXhGRVk0NWdxWU85eFJSZ05QajhnZExuTmd3UkNWbDl1dldfMkFlMDZMWnJHRjZwU1Z5T1NHNWdVaFpzSmVLSXEzQ21lSWJqOVZKSmNaSGo2SUVMeThYOFIxaDFZUy1LOEM0cFE4UFUwU3E1ZFlITkpZSVYtQ01qT2NzMFpHOENnMk9DTkNpRkdyZ2R1Y2FpN0p4Y2tQOE4tR2g3VTZYWXFKNDNJSkk1ejdONy13WV9QMDJvUmhrLUxZY2pnSkdDbFBWOEUzTi1RWWd3MjZNUmFqNGtaZVFF?oc=5",
-      "summary": "Peterborough artist David Geene explores the ethics and politics of proposed high rises in ‘Economies of Scale?’ exhibit.",
-      "source": "kawarthanow.com",
+      "summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "source": "kawarthaNOW",
       "publishedAt": "2026-03-27T13:59:49.000Z",
       "matchedTerms": [
         "ethics",
@@ -725,30 +642,6 @@
         "fears dlss",
         "dlss replacing",
         "replacing artistry"
-      ],
-      "score": 44,
-      "publishedDisplay": "March 27, 2026"
-    },
-    {
-      "title": "Hofstra Fuses AI Ethics with Functionality in New Undergrad Interdisciplinary Certificate for Fall 2026",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbC1mbEx0bEVHcUtIb0U3NDRqNWtSb2xFUzVnOHp6U3BiZ3Q1YVkzc1gxaFBGZjhfanB3Umdrc2JuT1FjUm5obDlQMmVUUHhhc01tNmw3ajRidldleU9uUC1hYUlhOWhtVk9pc1FuYnNKMFc2ZjVLcXg2aThWWERvYmRyV3djaC1qbEdqbHk4M21MZXZGY0Y2OXVpNDFxWmc4WlRfQlVFOWs0WUh6dG9Ld3BlR29aeGVhZ3dJTTEtWHI3X2JaWmNQZGZlMkEzU0VKYS1PQ2FiTQ?oc=5",
-      "summary": "Hofstra Fuses AI Ethics with Functionality in New Undergrad Interdisciplinary Certificate for Fall 2026.",
-      "source": "Hofstra University News",
-      "publishedAt": "2026-03-27T12:59:26.000Z",
-      "matchedTerms": [
-        "ai",
-        "ethics"
-      ],
-      "titleKey": "hofstra fuses ai ethics with functionality in new undergrad interdisciplinary certificate for fall 2026",
-      "fingerprint": "2026|certificate|ethics|fall|functionality|fuses|hofstra|interdisciplinary|undergrad",
-      "topicKey": "hofstra fuses",
-      "bigrams": [
-        "hofstra fuses",
-        "functionality undergrad",
-        "undergrad interdisciplinary",
-        "interdisciplinary certificate",
-        "certificate fall",
-        "fall 2026"
       ],
       "score": 38,
       "publishedDisplay": "March 27, 2026"
@@ -969,6 +862,121 @@
       "topicKey": "question conceals",
       "bigrams": [
         "question conceals"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 26, 2026"
+    },
+    {
+      "title": "AI in the Music Industry: Art or Slop?",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU1R3dlBmTW53dldCRlZxVHByc3VpM2FFdTV3T0ZBcjNWZjBfVVY5TDNQek9ocFZ3SFltdGxacV80cHV5WUhjWjRTSUN4SkZoSW1ocUJfRlk1UEh2NUhoT2pfRFpJaVVyNHV3WXBZVi1qU1lXQzA0ek1lRnpNcFlNc0tR?oc=5",
+      "summary": "AI in the Music Industry: Art or Slop?.",
+      "source": "The College Voice",
+      "publishedAt": "2026-03-26T12:14:10.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "ai in the music industry art or slop",
+      "fingerprint": "industry|music|slop",
+      "topicKey": "music industry",
+      "bigrams": [
+        "music industry",
+        "industry slop"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 26, 2026"
+    },
+    {
+      "title": "Recap: AI Ethics & Networking in London",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOW9BN1p5RmFtbjRkXzJzMmNDYzdzcS03TXRtNFpfWmZpdFJYemcyOXgxRDR2Mk0wRGJHV19Eb3M2dkhQN3R6a0pmdkFWeG5YeWY5Q0k1WFRndFh5dHR4X3VLVnhDazBURFY0b3MtRExsMWdiUjJSRnZibk9BMndYak5YbER4dm1BRzB3?oc=5",
+      "summary": "Recap: AI Ethics & Networking in London.",
+      "source": "Technische Universiteit Delft",
+      "publishedAt": "2026-03-26T10:43:58.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "recap ai ethics and networking in london",
+      "fingerprint": "ethics|london|networking|recap",
+      "topicKey": "recap networking",
+      "bigrams": [
+        "networking london"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 26, 2026"
+    },
+    {
+      "title": "AI’s growing role in creativity: Winkler's art community weighs in",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWdqbUlrX1RKWGhVSFQyMGtsMnFLbU5rSWstWENQN2Q0Rnh2cWdUR0kzRGU2S3A4OGZtaDFJVWlhVU84eldSN2ZYRnZDQzJWVlJtcWxVYlJCYk1BSDBHUGp5ZTA1ekJoSHV1bmY2UDRjdUVwRzFkUUNyU2VLTzJWSEJMUmdQOC1VYkVoZzVza3V3V29BR3pfajh5Rjh6X3BnZ0tfemtkUQ?oc=5",
+      "summary": "AI’s growing role in creativity: Winkler's art community weighs in.",
+      "source": "PembinaValleyOnline",
+      "publishedAt": "2026-03-26T10:05:55.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "ai s growing role in creativity winkler s art community weighs in",
+      "fingerprint": "community|creativity|growing|role|weighs|winkler",
+      "topicKey": "growing role",
+      "bigrams": [
+        "growing role",
+        "role creativity",
+        "creativity winkler",
+        "winkler community",
+        "community weighs"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 26, 2026"
+    },
+    {
+      "title": "Physical Education: Commercial Artists Don’t Fear AI … Yet",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONU8waTRESVRsczB4OVlSZThtcFp4ZGJ1cDBvRjBJSFhwVFRBVFIwMFY4TDZlc1lONkJMV1hXdzI2blNTNm9NcDRSNjhPODI5MzJTM1VrNHRCaXZnaG9xTlk2a2dzWGVBUTluclRqZG1BR1JSMXlSRG43aE16dDVhcmlyX3ExVmd4Q0REZHEzRE04Z0hSd0p2YjJlQTJBcUV6Sk5uR2M1a0ZNQVpmYW9TZFp5bzNXcDVTR19qa0UzVml2dEJYaU5vQVRCM3YxbzZwSjJF?oc=5",
+      "summary": "Physical Education: Commercial Artists Don’t Fear AI … Yet.",
+      "source": "nashvillescene.com",
+      "publishedAt": "2026-03-26T10:00:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "art"
+      ],
+      "titleKey": "physical education commercial artists don t fear ai yet",
+      "fingerprint": "artists|commercial|education|fear|physical",
+      "topicKey": "physical education",
+      "bigrams": [
+        "physical education",
+        "education commercial",
+        "commercial artists",
+        "artists fear"
+      ],
+      "score": 38,
+      "publishedDisplay": "March 26, 2026"
+    },
+    {
+      "title": "The Globethics’ Emerging Leaders in Ethical AI Governance Fellowship 2026 for early-career professionals (Funded stay in Geneva, Switzerland)",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjBrZ3BqM1hqa3BDdFl2OEZZaF9FQ1RFdE5nSDRodFhsaG11T2xaRjhxaUdKVERLc2xhdkhPVmxnQ0I5RG82R2FGZmlCcTRQZU10V3BwbEFjMldwYmp6ZTc5aHN5b2tRV19WWWtKeWJrRkxhSzl0d0RKMGNHblphem50RmIzWkZLUzdjOUsxaXI1YU5qdTFQbWN1UENSQlZEdm12RFlQRmN2bThOd1NOVWwtQUw?oc=5",
+      "summary": "The Globethics’ Emerging Leaders in Ethical AI Governance Fellowship 2026 for early-career professionals (Funded stay in Geneva, Switzerland).",
+      "source": "Opportunities For Africans",
+      "publishedAt": "2026-03-26T00:53:00.000Z",
+      "matchedTerms": [
+        "ai",
+        "ethics"
+      ],
+      "titleKey": "the globethics emerging leaders in ethical ai governance fellowship 2026 for early career professionals funded stay in geneva switzerland",
+      "fingerprint": "2026|career|early|emerging|ethical|fellowship|funded|geneva|globethics|governance",
+      "topicKey": "globethics emerging",
+      "bigrams": [
+        "globethics emerging",
+        "emerging leaders",
+        "leaders ethical",
+        "ethical governance",
+        "governance fellowship",
+        "fellowship 2026",
+        "2026 early",
+        "early career",
+        "career professionals",
+        "professionals funded",
+        "funded stay",
+        "stay geneva",
+        "geneva switzerland"
       ],
       "score": 38,
       "publishedDisplay": "March 26, 2026"

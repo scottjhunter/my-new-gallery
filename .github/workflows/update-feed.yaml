@@ -5,14 +5,16 @@ on:
   schedule:
     - cron: "0 */12 * * *"
 
+concurrency:
+  group: update-feed
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   update-feed:
     runs-on: ubuntu-latest
-    env:
-      NETLIFY_SITE_ID: e5e7f184-38c8-4263-a3ac-9c8924d1378e
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +35,6 @@ jobs:
         run: |
           if git diff --quiet src/_data/feed.json; then
             echo "No feed changes."
-            echo "feed_changed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -42,29 +43,3 @@ jobs:
           git commit -m "chore(feed): refresh curated feed"
           git pull --rebase origin master
           git push
-          echo "feed_changed=true" >> $GITHUB_OUTPUT
-        id: commit_feed
-
-      - name: Guard against stale deploy
-        run: |
-          git fetch origin master
-          LOCAL_SHA="$(git rev-parse HEAD)"
-          REMOTE_SHA="$(git rev-parse origin/master)"
-          if [ "$LOCAL_SHA" != "$REMOTE_SHA" ]; then
-            echo "Remote branch moved to a newer commit ($REMOTE_SHA)."
-            echo "Skipping direct Netlify deploy to avoid overwriting newer content."
-            echo "skip_deploy=true" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          echo "skip_deploy=false" >> $GITHUB_OUTPUT
-        id: deploy_guard
-
-      - name: Build site
-        if: steps.deploy_guard.outputs.skip_deploy != 'true'
-        run: npm run build
-
-      - name: Deploy to Netlify
-        if: (steps.commit_feed.outputs.feed_changed == 'true' || github.event_name == 'workflow_dispatch') && steps.deploy_guard.outputs.skip_deploy != 'true'
-        run: npx netlify-cli deploy --prod --dir=_site --site="$NETLIFY_SITE_ID"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

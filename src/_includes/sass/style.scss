@@ -37,13 +37,29 @@ p {
 }
 
 a {
-    color: $link-blue-accessible;
+    color: #3a3a3a;
     text-decoration: none;
     font-family: $system-font;
 
     &:hover, &:focus {
         text-decoration: underline;
+        color: #111111;
+    }
+}
+
+main p a,
+main li a,
+main figcaption a,
+main blockquote a {
+    color: $link-blue-accessible;
+    text-decoration: none;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1.5px;
+
+    &:hover, &:focus {
         color: $link-blue-accessible-hover;
+        text-decoration: underline;
+        background-color: #e8f0ff;
     }
 }
 
@@ -503,13 +519,40 @@ h2, .h2 {
     color: #555;
 
     a {
-        color: #444;
+        color: $link-blue-accessible;
+        text-decoration: none;
+        text-underline-offset: 2px;
+        text-decoration-thickness: 1.5px;
     }
 
     a:hover,
     a:focus {
-        color: #111;
+        color: $link-blue-accessible-hover;
+        text-decoration: underline;
+        background-color: #e8f0ff;
     }
+}
+
+.blog-list-item h2 a,
+.blog-preview-item h2 a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.blog-preview-item h3 a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.blog-list-item h2 a:hover,
+.blog-list-item h2 a:focus,
+.blog-preview-item h2 a:hover,
+.blog-preview-item h2 a:focus,
+.blog-preview-item h3 a:hover,
+.blog-preview-item h3 a:focus {
+    color: #111111;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 .blog-shell {

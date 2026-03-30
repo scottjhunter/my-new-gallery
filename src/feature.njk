@@ -47,7 +47,7 @@ permalink: "/gallery/{{ image.title | safeSlug }}/"
                     %}
                     <div class="image-description">
                         <h1 class="h2">{{ image.title }}</h1>
-                        <p>{{ image.credit }} on <a class="credit" href="{{ image.linkToAuthor }}">scottjhunter.org</a></p>
+                        <p>{{ image.credit }} on <a class="credit" href="{{ site.url }}">scottjhunter.org</a></p>
                     </div>
                     <div class="prev-next">
                         {% if pagination.href.previous %}

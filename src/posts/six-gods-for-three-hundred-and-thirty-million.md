@@ -15,7 +15,7 @@ topics:
 layout: main.njk
 permalink: "/blog/six-gods-for-three-hundred-and-thirty-million/"
 url: https://scottjhunter.org/blog/six-gods-for-three-hundred-and-thirty-million/
-img: /images/egyptiangods.png
+img: /images/hindugods.png
 alt: A contemporary family portrait used in the Ancient Pantheons in the AI Mirror series.
 cardType: summary_large_image
 ---
@@ -24,7 +24,7 @@ cardType: summary_large_image
   <h1>{{ title }}</h1>
 
   <figure style="margin: 0 0 1em 0;">
-    <img src="/images/egyptiangods.png" alt="A contemporary family portrait used in the Ancient Pantheons in the AI Mirror series." style="width: 100%; height: auto; margin-bottom: 0.5em;">
+    <img src="/images/hindugods.png" alt="A contemporary family portrait used in the Ancient Pantheons in the AI Mirror series." style="width: 100%; height: auto; margin-bottom: 0.5em;">
     <figcaption><em>Third in a series: Ancient Pantheons in the AI Mirror.</em></figcaption>
   </figure>
 

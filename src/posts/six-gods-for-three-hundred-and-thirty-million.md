@@ -30,10 +30,10 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>I. The Number</h2>
+  <h2>The Number</h2>
 
   <p>
-    The Norse pantheon has dozens of named figures. The Roman pantheon has hundreds if you count the minor ones. Hinduism, depending on who you ask and how you count, has thirty-three major deities, or three hundred and thirty million manifestations of the divine, every number between those two depending on the tradition and the region and the century.
+    The Norse pantheon has dozens of named figures. The Roman pantheon has hundreds if you count the minor ones. Hinduism, depending on who you ask and how you count, has <a href="https://www.celextel.org/upanishads-shukla-yajur-veda/brihadaranyaka-upanishad/" target="_blank" rel="noopener noreferrer">thirty-three principal deities in classical enumeration</a>, or <a href="https://www.britannica.com/topic/list-of-Hindu-deities-2066639" target="_blank" rel="noopener noreferrer">symbolic counts that run up to 330 million</a>, every number between those two depending on the tradition and the region and the century.
   </p>
 
   <p>
@@ -46,7 +46,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>II. Who the Hindu Gods Actually Are</h2>
+  <h2>Who the Hindu Gods Actually Are</h2>
 
   <p>
     Brief and necessarily incomplete, which is itself the point.
@@ -70,7 +70,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>III. What Came Back: A Desi Family in a Very Nice Living Room</h2>
+  <h2>What Came Back: A Desi Family in a Very Nice Living Room</h2>
 
   <p>
     The setting is immediately notable. This is not a log cabin. This is a well-appointed, light-filled living room that could be in suburban New Jersey or the nicer parts of the Bay Area. Comfortable furniture, good lamps, the kind of room that suggests professional income and settled roots.
@@ -86,7 +86,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>IV. Why It Looks Like This: The Desi Diaspora</h2>
+  <h2>Why It Looks Like This: The Desi Diaspora</h2>
 
   <p>
     The word <a href="https://www.merriam-webster.com/dictionary/desi" target="_blank" rel="noopener noreferrer">Desi</a> comes from the Sanskrit word for "of the homeland." It is the term South Asian diaspora communities use for themselves, covering Indian, Pakistani, Bangladeshi, and Sri Lankan heritage broadly, and it carries warmth and self-identification rather than the clinical distance of "South Asian American." When someone calls themselves Desi, they are claiming something about culture and belonging, not just geography.
@@ -102,7 +102,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>V. The Clothing Split</h2>
+  <h2>The Clothing Split</h2>
 
   <p>
     This deserves its own moment because it is subtle and it is real.
@@ -126,7 +126,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>VI. What Got Left Out</h2>
+  <h2>What Got Left Out</h2>
 
   <p>
     Three hundred and thirty million. The AI gave us six.
@@ -150,7 +150,7 @@ cardType: summary_large_image
 
   <hr>
 
-  <h2>VII. The Frame Holds Six</h2>
+  <h2>The Frame Holds Six</h2>
 
   <p>
     We established in the last post that eleven figures is roughly the ceiling before image quality degrades. The AI did not reach eleven here. It gave us six.

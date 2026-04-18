@@ -1,5 +1,21 @@
 [
   {
+    "title": "A Living Room by Conversation",
+    "date": "April 9, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "livingroom.png",
+    "alt": "A stylized living room interior shaped through iterative design-preference conversations.",
+    "imgDir": "/images/"
+  },
+  {
+    "title": "Bedroom from a Prompted Memory",
+    "date": "April 9, 2026",
+    "credit": "Scott Hunter and ChatGPT",
+    "src": "bedroom.png",
+    "alt": "A stylized bedroom interior informed by conversation history and design preference prompts.",
+    "imgDir": "/images/"
+  },
+  {
     "title": "Fourth Monkey",
     "date": "March 28, 2026",
     "credit": "Scott Hunter and ChatGPT",

@@ -50,4 +50,24 @@ cardType: summary_large_image
   </div>
 </section>
 
+<section class="home-blog-preview" aria-labelledby="latest-prose">
+  <div class="home-blog-preview-inner">
+    <h2 id="latest-prose" class="h1">Latest from Prose</h2>
+    <ul class="blog-preview-list">
+      {% for piece in collections.prose | reverse %}
+      {% if loop.index <= 2 %}
+      <li class="blog-preview-item">
+        <p class="blog-preview-date">{{ piece.data.displayDate }}</p>
+        <h3><a href="{{ piece.url }}">{{ piece.data.title }}</a></h3>
+        {% if piece.data.excerpt %}
+        <p>{{ piece.data.excerpt }}</p>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <p><a href="/prose/">View all prose</a></p>
+  </div>
+</section>
+
 {% include "partials/home-gallery.njk" %}

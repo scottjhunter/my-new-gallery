@@ -1,0 +1,29 @@
+# Eleventy site output
+_site
+
+# Node modules
+node_modules
+
+# DS Store
+.DS_store
+
+# Eleventy cached API results
+.cache
+# Local Netlify folder
+.netlify
+
+# Generated styles are rebuilt from Sass
+/src/_includes/css/
+
+# Local drafts, reviews, and agent state
+/drafts/
+/reports/
+/.agents/
+/.codex/
+/.aws/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.log

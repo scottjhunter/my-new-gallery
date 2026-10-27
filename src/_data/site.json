@@ -1,0 +1,27 @@
+{
+  "url": "https://scottjhunter.org",
+  "author": {
+    "firstName": "Scott J.",
+    "lastName": "Hunter",
+    "email": "scottjhunter@gmail.com",
+    "twitterHandle": "",
+    "about": "Exploring the intersections of mysticism, technology, consciousness, and culture"
+  },
+  "socials": {
+    "twitter": "",
+    "linkedin": "",
+    "dribbble": "",
+    "github": "https://github.com/scottjhunter"
+  },
+  "analytics": {
+    "measurementId": "G-H9BPF0Z08G"
+  },
+  "pageMetadata": {
+    "home": {
+      "content": "Essays and personal reflections by Scott Hunter on philosophy, technology, consciousness, creativity, and the questions that arise in everyday life."
+    },
+    "about": {
+      "content": "Learn more about the artist, his philosophy, and the creative process behind the images."
+    }
+  }
+}

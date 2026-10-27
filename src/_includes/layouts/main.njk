@@ -1,0 +1,267 @@
+---
+layout: base.njk
+---
+
+<main id="main">
+    {% set isBlogIndex = page.url == "/" or page.url == "/blog/" %}
+    {% set isBlogTopic = page.url and page.url.indexOf("/blog/topics/") == 0 %}
+    {% set isBlogPost = page.url and page.url != "/blog/" and page.url.indexOf("/blog/") == 0 and not isBlogTopic %}
+    {% if isBlogIndex or isBlogTopic or isBlogPost %}
+    <div class="blog-shell">
+        <aside class="blog-sidebar" aria-label="Blog topics">
+            <p class="blog-sidebar-heading">Topics</p>
+            <ul class="blog-sidebar-list">
+                <li class="blog-sidebar-item">
+                    <a class="blog-sidebar-all" href="/" {% if isBlogIndex %}aria-current="page"{% endif %}>All posts ({{ collections.posts | length }})</a>
+                </li>
+                {% for topic in collections.posts | blogTopics %}
+                <li class="blog-sidebar-item">
+                    <a
+                        class="blog-sidebar-topic"
+                        href="/blog/topics/{{ topic.slug }}/"
+                        data-topic-slug="{{ topic.slug }}"
+                        data-topic-name="{{ topic.name }}"
+                        {% if page.url == "/blog/topics/" + topic.slug + "/" %}aria-current="page"{% endif %}
+                    >
+                        {{ topic.name }} ({{ topic.count }})
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </aside>
+        <section class="blog-shell-content">
+            {{ content | safe}}
+            {% if isBlogPost %}
+            <span class="post-reaction-widget" data-reaction-widget style="display: flex; align-items: center; gap: 0.6rem; margin: 0.35rem 0 1.25rem; vertical-align: middle; line-height: 1;">
+                <span style="display: inline-flex; align-items: center; gap: 0.45rem; flex-wrap: wrap; line-height: 1;">
+                    <button
+                        type="button"
+                        data-reaction-button="up"
+                        style="padding: 0; width: 1.55rem; height: 1.55rem; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text-strong); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; line-height: 1; transition: background-color 160ms ease, color 160ms ease, transform 120ms ease;"
+                        aria-label="Thumbs up"
+                    >
+                        <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" style="display:block;">
+                            <path d="M7 10v10M15 6.5 14 10h5.2c.6 0 1.1.5 1 1.1l-.9 6.1a3.3 3.3 0 0 1-3.2 2.8H7V10l3.6-6.3c.3-.5.8-.7 1.3-.7h.4c1.8 0 3.1 1.7 2.7 3.5Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <span data-reaction-count="up" style="color: var(--text-muted); min-width: 1.3rem; line-height: 1; display: inline-flex; align-items: center;">(...)</span>
+                    <button
+                        type="button"
+                        data-reaction-button="down"
+                        style="padding: 0; width: 1.55rem; height: 1.55rem; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--surface); color: var(--text-strong); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; line-height: 1; transition: background-color 160ms ease, color 160ms ease, transform 120ms ease;"
+                        aria-label="Thumbs down"
+                    >
+                        <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" style="display:block;">
+                            <path d="M7 14V4M15 17.5 14 14h5.2c.6 0 1.1-.5 1-1.1l-.9-6.1A3.3 3.3 0 0 0 16.1 4H7v10l3.6 6.3c.3.5.8.7 1.3.7h.4c1.8 0 3.1-1.7 2.7-3.5Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button
+                        type="button"
+                        data-feedback-button
+                        title="Send feedback"
+                        aria-label="Send feedback"
+                        style="margin-left: 0.6rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); color: var(--text-soft); cursor: pointer; font-size: 0.9rem; line-height: 1.2;"
+                    >
+                        Feedback
+                    </button>
+                </span>
+            </span>
+            {% endif %}
+        </section>
+    </div>
+    {% else %}
+    {{ content | safe}}
+    {% endif %}
+</main>
+
+{% if isBlogPost %}
+<script>
+  (function () {
+    const widget = document.querySelector("[data-reaction-widget]");
+    if (!widget) return;
+
+    const postTitle = document.querySelector(".about-me-content h1, .about-me-content h2, h1, h2");
+    if (postTitle) {
+      postTitle.insertAdjacentElement("afterend", widget);
+    }
+
+    const buttons = Array.from(widget.querySelectorAll("[data-reaction-button]"));
+    const upCountEl = widget.querySelector('[data-reaction-count="up"]');
+    const feedbackBtn = widget.querySelector("[data-feedback-button]");
+
+    const path = window.location.pathname.replace(/\/$/, "") || "/";
+    const localKey = "post_reaction:" + path;
+    const legacyLocalKey = "liked_post:" + path;
+    const endpoint = "/.netlify/functions/likes";
+
+    const getStoredReaction = () => {
+      const stored = localStorage.getItem(localKey);
+      if (stored === "up" || stored === "down") return stored;
+
+      if (localStorage.getItem(legacyLocalKey) === "1") {
+        localStorage.setItem(localKey, "up");
+        return "up";
+      }
+
+      return "";
+    };
+
+    const setCounts = (counts) => {
+      const up = typeof counts.up === "number" ? counts.up : 0;
+
+      upCountEl.textContent = String(up);
+    };
+
+    const setButtonIdle = (btn) => {
+      btn.style.background = "var(--surface)";
+      btn.style.border = "1px solid var(--border-strong)";
+      btn.style.color = "var(--text-strong)";
+      btn.style.transform = "none";
+    };
+
+    const setButtonActive = (btn) => {
+      btn.style.background = "var(--accent)";
+      btn.style.border = "1px solid var(--accent)";
+      btn.style.color = "var(--surface)";
+      btn.style.transform = "none";
+    };
+
+    const setHoverOn = (btn) => {
+      if (btn.disabled) return;
+      setButtonActive(btn);
+      btn.style.transform = "scale(1.06)";
+    };
+
+    const setHoverOff = (btn) => {
+      if (btn.disabled) return;
+      setButtonIdle(btn);
+    };
+
+    const setSelectedState = (reaction) => {
+      buttons.forEach((button) => {
+        const isSelected = button.dataset.reactionButton === reaction;
+        button.disabled = true;
+        button.style.cursor = "default";
+        button.style.opacity = isSelected ? "1" : "0.55";
+        button.setAttribute("aria-pressed", isSelected ? "true" : "false");
+
+        if (isSelected) {
+          setButtonActive(button);
+        } else {
+          setButtonIdle(button);
+        }
+      });
+    };
+
+    const fetchCounts = async () => {
+      try {
+        const res = await fetch(endpoint + "?path=" + encodeURIComponent(path));
+        if (!res.ok) throw new Error("reaction fetch failed");
+        const data = await res.json();
+        setCounts(data);
+      } catch (err) {
+        setCounts({ up: 0, down: 0, score: 0 });
+        buttons.forEach((button) => {
+          button.disabled = true;
+          button.style.cursor = "default";
+        });
+      }
+    };
+
+    const existingReaction = getStoredReaction();
+    if (existingReaction) setSelectedState(existingReaction);
+
+    if (feedbackBtn) {
+      feedbackBtn.addEventListener("click", function () {
+        const postTitle = document.querySelector(".about-me-content h1, .about-me-content h2, h1, h2")?.textContent.trim() || document.title;
+        const postUrl = window.location.href;
+        const subject = encodeURIComponent("Feedback on " + postTitle);
+        const body = encodeURIComponent(
+          "Hi Scott,\n\nI wanted to send feedback on this post:\n" +
+          postTitle +
+          "\n" +
+          postUrl +
+          "\n\n"
+        );
+
+        window.location.href = "mailto:scottjhunter@gmail.com?subject=" + subject + "&body=" + body;
+      });
+    }
+
+    buttons.forEach((button) => {
+      const reaction = button.dataset.reactionButton;
+
+      button.addEventListener("mouseenter", function () {
+        setHoverOn(button);
+      });
+
+      button.addEventListener("mouseleave", function () {
+        setHoverOff(button);
+      });
+
+      button.addEventListener("click", async function () {
+        if (getStoredReaction()) return;
+
+        buttons.forEach((item) => {
+          item.disabled = true;
+        });
+
+        try {
+          const res = await fetch(endpoint, {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
+            },
+            body: JSON.stringify({ path, reaction }),
+          });
+          if (!res.ok) throw new Error("reaction failed");
+          const data = await res.json();
+          localStorage.setItem(localKey, reaction);
+          setCounts(data);
+          setSelectedState(reaction);
+        } catch (err) {
+          buttons.forEach((item) => {
+            item.disabled = false;
+          });
+        }
+      });
+    });
+
+    fetchCounts();
+  })();
+</script>
+{% endif %}
+
+{% if isBlogIndex or isBlogTopic %}
+<script>
+  (function () {
+    const likeItems = Array.from(document.querySelectorAll("[data-blog-list-likes]"));
+    if (!likeItems.length) return;
+
+    const endpoint = "/.netlify/functions/likes";
+
+    likeItems.forEach(async (item) => {
+      const countEl = item.querySelector("[data-blog-list-like-count]");
+      const rawPath = item.dataset.postPath || "";
+      const path = rawPath.replace(/\/$/, "") || "/";
+
+      if (!countEl || !path || path === "false") {
+        item.hidden = true;
+        return;
+      }
+
+      try {
+        const res = await fetch(endpoint + "?path=" + encodeURIComponent(path));
+        if (!res.ok) throw new Error("like fetch failed");
+        const data = await res.json();
+        const up = typeof data.up === "number" ? data.up : 0;
+        countEl.textContent = String(up);
+        item.setAttribute("aria-label", up + " upvote" + (up === 1 ? "" : "s"));
+      } catch (err) {
+        countEl.textContent = "0";
+        item.setAttribute("aria-label", "0 upvotes");
+      }
+    });
+  })();
+</script>
+{% endif %}

@@ -1,0 +1,26 @@
+{% set navigation = collections.all | eleventyNavigation %}
+<header class="top-nav">
+    <div class="intro">
+        <div>
+            <a class="home-button" href="/">
+                <img class="home-button-icon" src="/favicon_data/favicon-32x32.png" alt="" width="32" height="32">
+                <span>Scott's Notebook</span>
+            </a>
+            <p class="home-about">{{ site.author.about }}</p>
+        </div>
+        <div class="nav-actions" aria-label="Site actions">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">
+                <span class="theme-toggle-icon" aria-hidden="true"></span>
+                <span class="theme-toggle-text" data-theme-toggle-label>Dark</span>
+            </button>
+            <a class="hire-me" href="/about/#contact-me">Contact Me</a>
+        </div>
+    </div>
+    <nav class="nav-main">
+        <ul class="nav-list">
+            {% for link in navigation %}
+            <li><a href="{{ link.url | url }}" class="link">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

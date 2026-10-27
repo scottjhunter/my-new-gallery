@@ -1,0 +1,14 @@
+<nav aria-label="Ancient Pantheons in the AI Mirror series">
+  <hr>
+  <h2>Explore the other pantheons</h2>
+  <ul>
+    {% for pantheon in pantheons %}
+    {% if pantheon.url != page.url %}
+    <li><a href="{{ pantheon.url }}">{{ pantheon.culture }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% if page.url != "/blog/ancient-pantheons-in-the-ai-mirror-postscript/" %}
+  <p><a href="/blog/ancient-pantheons-in-the-ai-mirror-postscript/">Series postscript: Judaism, Christianity, and Buddhism</a></p>
+  {% endif %}
+</nav>

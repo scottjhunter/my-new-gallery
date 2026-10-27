@@ -1,0 +1,12 @@
+[
+  { "culture": "Roman", "url": "/blog/the-gods-of-rome-walk-into-a-reality-show/" },
+  { "culture": "Norse", "url": "/blog/the-gods-of-the-north-come-home-for-the-holidays/" },
+  { "culture": "Hindu (India)", "url": "/blog/six-gods-for-three-hundred-and-thirty-million/" },
+  { "culture": "Egyptian", "url": "/blog/many-faces-one-mask/" },
+  { "culture": "Japanese (Shinto)", "url": "/blog/the-japanese-pantheon-the-nail-that-sticks-up/" },
+  { "culture": "Celtic", "url": "/blog/the-celtic-pantheon-fog-stone-and-everything-the-ai-forgot/" },
+  { "culture": "Mesopotamian", "url": "/blog/the-mesopotamian-pantheon-the-oldest-story-we-know/" },
+  { "culture": "Yoruba", "url": "/blog/the-yoruba-pantheon-what-the-atlantic-could-not-drown/" },
+  { "culture": "Aztec", "url": "/blog/the-aztec-pantheon-what-the-algorithm-erased/" },
+  { "culture": "Chinese", "url": "/blog/the-chinese-pantheon-the-last-mirror/" }
+]

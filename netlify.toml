@@ -1,0 +1,81 @@
+[build]
+    # Directory (relative to root of your repo) that contains the deploy-ready HTML files
+    publish = "_site"
+    
+    # Build command
+    command = "npm run build"
+
+[build.processing.html]
+    pretty_urls = true
+
+# Keep one public origin. Pretty URLs adds slashes only to live pages.
+[[redirects]]
+    from = "http://scottjhunter.org/*"
+    to = "https://scottjhunter.org/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "http://www.scottjhunter.org/*"
+    to = "https://scottjhunter.org/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://www.scottjhunter.org/*"
+    to = "https://scottjhunter.org/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/blog/the-only-real-thing-here-is-the-dog/"
+    to = "/blog/on-timing-and-delivery/"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/blog/the-compression-of-time/"
+    to = "/blog/compression-of-time/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/my-perspective-on-how-a-life-is-built/"
+    to = "/blog/how-a-life-is-built/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/flu-fog-and-guardrails/"
+    to = "/blog/reflections-in-the-fog-of-flu/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/the-many-scott-j-hunters-coincidence-pattern-and-consciousness/"
+    to = "/blog/the-many-scott-j-hunters/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/synchronicity/"
+    to = "/blog/the-many-scott-j-hunters/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/wrestling-light-and-shadow/"
+    to = "/blog/battle/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/cognitive-dissidents-on-tour/"
+    to = "/blog/cognitive-dissidents/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/guest-blog-prompting-humans-a-field-guide/"
+    to = "/blog/prompting-humans-a-field-guide/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/"
+    to = "/"
+    status = 301
+    force = true
+

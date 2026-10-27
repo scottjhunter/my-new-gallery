@@ -1,0 +1,70 @@
+---
+title: About Me
+meta_desc: Essays, experiments, and creative work at the crossroads of ancient philosophy, modern technology, and the study of consciousness.
+url: https://scottjhunter.org/about/
+img: /images/Scott2.jpg
+alt: Illustrated portrait of Scott Hunter with glasses and a white goatee, surrounded by notebooks, books, a camera, a laptop, and glowing diagrams against a starry background.
+eleventyNavigation:
+  key: About
+  order: 1
+heading: My Sandbox
+permalink: "/about/"
+layout: main.njk
+---
+
+<section class="home-intro about-intro" aria-labelledby="about-intro-title">
+  <h1 id="about-intro-title" class="home-intro-heading">{{ heading }}</h1>
+  <div class="home-intro-media">
+    <figure>
+      {% img
+        src="Scott2.jpg",
+        alt=alt,
+        className="home-intro-image",
+        sizes="(max-width: 600px) 100vw, 352px"
+      %}
+    </figure>
+  </div>
+  <div class="home-intro-copy">
+    <p>This is where I work through ideas that don't fit neatly into one box. Essays, experiments, and creative work that live at the crossroads of fields that rarely get introduced to one another: ancient philosophy, modern technology, and the study of consciousness.</p>
+    <p>Most of what you'll find here starts with a question that keeps coming back. How do ideas from radically different domains speak to each other? What becomes visible when you hold them up against one another? Sometimes that means setting a mystic tradition next to a modern theory of mind. Sometimes it just means following a question long enough to find out where it actually goes.</p>
+    <p>There's no single argument being made here, and no thesis to defend. This is an ongoing inquiry, a place to test ideas, surface unexpected connections, and see what holds up when disciplines stop staying in their own lanes.</p>
+  </div>
+</section>
+
+<div class="about-me-content about-detail-content">
+  <h2>How I Work</h2>
+  <figure class="about-workstation-image">
+    <img src="/images/workstation.jpg" alt="Wooden desk with two monitors showing a terminal and ChatGPT, a keyboard, mouse, speakers, papers, and a light bar above the screens." width="400" height="300">
+    <figcaption>The desk where the questions pile up.</figcaption>
+  </figure>
+  <p>Most projects start simply. I read articles, blogs, the occasional book, and something gets stuck in my head. I follow it. With the internet, you can sometimes learn more about a subject than you ever expected, and that's usually where things get interesting.</p>
+  <p>Then comes the harder part: figuring out how to process it. How to get what's happening in my head down on paper in a way that actually makes sense. That process is a mix of research, writing, and whatever tools are useful at the time.</p>
+  <p>Like any project I've worked on over the last five decades, revision is the whole job. So don't be surprised if you come back and find a different version of something. If I think I could have been clearer, or if the focus shifted, I'll change it.</p>
+  <p>That's just how this notebook works.</p>
+  <p>In my spare time, I also work on websites, including this one and <a href="https://menardmediation.com/">Menard Mediation</a> for Jean-Paul Menard, a Los Angeles-based attorney and mediator who helps people resolve business, real estate, employment, and other disputes. It's another kind of creative work: figuring out what someone wants to communicate, giving it a shape, and making it easy for people to find what they need.</p>
+  
+  <h2>Final Note</h2>
+  <p>This site probably won't change the world, and not many people may ever see it. That's okay. I've been carrying ideas around for a long time, and at some point you need somewhere to put them. This is that place.</p>
+  <p>It's an outlet. A place for personal expression. A way to get the mountain of things accumulating in my head out into the wider stream of the internet, where they can either find someone they resonate with or just float quietly and that's fine too.</p>
+  <p>I'm not chasing an audience. I'm not building a brand. I've been doing creative work in one form or another for most of my life, and this is just the current version of that. The medium keeps changing. The impulse doesn't.</p>
+
+  <h2 id="contact-me">Contact</h2>
+  <p>Send me a message using the form below. I usually take 24-48 hours to respond.</p>
+  <p>If you want to be notified about updates, let me know and I will add you to the list.</p>
+
+  <form class="contact-form" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact">
+      <p hidden>
+        <label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+      </p>
+      <label for="name">Your name</label>
+      <input type="text" name="name" id="name" autocomplete="name" maxlength="200" required>
+      <label class="form-label" for="email">Your email</label>
+      <input type="email" name="email" id="email" autocomplete="email" maxlength="254" required>
+      <label class="form-label" for="subject">Subject</label>
+      <input class="email-subject" type="text" name="subject" id="subject" maxlength="200" required>
+      <label class="form-label" for="message">Message</label>
+      <textarea class="email-msg" rows="5" cols="30" name="message" id="message" maxlength="10000" required></textarea>
+      <button type="submit" class="reach-me button submit-contact">Send message</button>
+  </form>
+</div>

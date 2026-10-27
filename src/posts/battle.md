@@ -1,0 +1,107 @@
+---
+title: Wrestling Light and Shadow
+meta_desc: "An impasto-style painting of light and shadow prompts reflections on illness recovery, good and evil, and the layers of religious belief."
+description: "An impasto-style painting of light and shadow prompts reflections on illness recovery, good and evil, and the layers of religious belief."
+excerpt: Recovering from illness and revisiting Wrestling Light and Shadow opens a meditation on impasto, dualism, and the uneasy integration of opposites.
+displayDate: February 22, 2026
+date: 2026-02-22
+tags:
+  - posts
+topic: Consciousness
+topics:
+  - Consciousness
+  - Psychology
+  - Creativity
+layout: main.njk
+permalink: "/blog/battle/"
+url: https://scottjhunter.org/blog/battle/
+img: /images/battle.jpg
+alt: "Textured painting of two opposing figures surrounded by swirling orange fire and dark blue shadows."
+cardType: summary_large_image
+---
+
+<div class="about-me-content">
+  <h1>{{ title }}</h1>
+  <img src="/images/battle.jpg" alt="Textured painting of two opposing figures surrounded by swirling orange fire and dark blue shadows." style="width: 100%; height: auto; margin-bottom: 1em;">
+
+  <p>
+    I am finally getting over being sick.
+  </p>
+
+  <p>
+    It lingered longer than I expected. Fever faded, congestion stayed, the body felt like it was moving through wet cement. There is something clarifying about being flattened for a week or two. You become aware of fragility in a way that productivity tends to obscure.
+  </p>
+
+  <p>
+    While recovering, I spent time looking closely at this image I created a year ago.
+  </p>
+
+  <p>
+    I recently learned the painting style is called <a href="https://www.britannica.com/art/impasto" target="_blank" rel="noopener noreferrer"><em>impasto</em></a>. The word comes from the Italian <em>impastare</em>, meaning "to knead" or "to paste." Thick paint laid on in ridges and slabs so the surface becomes almost sculptural. Not illusion, but material presence. You do not just see color-you see matter.
+  </p>
+
+  <p>
+    Vincent van Gogh's <a href="https://www.moma.org/collection/works/79802" target="_blank" rel="noopener noreferrer"><em>The Starry Night</em></a> is one of the most famous examples. The sky is not smooth; it churns. Rembrandt used impasto for highlights so that light would physically catch on raised paint. Frank Auerbach and Leon Kossoff built entire surfaces out of it. The canvas becomes terrain.
+  </p>
+
+  <p>
+    In this piece, the technique matters. The swirling orange and blue are not symbolic in some abstract, minimalist way. They are physical conflict. The angel and the devil are almost embedded in the paint, as if good and evil are not separate realms but forces kneaded into the same surface.
+  </p>
+
+  <p>
+    That tension is ancient.
+  </p>
+
+  <p>
+    <a href="https://www.britannica.com/topic/Zoroastrianism" target="_blank" rel="noopener noreferrer">Zoroastrianism</a> is often cited as one of the earliest structured dualistic systems: Ahura Mazda versus Angra Mainyu-good and destructive spirit locked in cosmic struggle. The end, however, is predetermined. Good ultimately wins. History has a script.
+  </p>
+
+  <p>
+    <a href="https://www.britannica.com/topic/Mandaeanism" target="_blank" rel="noopener noreferrer">Mandaeanism</a>, which likely emerged in the same broad Near Eastern milieu, also presents a stark light-versus-dark cosmology. But its structure feels different. The material world is often attributed to a flawed or lesser creator. Salvation is escape, not triumph. Knowledge-<a href="https://www.britannica.com/topic/gnosticism" target="_blank" rel="noopener noreferrer"><em>gnosis</em></a>-is liberation. The tension is not simply moral but metaphysical.
+  </p>
+
+  <p>
+    If I were to lean toward one of these systems, it would probably be closer to the Mandaean framework. Any religion that declares the ending in advance makes me cautious. Predestination has a way of shrinking responsibility. If the outcome is guaranteed, the struggle becomes theater.
+  </p>
+
+  <p>
+    Of course, these ideas are not new. <a href="https://www.britannica.com/biography/Carl-Jung" target="_blank" rel="noopener noreferrer">Carl Jung</a> wrote about the shadow and the integration of opposites. William Blake famously suggested that "<a href="https://www.bl.uk/collection-items/the-marriage-of-heaven-and-hell-copy-g-object-4" target="_blank" rel="noopener noreferrer">Energy is Eternal Delight</a>," and portrayed the rebel not purely as villain but as a necessary force. Even in early Christian debates, some sects flirted with the idea that the creator god might not be the highest principle.
+  </p>
+
+  <p>
+    The painting pushes the question further.
+  </p>
+
+  <p>
+    If you strip it down to archetypes: God commands obedience. Satan offers knowledge. In <a href="https://www.biblegateway.com/passage/?search=Genesis%203&version=NRSVUE" target="_blank" rel="noopener noreferrer">Genesis 3</a>, the serpent does not force the fruit; it presents an option. God withholds knowledge; the serpent invites choice. That framing has led many thinkers to reconsider who represents freedom and who represents control.
+  </p>
+
+  <p>
+    I am not claiming conclusions here. I am only noting the pattern.
+  </p>
+
+  <p>
+    The angel and the devil in this image are not clean opposites. There is intensity between them. Almost intimacy. Their arms are locked; neither floats freely. It looks less like extermination and more like wrestling. Perhaps good and evil are not enemies to be annihilated but forces to be integrated.
+  </p>
+
+  <p>
+    Impasto feels like the right medium for that idea. Thick, resistant, textured. No smooth gradients. No easy blending. Just paint pushed against paint until something coherent emerges.
+  </p>
+
+  <p>
+    I am recovering. The body rebalances itself. Infection fades. Tension resolves. Maybe belief systems function the same way-thick layers built over centuries, sometimes hardened, sometimes cracked open.
+  </p>
+
+  <p>
+    I am not certain of any of it. I am only putting the thought out there.
+  </p>
+
+  <p>
+    Others have been wrestling with the same canvas for a long time.
+  </p>
+
+  <p class="post-meta">{{ displayDate }} - SJH</p>
+</div>
+
+
+

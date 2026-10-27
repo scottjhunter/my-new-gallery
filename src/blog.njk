@@ -1,0 +1,83 @@
+---
+title: Scott Hunter's Blog
+meta_desc: Essays and personal reflections by Scott Hunter on philosophy, technology, consciousness, creativity, and the questions that arise in everyday life.
+url: https://scottjhunter.org/blog/
+img: /images/blog.jpg
+alt: Comic-style grid of twelve panels showing Scott writing in notebooks and on laptops at cafés and desks, sometimes lost in thought, sometimes frustrated.
+heading: Blog
+permalink: "/blog/"
+layout: main.njk
+canonicalPath: "/"
+noindex: true
+sitemap: false
+---
+
+<div class="about-me-content">
+  <h1>{{ heading }}</h1>
+  <figure class="blog-page-image">
+    <img src="/images/blog.jpg" alt="{{ alt }}">
+  </figure>
+  <p class="blog-filter-status" aria-live="polite"></p>
+  <ul class="blog-list">
+    {% for post in collections.posts | reverse %}
+    {% set postTopics = post | postTopics %}
+    <li class="blog-list-item" data-topics="{% for topic in postTopics %}{{ topic | topicSlug }}{% if not loop.last %},{% endif %}{% endfor %}">
+      <p class="blog-preview-date">{{ post.data.displayDate }}</p>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <p>{{ post.data.excerpt }}</p>
+      <p class="blog-list-topics">
+        {% for topic in postTopics %}
+        <a href="/blog/topics/{{ topic | topicSlug }}/">#{{ topic }}</a>{% if not loop.last %} <span aria-hidden="true"> </span> {% endif %}
+        {% endfor %}
+        <span class="blog-list-likes" data-blog-list-likes data-post-path="{{ post.url }}" aria-label="Loading upvotes">
+          <span class="blog-list-like-button" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" focusable="false">
+              <path d="M7 10v10M15 6.5 14 10h5.2c.6 0 1.1.5 1 1.1l-.9 6.1a3.3 3.3 0 0 1-3.2 2.8H7V10l3.6-6.3c.3-.5.8-.7 1.3-.7h.4c1.8 0 3.1 1.7 2.7 3.5Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span data-blog-list-like-count>(...)</span>
+        </span>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const topicSlug = params.get("topic");
+    if (!topicSlug) return;
+
+    const items = Array.from(document.querySelectorAll(".blog-list-item"));
+    let shown = 0;
+    items.forEach((item) => {
+      const topics = (item.dataset.topics || "").split(",").filter(Boolean);
+      const matches = topics.includes(topicSlug);
+      item.hidden = !matches;
+      if (matches) shown += 1;
+    });
+
+    if (shown === 0) {
+      items.forEach((item) => {
+        item.hidden = false;
+      });
+    }
+
+    const topicLink = document.querySelector(`.blog-sidebar-topic[data-topic-slug="${topicSlug}"]`);
+    const topicName = topicLink ? topicLink.dataset.topicName : topicSlug.replace(/-/g, " ");
+    if (topicLink) topicLink.setAttribute("aria-current", "page");
+
+    const allPostsLink = document.querySelector(".blog-sidebar-all");
+    if (allPostsLink) allPostsLink.removeAttribute("aria-current");
+
+    const status = document.querySelector(".blog-filter-status");
+    if (status) {
+      if (shown === 0) {
+        status.textContent = `No posts found for topic: ${topicName}. Showing all posts.`;
+      } else {
+        status.textContent = `Showing topic: ${topicName} (${shown})`;
+      }
+    }
+  })();
+</script>

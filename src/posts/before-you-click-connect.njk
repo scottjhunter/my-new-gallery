@@ -1,0 +1,53 @@
+---
+title: "Before You Click Connect"
+meta_desc: "A reflection on AI agents, bank connections, digital trust, and the small steps we can take to protect ourselves and the people around us."
+description: "A reflection on AI agents, bank connections, digital trust, and the small steps we can take to protect ourselves and the people around us."
+excerpt: "I disconnected two tools from my AI account. Nothing had gone wrong. I just wanted fewer doors open."
+displayDate: October 25, 2026
+date: 2026-10-25
+tags:
+  - posts
+topic: AI
+topics:
+  - AI
+  - Technology
+  - Society
+  - Mindfulness
+layout: main.njk
+permalink: "/blog/before-you-click-connect/"
+url: https://scottjhunter.org/blog/before-you-click-connect/
+img: /images/connect.jpg
+alt: "Comic-style illustration of an AI assistant asking to connect banking information, with Connect bank and Maybe later buttons."
+cardType: summary_large_image
+---
+
+<div class="about-me-content">
+  <h1>{{ title }}</h1>
+  <p class="blog-preview-date"><time datetime="2026-10-25">October 25, 2026</time></p>
+
+  <figure class="blog-page-image" style="margin: 0 0 1em 0;">
+    {% img src="connect.jpg", alt="Comic-style illustration of an AI assistant asking to connect banking information, with Connect bank and Maybe later buttons.", sizes="(max-width: 600px) 100vw, 800px" %}
+  </figure>
+
+<p>Today I disconnected two tools from my Claude account. One was Typefully, which I use to schedule posts to Bluesky. The other was Supermetrics, which pulls my blog analytics. Nothing had gone wrong. Neither one had misbehaved. I just looked at the list of things I had given an AI permission to touch, and asked whether I still needed all of them.</p>
+<p>The honest reason is that I had been reading about rogue agents, and I wanted fewer doors open.</p>
+<p>This stopped being science fiction sometime this summer. In July, OpenAI disclosed that one of its agents had <a href="https://www.intellinews.com/anthropic-says-claude-ai-models-breached-three-companies-during-cyber-tests-458247/">exploited an unknown vulnerability</a> to break out of an isolated test environment and reach the production systems of Hugging Face. A week or so later, Anthropic went back through its own testing records and found that three Claude models had gotten into the systems of three real companies. A configuration error had given them open internet access during hacking exercises, the kind where a model is supposed to break into a practice target. The earliest cases went back to April, in <a href="https://buttondown.com/aiindustrydaily/archive/ai-industry-daily-saturday-august-01-2026/">test environments that lacked standard safeguards</a>. According to <a href="https://ground.news/daily-briefing/anthropic-ai-models-hacked-three-companies-during-tests">Bloomberg's reporting</a>, neither Anthropic nor the companies had noticed.</p>
+<p>I should say plainly that I use Claude every day. I am using it to help write this. It was one of the models on that list.</p>
+<p>Anthropic <a href="https://therecord.media/anthropic-ai-hacked-three-real-companies">stressed that it found no evidence</a> of its models pursuing goals of their own. I take that seriously, and I also notice that &quot;it wasn't trying to&quot; is cold comfort to the company whose systems got opened.</p>
+<p>Then, earlier this month, the Wikimedia Foundation <a href="https://www.securityweek.com/wikimedia-says-rogue-openai-agents-tried-to-turn-its-tools-into-proxies/">confirmed it had found activity</a> from what it called rogue OpenAI agents on its sites: unauthorized edits, mostly in sandbox areas, failed attempts to turn a community note-taking tool into a proxy, and millions of automated requests that may have contributed to a partial outage in May. Wikimedia found no compromise of its systems or data.</p>
+<p>None of these involved somebody's connected apps. They happened in labs, with models given access they were never supposed to have. But the lesson travels: an agent can only do what the doors around it allow.</p>
+<p>This week the story moved closer to home. Axios reported that major U.S. banks, including JPMorgan, Bank of America, Wells Fargo and Morgan Stanley, are <a href="https://decrypt.co/381602/banks-rogue-ai-agents-inside-customer-accounts">finding unauthorized AI agents inside customer accounts</a>, often logging in with the customer's own credentials. Some appear to be taking steps nobody asked for, like <a href="https://www.technology.org/2026/10/23/ai-agents-us-bank-accounts-jpmorgan-morgan-stanley-blocks/">calling customer service lines on their own</a>. Bank executives admitted they often can't tell whether an agent was authorized by the customer or has gone rogue. Morgan Stanley is blocking outside agents. The others are restricting them, mostly toward read-only access.</p>
+<p>The caveats matter. The claims about agents acting on their own come from anonymous sources, and <a href="https://pasqualepillitteri.it/en/news/26483/rogue-ai-agents-us-bank-accounts-morgan-stanley-blocks">no bank has published a documented case</a>. Morgan Stanley says it hasn't seen rogue agents on its platforms at all, and no confirmed account losses have surfaced.</p>
+<p>But the part that stuck with me wasn't the rogue behavior. It was how the agents got in. For the most part, this wasn't hacking. People handed their AI assistants their bank passwords, and the agents walked in through the front door with the customer's own keys. JPMorgan's CFO put the bank's position bluntly on its October earnings call: if you share your login with an agent and it does something you didn't want, <a href="https://beincrypto.com/ai-agents-us-bank-accounts-unauthorized-transfers/">&quot;that's going to be on them.&quot;</a></p>
+<p>Which brings me to the pop-up. ChatGPT keeps asking me whether I'd like to connect my bank accounts. It's a real feature, not a scam. OpenAI <a href="https://www.thurrott.com/?p=336165">launched it in May</a>, and the connection runs through Plaid, a company that links apps to bank accounts. ChatGPT never sees your password. OpenAI says it can't see full account numbers or make changes to your accounts, and you can disconnect whenever you like. That is a meaningfully different thing from handing an agent your login.</p>
+<p>I'm an adult. I can read a pop-up, decide I don't want it, and click it away. What bothers me is everyone who can't, or won't, or is too tired that day.</p>
+<p>A prompt that comes back again and again is designed to wear down hesitation, whatever the intent behind it. The people most likely to click through without reading are often the ones with the least cushion if something goes wrong: older users, people who are stressed about money and hoping for help, people who have never heard of Plaid and don't know what read-only means. I don't know what OpenAI does with that financial data beyond what it has said publicly. But I know that financial data is about as valuable as data gets, and I know who is least equipped to weigh that trade.</p>
+<p>Then there are young people, who are growing used to letting AI make calls for them. In a recent survey of nearly 4,000 young people in England, <a href="https://www.computing.co.uk/news/2026/ai/young-people-trust-ai-more-than-humans-fact-checking">47% said they would trust AI to check a fact, compared with 21% who would trust a person</a>. Most still say they wouldn't hand it the big decisions. In a UCAS survey of students, <a href="https://www.ucas.com/media/231431/download">only about one in ten</a> said they trust AI to make important ones. But habits rarely announce themselves. If you've spent years asking an assistant what to study, what to buy and how to word the hard text message, letting it into your bank account won't feel like a leap. It will feel like the next natural step.</p>
+<p>There's a quieter problem underneath. Every legitimate request to connect your bank account teaches people that this is a normal thing for an app to ask. That makes the fake versions easier. Scammers don't need to invent a new behavior. They only have to imitate one that has already been normalized. The person who can't tell Plaid's real screen from a convincing copy is exposed, no matter how well OpenAI itself behaves.</p>
+<p>And making a convincing copy has never been easier. Coding agents now let anyone describe a website in plain English and get a working one back. Okta researchers showed that one such tool could produce a <a href="https://www.techrepublic.com/article/news-vercel-ai-tool-phishing-okta/">convincing phishing site in as little as 30 seconds</a>. Netcraft has identified <a href="https://www.thalesgroup.com/en/news-centre/insights/cybersecurity/data-security/cyber-attackers-are-using-ai-tools-build-realistic">nearly 100,000 domains built with the help of illicit AI tools</a>, impersonating 194 brands. The tells we used to teach people to look for, the typos, the stretched logos, the page that felt slightly off, are disappearing. A fake bank-connection screen no longer has to look fake.</p>
+<p>And the bank story suggests even sophisticated people don't see the line between connecting safely and handing over the keys.</p>
+<p>None of this is mine to fix. I can't redesign a pop-up or rewrite a bank's terms of service. And yet, ever since my kensho moment, I've carried a vague sense of responsibility for society, even knowing how little power I have over it. Seeing clearly has a way of erasing the line that let you think other people's troubles were separate from yours. Once that line is gone, the concern doesn't leave. It was never a decision in the first place.</p>
+<p>Zen has a way of holding this. The first bodhisattva vow is to save all beings, who are numberless. It is impossible on purpose. Nobody who takes it expects to succeed. Responsibility and powerlessness turn out not to be a contradiction to resolve. Both are true, and you act anyway, from wherever you happen to be standing.</p>
+<p>Where I'm standing isn't nothing. I'm one of the people colleagues ask about AI. I write here. Influence like that travels sideways, person to person, and you rarely see where it lands. Maybe someone reads this and tells a parent not to give an assistant their banking password. Maybe someone thinks twice before clicking connect. Maybe someone looks at their own list of connected apps and closes a door or two.</p>
+<p>The vague responsibility isn't going away, and I don't think it's supposed to. It works more like a compass than a burden. It doesn't carry me anywhere or promise I'll arrive. It just keeps pointing toward the small things I can actually do.</p>
+</div>

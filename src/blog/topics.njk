@@ -1,0 +1,45 @@
+---
+pagination:
+  data: topicPages
+  size: 1
+  alias: topic
+  addAllPagesToCollections: true
+permalink: "/blog/topics/{{ topic.slug }}/"
+layout: main.njk
+img: /images/blog.jpg
+alt: Comic-style grid of twelve panels showing Scott writing in notebooks and on laptops at cafés and desks, sometimes lost in thought, sometimes frustrated.
+cardType: summary_large_image
+eleventyComputed:
+  title: "Posts About {{ topic.name }}"
+  meta_desc: "Blog posts about {{ topic.name }} by Scott J. Hunter."
+  url: "{{ site.url }}/blog/topics/{{ topic.slug }}/"
+---
+
+<div class="about-me-content">
+  <h1>Posts About {{ topic.name }}</h1>
+  <p class="blog-filter-status">{{ topic.count }} post{% if topic.count != 1 %}s{% endif %} tagged {{ topic.name }}.</p>
+
+  <ul class="blog-list">
+    {% for post in collections.posts | postsByTopic(topic.name) | reverse %}
+    {% set postTopics = post | postTopics %}
+    <li class="blog-list-item">
+      <p class="blog-preview-date">{{ post.data.displayDate }}</p>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <p>{{ post.data.excerpt }}</p>
+      <p class="blog-list-topics">
+        {% for postTopic in postTopics %}
+        <a href="/blog/topics/{{ postTopic | topicSlug }}/">#{{ postTopic }}</a>{% if not loop.last %} <span aria-hidden="true"> </span> {% endif %}
+        {% endfor %}
+        <span class="blog-list-likes" data-blog-list-likes data-post-path="{{ post.url }}" aria-label="Loading upvotes">
+          <span class="blog-list-like-button" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" focusable="false">
+              <path d="M7 10v10M15 6.5 14 10h5.2c.6 0 1.1.5 1 1.1l-.9 6.1a3.3 3.3 0 0 1-3.2 2.8H7V10l3.6-6.3c.3-.5.8-.7 1.3-.7h.4c1.8 0 3.1 1.7 2.7 3.5Z" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span data-blog-list-like-count>(...)</span>
+        </span>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,163 @@
+header {
+    .nav-main {
+        margin: 1rem auto 0 auto;
+        max-width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .9rem 1.5rem;
+
+        a {
+            &:hover {
+                background: var(--surface-hover);
+                text-decoration: none;
+            }
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+            list-style: none;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            width: 100%;
+
+            li {
+                margin: 0 1rem;
+            }
+            
+            a {
+                &:hover {
+                    background: var(--surface-hover);
+                    text-decoration: none;
+                }
+            }
+
+            .link {
+                color: var(--text);
+                padding: .8rem .75rem;
+                margin: 0 .4rem;
+                font-size: 16px;
+                font-size: clamp(1.0625rem, 4vw, 1.2rem);
+                text-decoration: none;
+                display: block;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .home-button {
+            text-decoration: none;
+            color: var(--text);
+            padding-right: .5rem;
+            font-size: 24px;
+            font-size: clamp(1.3rem, 4vw, 1.5rem);
+            font-weight: 500;
+        }
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+        margin: 2rem auto 1rem auto;
+        max-width: 1100px;
+        padding: 0 1.5rem;
+
+        div {
+            p {
+                color: var(--text-soft);
+            }
+            &:first-child {
+                margin-right: 2rem;
+            }
+        }
+
+        .home-button {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            font-size: 28px;
+            font-size: clamp(26px, 4vw, 28px);
+            color: var(--text);
+            margin-bottom: 14px;
+
+            .home-button-icon {
+                width: 24px;
+                height: 24px;
+                object-fit: contain;
+                flex: 0 0 auto;
+            }
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            flex: 0 0 auto;
+        }
+
+        .theme-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: .4rem;
+            min-height: 2.55rem;
+            padding: .45rem .75rem;
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            background: var(--surface);
+            color: var(--text);
+            font-family: inherit;
+            font-size: .95rem;
+            line-height: 1;
+            cursor: pointer;
+            white-space: nowrap;
+
+            &:hover,
+            &:focus {
+                background: var(--surface-hover);
+            }
+        }
+
+        .theme-toggle-icon {
+            width: .9rem;
+            height: .9rem;
+            border-radius: 50%;
+            border: 2px solid currentColor;
+            background: currentColor;
+            box-shadow: inset -.28rem -.28rem 0 var(--surface);
+            flex: 0 0 auto;
+        }
+
+        [aria-pressed="true"] {
+            .theme-toggle-icon {
+                box-shadow: inset .28rem -.28rem 0 var(--surface);
+            }
+        }
+
+        .hire-me {
+            border: 1px solid var(--border-strong);
+            margin-top: 3px;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            height: fit-content;
+            height: -moz-fit-content;
+            border-radius: 3px;
+            background: var(--button-bg);
+            color: var(--button-text);
+            font-weight: 400;
+            white-space: nowrap;
+
+            &:hover {
+                background: var(--button-bg-hover);
+                color: var(--button-text);
+            }
+        }
+    }
+}

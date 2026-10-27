@@ -1,0 +1,30 @@
+---
+permalink: "/sitemap.xml"
+eleventyExcludeFromCollections: true
+layout: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% for item in collections.all %}
+{% if item.url and item.url.split("/")[1] != "gallery" and item.url != "/404.html" and not item.data.eleventyExcludeFromCollections and item.data.sitemap != false and not item.data.noindex %}
+  <url>
+    <loc>{{ item.url | absoluteUrl(site.url) | xmlEscape | safe }}</loc>
+{% set itemDate = item.data.dateModified or item.data.updated or item.data.modified or item.data.date or item.date %}
+{% if itemDate %}
+    <lastmod>{{ itemDate | sitemapDate }}</lastmod>
+{% endif %}
+{% if item.data.img %}
+    <image:image>
+      <image:loc>{{ item.data.img | absoluteUrl(site.url) | xmlEscape | safe }}</image:loc>
+{% if item.data.alt %}
+      <image:caption>{{ item.data.alt | xmlEscape | safe }}</image:caption>
+{% endif %}
+{% if item.data.title %}
+      <image:title>{{ item.data.title | xmlEscape | safe }}</image:title>
+{% endif %}
+    </image:image>
+{% endif %}
+  </url>
+{% endif %}
+{% endfor %}
+</urlset>

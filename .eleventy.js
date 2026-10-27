@@ -165,7 +165,7 @@ module.exports = (eleventyConfig) => {
     return new Date().toUTCString();
   });
 
-  eleventyConfig.addShortcode("img", async function ({ src, alt, width, height, widths, className, id, imgDir, sizes = "100vw"}) {
+  eleventyConfig.addShortcode("img", async function ({ src, alt, width, height, widths, quality, className, id, imgDir, sizes = "100vw"}) {
     if (alt === undefined) {
       throw new Error(`Missing \`alt\` on responsive image from: ${src}`);
     }
@@ -174,6 +174,8 @@ module.exports = (eleventyConfig) => {
     const metadata = await Image(IMAGE_DIR + src, {
       widths: widths || [300, 480, 640, 1024],
       formats: ["webp", "jpeg"],
+      sharpJpegOptions: quality ? { quality, chromaSubsampling: "4:4:4" } : {},
+      sharpWebpOptions: quality ? { quality } : {},
       urlPath: "/img/",
       outputDir: "_site/img",
       defaultAttributes: {
@@ -182,28 +184,19 @@ module.exports = (eleventyConfig) => {
       }
     });
 
-    let lowsrc = metadata.jpeg[0];
     let highsrc = metadata.jpeg[metadata.jpeg.length - 1];
+    const jpegSrcset = metadata.jpeg.map(entry => entry.srcset).join(", ");
 
     const sources = Object.values(metadata).map((imageFormat) => {
       const srcType = imageFormat[0].sourceType;
       const srcset = imageFormat.map(entry => entry.srcset).join(", ");
       return `<source type="${srcType}" srcset="${srcset}" sizes="${sizes}">`
-    }).join("\n");
+    }).join("");
 
-    const img = `
-      <img
-        src="${lowsrc.url}"
-        width="${highsrc.width}"
-        height="${highsrc.height}"
-        alt="${alt}"
-        loading="lazy"
-        decoding="async"
-        class="${className || ''}"
-        id="${id || ''}"
-      >`;
+    const img = `<img src="${highsrc.url}" srcset="${jpegSrcset}" sizes="${sizes}" width="${highsrc.width}" height="${highsrc.height}" alt="${alt}" loading="lazy" decoding="async" class="${className || ''}" id="${id || ''}">`;
 
-    return `<picture>\n\t${sources}\n\t${img}</picture>`;
+    // Keep picture markup together so Markdown does not wrap its image in a paragraph.
+    return `<picture>${sources}${img}</picture>`;
   });
 
   return {

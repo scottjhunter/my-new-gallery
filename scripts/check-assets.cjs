@@ -28,6 +28,10 @@ function check(value, source) {
 
 for (const file of walk(root).filter((file) => file.endsWith(".html"))) {
   const html = fs.readFileSync(file, "utf8");
+  for (const [, contents] of html.matchAll(/<picture\b[^>]*>([\s\S]*?)<\/picture>/gi)) {
+    assert(/^(?:\s*<source\b[^>]*>)*\s*<img\b[^>]*>\s*$/i.test(contents),
+      `Invalid picture markup in ${file}: sources and image must be direct children, without Markdown paragraph wrappers`);
+  }
   for (const [tag] of html.matchAll(/<(?:img|source|link|meta)\b[^>]*>/gi)) {
     const attrs = Object.fromEntries([...tag.matchAll(/([\w:-]+)=["']([^"']*)["']/g)].map((match) => [match[1], match[2]]));
     if (/^<(?:img|source)\b/i.test(tag)) {

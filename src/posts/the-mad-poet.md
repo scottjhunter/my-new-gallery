@@ -24,7 +24,8 @@ cardType: summary_large_image
 <div class="about-me-content">
   <h1>The Mad Poet</h1>
   <figure class="blog-page-image" style="margin: 0 0 1em 0;">
-    {% img src="prose.jpg", alt=alt, sizes="(max-width: 600px) 100vw, 800px" %}
+    <a href="/images/prose.jpg" target="_blank" rel="noopener noreferrer" title="View full-size image" style="display: block; cursor: zoom-in;">{% img src="prose.jpg", alt=alt, widths=[300, 480, 640, 1024, 1600, 2048, 2172], quality=95, sizes="(max-width: 600px) 100vw, 800px" %}</a>
+    <figcaption><em>Click the image to view it full size.</em></figcaption>
   </figure>
 
   <p>

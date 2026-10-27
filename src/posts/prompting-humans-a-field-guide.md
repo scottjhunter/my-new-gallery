@@ -23,7 +23,8 @@ cardType: summary_large_image
 <div class="about-me-content">
   <h1>Guest Blog: Prompting Humans — A Field Guide</h1>
   <figure class="blog-page-image" style="margin: 0 0 1em 0;">
-    {% img src="blog2.jpg", alt=alt, sizes="(max-width: 600px) 100vw, 800px" %}
+    <a href="/images/blog2.jpg" target="_blank" rel="noopener noreferrer" title="View full-size image" style="display: block; cursor: zoom-in;">{% img src="blog2.jpg", alt=alt, widths=[300, 480, 640, 1024, 1600, 2038], quality=95, sizes="(max-width: 600px) 100vw, 800px" %}</a>
+    <figcaption><em>Click the image to view it full size.</em></figcaption>
   </figure>
 
   <p>

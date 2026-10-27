@@ -14,6 +14,7 @@ topics:
   - Society
   - Ethics
 layout: main.njk
+templateEngineOverride: njk,md
 permalink: "/blog/the-ai-divide-is-real-but-the-tools-are-part-of-the-problem/"
 url: https://scottjhunter.org/blog/the-ai-divide-is-real-but-the-tools-are-part-of-the-problem/
 img: /images/cyborg.jpg
@@ -23,6 +24,10 @@ cardType: summary_large_image
 
 <div class="about-me-content">
   <h1>The AI Divide Is Real, But the Tools Are Part of the Problem</h1>
+  <figure class="blog-page-image" style="margin: 0 0 1em 0;">
+    {% img src="cyborg.jpg", alt=alt, sizes="(max-width: 600px) 100vw, 800px" %}
+  </figure>
+
   <p>
     Vivienne Ming, chief scientist at the Possibility Institute, <a href="https://share.google/DYGTSrWJdqNMKHNOX" target="_blank" rel="noopener noreferrer">published research this week</a> that should make every AI user pause. Her experiment with UC Berkeley students found that 90-95% of people use AI in one of two ways: either to generate answers for them outright, or to validate what they already believe. Only 5-10% use it as a genuine collaborator, challenging assumptions, pushing back, asking the AI to argue against them rather than for them. She calls this minority the "cyborgs," and she says everyone else is on a path toward what she bluntly labels "100% skill erasure."
   </p>

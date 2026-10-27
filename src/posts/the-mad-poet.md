@@ -13,6 +13,7 @@ topics:
   - Creative Writing
   - Memory
 layout: main.njk
+templateEngineOverride: njk,md
 permalink: "/blog/the-mad-poet/"
 url: https://scottjhunter.org/blog/the-mad-poet/
 img: /images/prose.jpg
@@ -22,6 +23,9 @@ cardType: summary_large_image
 
 <div class="about-me-content">
   <h1>The Mad Poet</h1>
+  <figure class="blog-page-image" style="margin: 0 0 1em 0;">
+    {% img src="prose.jpg", alt=alt, sizes="(max-width: 600px) 100vw, 800px" %}
+  </figure>
 
   <p>
     When I was in college in 1990, I went to Hunter College in New York on an exchange program. I lived in the dorms and everyone had notepaper on their doors for messages. I began anonymously writing poetry on people's doors, identifying myself only as The Mad Poet. Rumors swirled for months before I was caught. Some of the poems were controversial. I kept a few that I will post here. This is my favorite.

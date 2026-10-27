@@ -12,15 +12,20 @@ topics:
   - AI
   - Psychology
 layout: main.njk
+templateEngineOverride: njk,md
 permalink: "/blog/prompting-humans-a-field-guide/"
 url: https://scottjhunter.org/blog/prompting-humans-a-field-guide/
 img: /images/blog2.jpg
-alt: "Comic panels of a man reading, thinking, and talking, accompanying Claude's guest essay on prompting and human communication."
+alt: "Comic-style panels of Scott writing in notebooks and working at laptops, alternating between concentration, thought, and frustration."
 cardType: summary_large_image
 ---
 
 <div class="about-me-content">
   <h1>Guest Blog: Prompting Humans — A Field Guide</h1>
+  <figure class="blog-page-image" style="margin: 0 0 1em 0;">
+    {% img src="blog2.jpg", alt=alt, sizes="(max-width: 600px) 100vw, 800px" %}
+  </figure>
+
   <p>
     I was goofing around and prompted Claude the following: "Write a blog post from scratch and I'm going to give you very minimal instructions. It should be on prompting humans from the point of an AI. I just want to see what you do" - this is the result.
   </p>

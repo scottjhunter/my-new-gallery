@@ -645,6 +645,33 @@ h2, .h2 {
     }
 }
 
+.blog-sidebar-more {
+    summary {
+        margin: 0.5rem 0;
+        color: var(--text-soft);
+        font-size: 0.92rem;
+        cursor: pointer;
+
+        &:hover, &:focus-visible {
+            text-decoration: underline;
+        }
+    }
+
+    .topics-less-label {
+        display: none;
+    }
+
+    &[open] {
+        .topics-more-label {
+            display: none;
+        }
+
+        .topics-less-label {
+            display: inline;
+        }
+    }
+}
+
 .blog-shell-content {
     min-width: 0;
 }

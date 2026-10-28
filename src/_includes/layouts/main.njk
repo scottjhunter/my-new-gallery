@@ -10,24 +10,38 @@ layout: base.njk
     <div class="blog-shell">
         <aside class="blog-sidebar" aria-label="Blog topics">
             <p class="blog-sidebar-heading">Topics</p>
+            {% set sidebarTopics = collections.posts | blogTopics %}
+            {% macro topicItem(topic) %}
+            <li class="blog-sidebar-item">
+                <a
+                    class="blog-sidebar-topic"
+                    href="/blog/topics/{{ topic.slug }}/"
+                    data-topic-slug="{{ topic.slug }}"
+                    data-topic-name="{{ topic.name }}"
+                    {% if page.url == "/blog/topics/" + topic.slug + "/" %}aria-current="page"{% endif %}
+                >
+                    {{ topic.name }} ({{ topic.count }})
+                </a>
+            </li>
+            {% endmacro %}
             <ul class="blog-sidebar-list">
                 <li class="blog-sidebar-item">
                     <a class="blog-sidebar-all" href="/" {% if isBlogIndex %}aria-current="page"{% endif %}>All posts ({{ collections.posts | length }})</a>
                 </li>
-                {% for topic in collections.posts | blogTopics %}
-                <li class="blog-sidebar-item">
-                    <a
-                        class="blog-sidebar-topic"
-                        href="/blog/topics/{{ topic.slug }}/"
-                        data-topic-slug="{{ topic.slug }}"
-                        data-topic-name="{{ topic.name }}"
-                        {% if page.url == "/blog/topics/" + topic.slug + "/" %}aria-current="page"{% endif %}
-                    >
-                        {{ topic.name }} ({{ topic.count }})
-                    </a>
-                </li>
+                {% for topic in sidebarTopics.slice(0, 20) %}
+                {{ topicItem(topic) }}
                 {% endfor %}
             </ul>
+            {% if sidebarTopics.length > 20 %}
+            <details class="blog-sidebar-more" {% for topic in sidebarTopics.slice(20) %}{% if page.url == "/blog/topics/" + topic.slug + "/" %}open{% endif %}{% endfor %}>
+                <summary><span class="topics-more-label">More</span><span class="topics-less-label">Less</span></summary>
+                <ul class="blog-sidebar-list">
+                    {% for topic in sidebarTopics.slice(20) %}
+                    {{ topicItem(topic) }}
+                    {% endfor %}
+                </ul>
+            </details>
+            {% endif %}
         </aside>
         <section class="blog-shell-content">
             {{ content | safe}}

@@ -13,6 +13,7 @@ topics:
   - Science
   - Spirituality
   - Psychology
+  - Health
 layout: main.njk
 permalink: "/blog/what-the-mindfulness-research-boom-forgot/"
 url: https://scottjhunter.org/blog/what-the-mindfulness-research-boom-forgot/

@@ -11,7 +11,7 @@ topic: Poetry
 topics:
   - Poetry
   - Creative Writing
-  - Portland
+  - Transportation
 layout: main.njk
 permalink: "/blog/the-cyclewoman/"
 url: https://scottjhunter.org/blog/the-cyclewoman/

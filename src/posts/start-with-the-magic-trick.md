@@ -12,8 +12,8 @@ topics:
   - Technology
   - AI
   - Education
-  - Productivity
   - Psychology
+  - Work
 layout: main.njk
 permalink: "/blog/start-with-the-magic-trick/"
 url: https://scottjhunter.org/blog/start-with-the-magic-trick/

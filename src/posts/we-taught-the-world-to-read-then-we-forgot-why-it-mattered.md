@@ -12,6 +12,9 @@ topics:
   - Culture
   - Technology
   - Society
+  - Books
+  - Education
+  - History
 layout: main.njk
 permalink: "/blog/we-taught-the-world-to-read-then-we-forgot-why-it-mattered/"
 url: https://scottjhunter.org/blog/we-taught-the-world-to-read-then-we-forgot-why-it-mattered/

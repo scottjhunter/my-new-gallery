@@ -13,6 +13,8 @@ topics:
   - Science
   - Ethics
   - Society
+  - Math
+  - Cognition
 layout: main.njk
 permalink: "/blog/answers-are-not-understanding/"
 url: https://scottjhunter.org/blog/answers-are-not-understanding/

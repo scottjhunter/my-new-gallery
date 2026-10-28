@@ -10,9 +10,7 @@ tags:
 topic: Time
 topics:
   - Time
-  - Nature
-  - Tradition
-  - Reflection
+  - Culture
 layout: main.njk
 permalink: "/blog/midsummer/"
 url: https://scottjhunter.org/blog/midsummer/

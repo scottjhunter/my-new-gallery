@@ -13,6 +13,7 @@ topics:
   - AI
   - Science
   - Spirituality
+  - Religion
 layout: main.njk
 permalink: "/blog/looking-in-the-wrong-place/"
 url: https://scottjhunter.org/blog/looking-in-the-wrong-place/

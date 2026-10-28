@@ -12,6 +12,7 @@ topics:
   - Technology
   - Environment
   - Science
+  - Business
 layout: main.njk
 permalink: "/blog/kinari-a-material-worth-watching/"
 url: https://scottjhunter.org/blog/kinari-a-material-worth-watching/

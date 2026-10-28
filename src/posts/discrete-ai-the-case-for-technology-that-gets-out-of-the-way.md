@@ -13,6 +13,7 @@ topics:
   - Technology
   - Design
   - Work
+  - Film
 layout: main.njk
 permalink: "/blog/discrete-ai-the-case-for-technology-that-gets-out-of-the-way/"
 url: https://scottjhunter.org/blog/discrete-ai-the-case-for-technology-that-gets-out-of-the-way/

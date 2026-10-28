@@ -11,7 +11,7 @@ topic: AI
 topics:
   - AI
   - Math
-  - Reasoning
+  - Cognition
 layout: main.njk
 permalink: "/blog/the-puzzle-that-watched-the-models-grow-up/"
 url: https://scottjhunter.org/blog/the-puzzle-that-watched-the-models-grow-up/

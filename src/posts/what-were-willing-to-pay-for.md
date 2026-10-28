@@ -10,6 +10,7 @@ tags:
 topic: Society
 topics:
   - Society
+  - Politics
 layout: main.njk
 permalink: "/blog/what-were-willing-to-pay-for/"
 url: https://scottjhunter.org/blog/what-were-willing-to-pay-for/

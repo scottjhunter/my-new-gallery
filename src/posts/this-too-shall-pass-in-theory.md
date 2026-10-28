@@ -11,6 +11,7 @@ topic: Cognition
 topics:
   - Cognition
   - Consciousness
+  - Health
 layout: main.njk
 permalink: "/blog/this-too-shall-pass-in-theory/"
 url: https://scottjhunter.org/blog/this-too-shall-pass-in-theory/

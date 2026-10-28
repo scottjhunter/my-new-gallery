@@ -7,12 +7,12 @@ displayDate: June 22, 2026
 date: 2026-06-22
 tags:
   - posts
-topic: Reflection
+topic: Spirituality
 topics:
-  - Reflection
   - Spirituality
   - Family
   - Consciousness
+  - Health
 layout: main.njk
 permalink: "/blog/sticks-and-stones/"
 url: https://scottjhunter.org/blog/sticks-and-stones/

@@ -12,6 +12,7 @@ topics:
   - Cognition
   - Psychology
   - Perception
+  - Time
 layout: main.njk
 permalink: "/blog/compression-of-time/"
 url: https://scottjhunter.org/blog/compression-of-time/

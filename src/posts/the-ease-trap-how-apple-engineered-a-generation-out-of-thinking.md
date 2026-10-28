@@ -15,6 +15,7 @@ topics:
   - Mindfulness
   - Science
   - Society
+  - Education
 layout: main.njk
 permalink: "/blog/the-ease-trap-how-apple-engineered-a-generation-out-of-thinking/"
 url: https://scottjhunter.org/blog/the-ease-trap-how-apple-engineered-a-generation-out-of-thinking/

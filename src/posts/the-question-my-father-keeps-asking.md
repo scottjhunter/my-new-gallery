@@ -11,8 +11,8 @@ topic: AI
 topics:
   - AI
   - Philosophy
-  - Theology
   - Consciousness
+  - Religion
 layout: main.njk
 permalink: "/blog/the-question-my-father-keeps-asking/"
 url: https://scottjhunter.org/blog/the-question-my-father-keeps-asking/

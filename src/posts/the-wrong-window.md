@@ -10,9 +10,8 @@ tags:
 topic: AI
 topics:
   - AI
-  - Policy
   - Technology
-  - National Security
+  - Politics
 layout: main.njk
 permalink: "/blog/the-wrong-window/"
 url: https://scottjhunter.org/blog/the-wrong-window/

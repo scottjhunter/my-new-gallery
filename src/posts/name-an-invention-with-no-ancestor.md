@@ -15,6 +15,7 @@ topics:
   - Consciousness
   - Technology
   - Society
+  - History
 layout: main.njk
 permalink: "/blog/name-an-invention-with-no-ancestor/"
 url: https://scottjhunter.org/blog/name-an-invention-with-no-ancestor/

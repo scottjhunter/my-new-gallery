@@ -79,3 +79,54 @@
     status = 301
     force = true
 
+# Consolidated topic labels from the October 2026 taxonomy audit.
+[[redirects]]
+    from = "/blog/topics/nature/"
+    to = "/blog/topics/culture/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/tradition/"
+    to = "/blog/topics/culture/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/productivity/"
+    to = "/blog/topics/work/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/portland/"
+    to = "/blog/topics/transportation/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/reasoning/"
+    to = "/blog/topics/cognition/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/theology/"
+    to = "/blog/topics/religion/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/policy/"
+    to = "/blog/topics/politics/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/national-security/"
+    to = "/blog/topics/politics/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/reflection/"
+    to = "/"
+    status = 301
+
+[[redirects]]
+    from = "/blog/topics/personal-reflection/"
+    to = "/"
+    status = 301
+
